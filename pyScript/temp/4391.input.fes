@@ -1,0 +1,1457 @@
+0	4	Giving	gift.n	1	gift	0	Theme	1	Recipient	2:3	Donor	0
+0	3	Assistance	help.v	5	help	0	Benefited_party	6	Helper	0:3
+0	3	Intentionally_act	do.v	7	do	0	Act	8:9	Agent	6
+0	1	Increment	more.r	9	more	0
+0	3	Calendric_unit	year.n	11	year	0	Unit	11	Relative_time	10
+0	3	Giving	gift.n	14	gift	0	Theme	14	Donor	13
+0	3	Using	used.v	17	used	0	Purpose	18:22	Instrument	13:14
+0	4	Supporting	support.v	20	support	0	Supported	21:22	Manner	19	Supporter	13:14
+0	2	Working_on	work.n	22	work	0	Agent	21
+0	3	Partitive	out.i	20_21	out of	1	Subset	19	Group	22:26
+0	3	Becoming_aware	found.v	1	found	1	Phenomenon	2:26	Cognizer	0
+0	3	Quantity	number.n	3	number	1	Individuals	4:14	Quantity	2:3
+0	2	Being_employed	employment.n	5	employment	1	Employee	0
+0	2	Possibilities	options.n	6	options	1	Event	5
+0	2	Frequency	never.r	9	never	1	Event	8
+0	2	Existence	existed.v	11	existed	1	Entity	8
+0	1	Being_employed	work.n	14	work	1
+0	2	Locale_by_use	site.n	16	site	1	Locale	16
+0	4	Causation	forced.v	18	forced	1	Effect	20:26	Cause	16:17	Affected	19
+0	3	Being_employed	job.n	23	job	1	Employer	24:26	Employee	22
+0	3	Using	use.v	1	use	2	Purpose	5:12	Instrument	2:4
+0	2	Placing	enclosed.v	3	enclosed	2	Theme	4
+0	2	Containers	envelope.n	4	envelope	2	Container	4
+0	4	Giving	give.v	6	give	2	Theme	7:9	Recipient	10:11	Time	12
+0	2	Stinginess	generous.j	8	generous	2	Resource	9
+0	3	Giving	gift.n	9	gift	2	Theme	9	Recipient	10:11
+0	2	Temporal_collocation	today.n	12	today	2	Trajector_event	7:11
+0	4	Giving	give.v	1	give	3	Theme	2:4	Recipient	7:8	Time	9
+0	2	Dimension	largest.j	3	largest	3	Object	4
+0	3	Giving	gift.n	4	gift	3	Theme	4	Depictive	3
+0	2	Possibility	can.m	6	can	3	Possible_event	5
+0	2	Temporal_collocation	today.n	9	today	3	Trajector_event	7:8
+0	3	Giving	gift.n	1	gift	4	Theme	1	Donor	0
+0	3	Giving	give.v	3	give	4	Theme	4:6	Donor	0:1
+0	2	People_by_age	children.n	4	children	4	Person	4
+0	1	Kinship	families.n	6	families	4
+0	3	Desiring	hope.v	7	hope	4	Experiencer	4:6	Event	8:10
+0	2	Cause_to_make_progress	improved.v	9	improved	4	Project	10
+0	2	Calendric_unit	tomorrows.n	10	tomorrows	4	Unit	10
+0	3	Causation	because.i	12_13	because of	5	Effect	14:15	Cause	7:11
+0	3	Causation	because.i	31_32	because of	5	Effect	33:35	Cause	21:22
+0	2	People_by_age	kids.n	0	Kids	5	Person	0
+0	2	Causation	made.v	6	made	5	Effect	7:11
+0	2	Building_subparts	ward.n	8	ward	5	Building_part	8
+0	2	Judicial_body	court.n	11	court	5	Judicial_body	11
+0	3	Frequency	repeated.v	14	repeated	5	Event	15	Interval	14
+0	1	Addiction	alcoholic.j	18	alcoholic	5
+0	3	Kinship	father.n	19	father	5	Alter	19	Ego	18
+0	4	Sending	sent.v	23	sent	5	Theme	21:22	Goal	24:27	Purpose	28:30
+0	2	Aggregate	group.n	26	group	5	Aggregate	26
+0	2	Buildings	home.n	27	home	5	Building	27
+0	3	Bringing	get.v	29	get	5	Agent	21	Theme	30
+0	1	Assistance	help.n	30	help	5
+0	2	Conduct	behavior.n	34	behavior	5	Agent	33
+0	1	Medical_conditions	disorders.n	35	disorders	5
+0	1	Recovery	recovering.v	43	recovering	5
+0	1	Addiction	alcoholic.j	44	alcoholic	5
+0	2	Cognitive_connection	relationships.n	48	relationships	5	Concept_1	49:51
+0	2	Kinship	family.n	51	family	5	Relatives	51
+0	3	Capability	can.m	54	can	5	Entity	53	Event	55:57
+0	2	Residence	live.v	55	live	5	Resident	53
+0	1	Collaboration	together.r	56	together	5
+0	4	Conquering	taken.v	2	taken	6	Conqueror	3:5	Theme	0	Time	6:7
+0	3	Military	forces.n	5	forces	6	Members	4	Force	5
+0	3	Removing	stripped.v	11	stripped	6	Agent	10	Theme	12:29
+0	2	Political_locales	city.n	13	city	6	Locale	13
+0	2	Quantity	many.j	15	many	6	Quantity	15
+0	2	Desirability	finest.j	18	finest	6	Evaluee	19
+0	2	Temporal_collocation	now.r	22	now	6	Trajector_event	23:28
+0	2	Secrecy_status	public.j	25	public	6	Phenomenon	26
+0	3	Buildings	buildings.n	26	buildings	6	Place	27:28	Building	26
+0	3	Dimension	large.j	32	large	6	Dimension	32	Object	33
+0	2	Text	books.n	35	books	6	Text	35
+0	2	Text	manuscripts.n	37	manuscripts	6	Text	37
+0	4	Transfer	transferred.v	39	transferred	6	Theme	31:37	Time	45:48	Recipient	40:42
+0	3	Buildings	monastery.n	42	monastery	6	Place	43:44	Building	42
+0	2	Political_locales	city.n	47	city	6	Locale	47
+0	2	Conquering	fell.v	48	fell	6	Theme	46:47
+0	4	Giving	given.v	3	given	7	Theme	4:5	Donor	0:1	Purpose	13:19
+0	3	Dimension	large.j	4	large	7	Dimension	4	Object	5
+0	2	Cause_to_make_progress	develop.v	7	develop	7	Project	8:12
+0	3	Infrastructure	infrastructure.n	10	infrastructure	7	Infrastructure	10	Possessor	8:9
+0	2	Protecting	protect.v	16	protect	7	Asset	17:19
+0	2	Age	ancient.j	18	ancient	7	Entity	19
+0	2	Process_continue	went.v	2_3	went on	8	Event	4:13
+0	2	Temporal_collocation	when.w	0	When	8	Landmark_event	1:13
+0	3	Conquering	conquer.v	5	conquer	8	Conqueror	1	Theme	6
+0	2	Political_locales	lands.n	6	lands	8	Locale	6
+0	2	People_along_political_spectrum	far.r	8	far	8	Individual	8
+0	2	Direction	east.j	11	east	8	Path	11
+0	3	Becoming	became.v	17	became	8	Time	0:13	Entity	15:16
+0	2	Measurable_attributes	long.j	22	long	8	Entity	23
+0	3	Roadways	routes.n	24	routes	8	Use	23	Roadway	24
+0	2	Dressing	put.v	2_3	put on	9	Wearer	0
+0	3	Trial	trial.n	4	trial	9	Manner	5	Defendant	0
+0	3	Speed	quickly.r	5	quickly	9	Speed	5	Entity	0
+0	3	Sentencing	condemned.v	7	condemned	9	Sentence	8:26	Convict	0
+0	1	Killing	crucifixion.n	9	crucifixion	9
+0	2	People_by_origin	roman.j	12	Roman	9	Person	12
+0	4	Type	form.n	13	form	9	Type_Property	12	Category	14:26	Subtype	13
+0	2	Execution	execution.n	15	execution	9	Executed	16:26
+0	2	Event	taken.v	27_28	taken place	10	Event	20:22
+0	2	Buildings	temple.n	1	temple	10	Building	1
+0	2	Destroying	demolished.v	3	demolished	10	Undergoer	0:1
+0	1	Hair_configuration	style.n	10	style	10
+0	2	Buildings	church.n	11	church	10	Building	11
+0	3	Building	built.v	13	built	10	Place	14:15	Created_entity	5:11
+0	2	Natural_features	hill.n	18	hill	10	Locale	18
+0	1	Locative_relation	where.w	19	where	10
+0	2	Killing	crucifixion.n	22	crucifixion	10	Victim	20:21
+0	2	Awareness	believed.v	24	believed	10	Content	20:22
+0	2	Natural_features	glaciers.n	1	glaciers	11	Locale	1
+0	1	Ingestion	feeding.v	2	feeding	11
+0	2	Natural_features	lake.n	4	lake	11	Locale	4
+0	3	Change_of_phase	melted.v	5	melted	11	Result	6	Undergoer	3:4
+0	2	Natural_features	lake.n	9	lake	11	Locale	9
+0	2	Change_of_phase	evaporated.v	10	evaporated	11	Undergoer	8:9
+0	3	Sign	signs.n	0	Signs	12	Indicated	1:4	Indicator	0
+0	2	Increment	more.j	3	more	12	Class	4
+0	1	Progress	advancement.n	4	advancement	12
+0	3	Coming_to_be	appeared.v	5	appeared	12	Time	7:19	Entity	0:4
+0	2	Ordinal_numbers	first.j	9	first	12	Type	10
+0	2	Measure_duration	millennium.n	10	millennium	12	Unit	10
+0	2	Temporal_collocation	when.w	13	when	12	Landmark_event	14:19
+0	3	Residence	inhabited.v	17	inhabited	12	Location	18:19	Resident	14:16
+0	2	Natural_features	valley.n	19	valley	12	Locale	19
+0	2	Roadways	railroad.n	1	railroad	13	Roadway	1
+0	2	Arriving	coming.v	3	coming	13	Theme	0:1
+0	2	Temporal_collocation	when.w	6	when	13	Landmark_event	7:8
+0	2	Arriving	arrived.v	8	arrived	13	Theme	7
+0	2	Frequency	never.r	13	never	13	Event	10:11
+0	3	Identicality	same.j	16	same	13	Current_instance	10:11	Time	6:8
+0	2	Existence	there.e	16_17	there are	14	Entity	18
+0	2	Aggregate	population.n	2	population	14	Aggregate	2
+0	2	Change_position_on_a_scale	decreased.v	4	decreased	14	Time	6
+0	2	Temporal_collocation	today.n	6	today	14	Trajector_event	0:4
+0	2	Locative_relation	there.r	7	there	14	Ground	7
+0	3	Quantity	many.j	10	many	14	Individuals	14	Quantity	10
+0	3	Origin	american.j	11	American	14	Origin	11	Entity	14
+0	3	Text	songs.n	2	songs	15	Author	3:5	Text	2
+0	1	Body_movement	bob.n	4	Bob	15
+0	2	Make_noise	booming.v	6	booming	15	Sound_source	4:5
+0	3	Cardinal_numbers	hundred.c	9	hundred	15	Entity	13:14	Number	9
+0	2	Vehicle	car.n	13	car	15	Vehicle	13
+0	4	Activity_start	begin.v	21	begin	15	Activity	22:23	Agent	19	Time	24:26
+0	3	Contacting	call.v	23	call	15	Communicator	19	Time	24:26
+0	2	Calendric_unit	evening.n	25	evening	15	Unit	25
+0	2	Arriving	descends.n	26	descends	15	Theme	25
+0	1	Inspecting	double-decker.j	2	double-decker	16
+0	3	Vehicle	boats.n	3	boats	16	Vehicle	3	Descriptor	2
+0	3	Becoming	get.v	4	get	16	Final_state	5:9	Entity	1:3
+0	3	Activity_ready_state	ready.j	5	ready	16	Activity	6:9	Protagonist	1:3
+0	3	Departing	leave.v	7	leave	16	Theme	1:3	Source	8:9
+0	2	Noise_makers	bells.n	11	bells	16	Noise_maker	11
+0	2	Cause_to_make_noise	ring.v	12	ring	16	Agent	11
+0	3	Causation	raised.v	17	raised	16	Effect	19:23	Cause	14:15
+0	2	Color	blue.j	21	blue	16	Color	21
+0	3	Clothing	suits.n	23	suits	16	Use	22	Garment	23
+0	2	Personal_relationship	couple.n	30	couple	16	Partners	30
+0	3	Cardinal_numbers	hundred.c	32	hundred	16	Entity	33	Number	32
+0	3	Activity_start	begin.v	34	begin	16	Activity	35:38	Agent	29:33
+0	2	Cardinal_numbers	seven.c	36	seven	16	Number	36
+0	2	Measure_duration	minute.n	38	minute	16	Unit	38
+0	2	Ingestion	sightseeing.v	39	sightseeing	16	Ingestibles	40
+0	1	Travel	tour.n	40	tour	16
+0	1	Causation	result.n	2	result	17
+0	3	Causation	forced.v	7	forced	17	Effect	8:15	Affected	4:5
+0	3	Cardinal_numbers	one.c	13	one	17	Entity	15	Number	13
+0	3	Calendric_unit	day.n	15	day	17	Unit	15	Count	13
+0	1	Temporal_collocation	then.r	19	then	17
+0	3	Gesture	signaled.v	23	signaled	17	Communicator	22	Message	0:15
+0	2	Calendric_unit	noon.n	25	noon	17	Unit	25
+0	2	Calendric_unit	hour.n	26	hour	17	Unit	26
+0	2	Frequency	daily.r	27	daily	17	Event	28:31
+0	2	Quantity	all.d	29	all	17	Quantity	29
+0	1	Perception_experience	hear.v	31	hear	17
+0	2	Rotting	perished.v	2	perished	18	Undergoer	0:1
+0	1	Impact	crash.n	5	crash	18
+0	2	Rotting	perished.v	2	perished	19	Undergoer	0:1
+0	1	Impact	crash.n	5	crash	19
+0	2	Rotting	perished.v	2	perished	20	Undergoer	0:1
+0	1	Impact	crash.n	5	crash	20
+0	2	Destroying	blowing.v	13_14	blowing up	21	Undergoer	15:20
+0	2	Leadership	president.n	0	President	21	Leader	0
+0	2	Posture	stand.v	5	stand	21	Agent	0:3
+0	3	Collaboration	together.r	6	together	21	Undertaking	7:20	Partners	0:3
+0	2	Arrest	arresting.v	8	arresting	21	Suspect	9:20
+0	2	Terrorism	terrorists.n	10	terrorists	21	Terrorist	10
+0	3	Suspicion	suspected.v	11	suspected	21	Suspect	10	Incident	12:20
+0	2	Architectural_part	flight.n	17	flight	21	Part	17
+0	4	Being_born	born.v	2	born	22	Place	9:10	Time	3:7	Child	0
+0	4	Death	died.v	12	died	22	Place	13:14	Time	15:19	Protagonist	0
+0	2	Calendric_unit	june.n	16	June	22	Name	16
+0	2	Cardinal_numbers	20.c	17	20	22	Number	17
+0	4	Purpose	planned.v	2	planned	23	Agent	0	Goal	3:23	Time	1
+0	4	Giving	giving.v	4	giving	23	Theme	8:10	Recipient	5:7	Donor	0
+0	1	Frequency	every.d	5	every	23
+0	2	Familiarity	new.j	6	new	23	Entity	7
+0	2	Education_teaching	student.n	7	student	23	Student	7
+0	2	Expensiveness	free.j	9	free	23	Goods	10
+0	3	Temporal_collocation	now.r	13	now	23	Landmark_period	13:15	Trajector_event	4:10
+0	2	Sole_instance	only.j	14	only	23	Type	15
+0	3	Purpose	plans.n	15	plans	23	Agent	0	Goal	16:23
+0	4	Giving	giving.v	17	giving	23	Theme	18	Recipient	19:23	Donor	0
+0	3	Education_teaching	students.n	20	students	23	Course	21:23	Student	20
+0	2	Idiosyncrasy	certain.j	22	certain	23	Entity	23
+0	2	Type	classes.n	23	classes	23	Subtype	23
+0	4	Purpose	planned.v	2	planned	24	Agent	0	Goal	3:23	Time	1
+0	4	Giving	giving.v	4	giving	24	Theme	8:10	Recipient	5:7	Donor	0
+0	1	Frequency	every.d	5	every	24
+0	2	Familiarity	new.j	6	new	24	Entity	7
+0	2	Education_teaching	student.n	7	student	24	Student	7
+0	2	Expensiveness	free.j	9	free	24	Goods	10
+0	3	Temporal_collocation	now.r	13	now	24	Landmark_period	13:15	Trajector_event	4:10
+0	2	Sole_instance	only.j	14	only	24	Type	15
+0	3	Purpose	plans.n	15	plans	24	Agent	0	Goal	16:23
+0	4	Giving	giving.v	17	giving	24	Theme	18	Recipient	19:23	Donor	0
+0	3	Education_teaching	students.n	20	students	24	Course	21:23	Student	20
+0	2	Idiosyncrasy	certain.j	22	certain	24	Entity	23
+0	2	Type	classes.n	23	classes	24	Subtype	23
+0	2	Weapon	nuclear.j	11_12	nuclear weapons	25	Weapon	11:12
+0	3	Statement	declares.v	2	declares	25	Message	3:35	Speaker	0
+0	2	Temporal_collocation	currently.r	7	currently	25	Trajector_event	4
+0	4	Purpose	planning.v	8	planning	25	Agent	4	Goal	9:12	Time	7
+0	3	Building	build.v	10	build	25	Agent	4	Created_entity	11:12
+0	3	Attempt	attempt.v	15	attempt	25	Agent	4	Goal	16:21
+0	3	Intentionally_act	do.v	17	do	25	Act	18	Agent	4
+0	1	Possibilities	future.n	21	future	25
+0	3	Quantity	any.d	23	any	25	Individuals	25	Quantity	23
+0	2	Weapon	nuclear.j	24	nuclear	25	Weapon	24
+0	3	Artifact	technology.n	25	technology	25	Type	24	Artifact	25
+0	3	Using	applied.v	28	applied	25	Purpose	29:35	Instrument	23:25
+0	2	Cause_to_make_progress	developing.v	30	developing	25	Project	31:35
+0	2	Weapon	nuclear.j	31	nuclear	25	Weapon	31
+0	4	Electricity	energy.n	32	energy	25	Use	33:35	Source	31	Electricity	32
+0	1	Purpose	purposes.n	35	purposes	25
+0	2	Weapon	nuclear.j	11_12	nuclear weapons	26	Weapon	11:12
+0	3	Statement	declares.v	2	declares	26	Message	3:35	Speaker	0
+0	2	Temporal_collocation	currently.r	7	currently	26	Trajector_event	4
+0	4	Purpose	planning.v	8	planning	26	Agent	4	Goal	9:12	Time	7
+0	3	Building	build.v	10	build	26	Agent	4	Created_entity	11:12
+0	3	Attempt	attempt.v	15	attempt	26	Agent	4	Goal	16:21
+0	3	Intentionally_act	do.v	17	do	26	Act	18	Agent	4
+0	1	Possibilities	future.n	21	future	26
+0	3	Quantity	any.d	23	any	26	Individuals	25	Quantity	23
+0	2	Weapon	nuclear.j	24	nuclear	26	Weapon	24
+0	3	Artifact	technology.n	25	technology	26	Type	24	Artifact	25
+0	3	Using	applied.v	28	applied	26	Purpose	29:35	Instrument	23:25
+0	2	Cause_to_make_progress	developing.v	30	developing	26	Project	31:35
+0	2	Weapon	nuclear.j	31	nuclear	26	Weapon	31
+0	4	Electricity	energy.n	32	energy	26	Use	33:35	Source	31	Electricity	32
+0	1	Purpose	purposes.n	35	purposes	26
+0	2	Weapon	nuclear.j	11_12	nuclear weapons	27	Weapon	11:12
+0	3	Statement	declares.v	2	declares	27	Message	3:35	Speaker	0
+0	2	Temporal_collocation	currently.r	7	currently	27	Trajector_event	4
+0	4	Purpose	planning.v	8	planning	27	Agent	4	Goal	9:12	Time	7
+0	3	Building	build.v	10	build	27	Agent	4	Created_entity	11:12
+0	3	Attempt	attempt.v	15	attempt	27	Agent	4	Goal	16:21
+0	3	Intentionally_act	do.v	17	do	27	Act	18	Agent	4
+0	1	Possibilities	future.n	21	future	27
+0	3	Quantity	any.d	23	any	27	Individuals	25	Quantity	23
+0	2	Weapon	nuclear.j	24	nuclear	27	Weapon	24
+0	3	Artifact	technology.n	25	technology	27	Type	24	Artifact	25
+0	3	Using	applied.v	28	applied	27	Purpose	29:35	Instrument	23:25
+0	2	Cause_to_make_progress	developing.v	30	developing	27	Project	31:35
+0	2	Weapon	nuclear.j	31	nuclear	27	Weapon	31
+0	4	Electricity	energy.n	32	energy	27	Use	33:35	Source	31	Electricity	32
+0	1	Purpose	purposes.n	35	purposes	27
+0	2	Weapon	chemical.j	20_21	chemical weapons	28	Weapon	20:21
+0	3	Origin	russian.j	0	Russian	28	Origin	0	Entity	1
+0	3	Leadership	officials.n	1	officials	28	Leader	1	Governed	0
+0	3	Intentionally_act	do.v	2	do	28	Act	3	Agent	0:1
+0	3	Statement	deny.v	4	deny	28	Message	5:7	Speaker	0:1
+0	1	Research	research.n	5	research	28
+0	2	Process_continue	continued.v	7	continued	28	Event	5
+0	3	Statement	assert.v	9	assert	28	Message	10:31	Speaker	0:1
+0	3	Purpose	purpose.n	15	purpose	28	Goal	16:31	Means	11
+0	3	Cause_to_make_progress	developing.v	17	developing	28	Agent	11	Project	20:21
+0	2	Defend	defenses.n	18	defenses	28	Assailant	19:31
+0	1	Purpose	purpose.n	24	purpose	28
+0	3	Prohibiting	banned.v	28	banned	28	Principle	29:31	State_of_affairs	20:24
+0	4	Attempt	tried.v	2	tried	29	Duration	25:27	Agent	0	Goal	8:13
+0	3	Success_or_failure	success.n	6	success	29	Agent	0	Degree	5
+0	3	Cause_to_make_progress	develop.v	9	develop	29	Agent	0	Project	10:13
+0	3	Possession	own.j	11	own	29	Possession	13	Owner	10
+0	2	Indigenous_origin	indigenous.j	12	indigenous	29	Entity	13
+0	3	Weapon	missile.n	13	missile	29	Wielder	10	Weapon	13
+0	2	Expansion	extend.v	17	extend	29	Item	18:19
+0	2	Range	range.n	19	range	29	Distance	19
+0	2	Aging	aging.v	22	aging	29	Entity	21
+0	2	Weapon	scud.n	23	SCUD	29	Weapon	23
+0	5	Military	force.n	24	force	29	Members	23	Force	24	Possessor	21	Descriptor	22
+0	3	Quantity	many.j	26	many	29	Individuals	27	Quantity	26
+0	3	Calendric_unit	years.n	27	years	29	Unit	27	Count	26
+0	1	Increment	other.j	33	other	29
+0	2	Weapon	missile.n	34	missile	29	Weapon	34
+0	1	Project	programs.n	35	programs	29
+0	3	Relational_quantity	some.d	0	Some	30	Denoted_quantity	0	Mass	1:12
+0	3	Cardinal_numbers	14.c	3	14	30	Entity	7	Number	3
+0	1	Unattributed_information	alleged.j	4	alleged	30
+0	2	Containers	bin.n	5	bin	30	Container	5
+0	3	Collaboration	associates.n	7	associates	30	Partner_1	7	Partner_2	6
+0	4	Arrest	arrested.v	8	arrested	30	Time	11:12	Place	9:10	Suspect	2:7
+0	2	Calendric_unit	december.n	12	December	30	Name	12
+0	3	Activity_start	begun.v	14	begun	30	Activity	15:17	Agent	0:12
+0	3	Chatting	talking.v	15	talking	30	Interlocutor_2	16:17	Interlocutor_1	0:12
+0	3	Collaboration	associate.n	4	associate	31	Partner_1	4	Partner_2	5:7
+0	2	Containers	bin.n	6	bin	31	Container	6
+0	3	Arrest	arrested.v	8	arrested	31	Place	9:12	Suspect	5:7
+0	3	Temporal_subregion	middle.n	11	Middle	31	Time_period	12	Sub_part	11
+0	2	Direction	east.n	12	East	31	Path	12
+0	2	Intentionally_act	did.v	2	Did	32	Act	3:4
+0	2	Leadership	diplomat.n	4	diplomat	32	Leader	4
+0	3	Arriving	arrive.v	5	arrive	32	Theme	3:4	Time	6:9
+0	2	Leadership	president.n	8	president	32	Leader	8
+0	1	Direction	left.v	9	left	32
+0	1	Arriving	visit.n	2	visit	33
+0	2	Arriving	visit.n	7	visit	33	Purpose	6
+0	3	Arriving	visit.n	12	visit	33	Theme	9	Purpose	13:15
+0	2	Point_of_dispute	concerns.n	15	concerns	33	Domain	14
+0	3	Statement	added.v	19	added	33	Message	1:15	Speaker	18
+0	3	Leadership	congressman.n	1	Congressman	34	Leader	1	Governed	0
+0	3	Buildings	hall.n	3	Hall	34	Name	2	Building	3
+0	5	Arriving	arrived.v	4	arrived	34	Theme	0:3	Time	6:7	Event_description	9:21	Goal	5
+0	2	Locative_relation	here.r	5	here	34	Ground	5
+0	2	Calendric_unit	sunday.n	6	Sunday	34	Unit	6
+0	2	Calendric_unit	evening.n	7	evening	34	Unit	7
+0	3	Becoming	becoming.v	9	becoming	34	Final_category	10:13	Entity	0:3
+0	3	Ordinal_numbers	first.j	11	first	34	Basis_of_order	14:16	Type	13
+0	3	Leadership	lawmaker.n	13	lawmaker	34	Leader	13	Governed	12
+0	3	Arriving	visit.v	15	visit	34	Theme	10:13	Goal	16
+0	2	Natural_features	gulf.n	20	Gulf	34	Locale	20
+0	2	Hostile_encounter	war.n	21	War	34	Place	20
+0	3	Causation	because.i	12_13	because of	35	Effect	14:27	Cause	6:11
+0	3	Leadership	lawmaker.n	2	lawmaker	35	Leader	2	Governed	1
+0	2	Arriving	got.v	3	got	35	Theme	0:2
+0	3	Familiarity	acquainted.v	4	acquainted	35	Cognizer	0:2	Entity	5:11
+0	3	Origin	iraqi.n	10	Iraqi	35	Origin	10	Entity	11
+0	3	People_by_age	children.n	11	children	35	Ethnicity	10	Person	11
+0	2	Duration_attribute	acute.j	14	acute	35	Period	15
+0	2	Food	food.n	17	food	35	Food	17
+0	2	Medical_specialties	medicine.n	19	medicine	35	Specialty	19
+0	1	Behind_the_scenes	direct.j	22	direct	35
+0	3	Causation	result.n	23	result	35	Manner	22	Cause	24:26
+0	3	Statement	reported.v	28	reported	35	Message	14:27	Speaker	29:34
+0	3	Origin	iraqi.n	30	Iraqi	35	Origin	30	Entity	31
+0	3	Organization	agency.n	32	Agency	35	Organization	32	Purpose	31
+0	3	Text	brochure.n	2	brochure	36	Author	1	Text	2
+0	3	Placing	enclosing.v	5	enclosing	36	Agent	3	Theme	0:2
+0	4	Giving	give.v	7	give	36	Theme	9:30	Recipient	8	Donor	0:5
+0	1	Historic_event	historic.j	10	historic	36
+0	3	Importance	significance.n	11	significance	36	Field	10	Factor	8
+0	2	Intentionally_act	activities.n	19	activities	36	Act	19
+0	2	Giving	donors.n	25	donors	36	Donor	25
+0	3	Rank	level.n	30	level	36	Item	25	Rank	29
+0	3	Capability	can.m	1	can	37	Entity	0	Event	2:7
+0	3	Have_as_requirement	take.v	2	take	37	Dependent	0	Requirement	3:7
+0	3	Cardinal_numbers	one.c	3	one	37	Entity	4:7	Number	3
+0	1	Relative_time	following.j	6	following	37
+0	2	Type	forms.n	7	forms	37	Subtype	7
+0	2	Placing	insert.n	13	Insert	37	Theme	14
+0	3	Cardinal_numbers	4.c	14	4	37	Entity	15	Number	14
+0	2	Measure_linear_extent	inch.n	15	inch	37	Unit	15
+0	2	Ground_up	ground.n	19	ground	37	Undergoer	20:23
+0	3	Cardinal_numbers	50.c	21	50	37	Entity	22	Number	21
+0	3	Measure_linear_extent	centimeters.n	22	centimeters	37	Unit	22	Count	21
+0	3	Dimension	height.n	26	height	37	Measurement	27:29	Dimension	26
+0	3	Cardinal_numbers	one.c	28	one	37	Entity	29	Number	28
+0	3	Measure_linear_extent	meter.n	29	meter	37	Unit	29	Count	28
+0	2	Temporal_collocation	then.r	30	then	37	Trajector_event	9:29
+0	4	Filling	fill.v	31	fill	37	Time	30	Goal	32	Theme	33:34
+0	2	Containers	barrels.n	36	Barrels	37	Container	36
+0	3	Filling	filled.v	40	filled	37	Goal	38	Theme	41
+0	3	Placing	place.n	44	place	37	Goal	45:47	Theme	38
+0	2	Buildings	building.n	47	building	37	Building	47
+0	1	Arriving	entrance.n	52	entrance	37
+0	2	Preventing	prevent.v	54	prevent	37	Event	55
+0	2	Vehicle	cars.n	55	cars	37	Vehicle	55
+0	3	Impact	crashing.v	57	crashing	37	Impactee	58:61	Impactor	55
+0	3	Desirability	better.j	65	better	37	Evaluee	63	Comparison_set	66:68
+0	2	Roadways	road.n	67	road	37	Roadway	67
+0	2	Difficulty	harder.r	72	harder	37	Activity	70
+0	3	Perception_experience	see.v	74	see	37	Phenomenon	70	Degree	72
+0	3	Inclusion	include.v	1	include	38	Part	2:17	Total	0
+0	2	Change_of_leadership	deposed.j	3	deposed	38	Body	4
+0	3	Leadership	regime.n	4	regime	38	Depictive	3	Leader	4
+0	3	Aggregate	cliques.n	8	cliques	38	Aggregate	8	AggregateProperty	7
+0	2	Hiring	hired.v	11	hired	38	Employee	12
+0	2	Purpose	in.i	72_73	in order	39	Goal	74:82
+0	2	Range	distance.n	1	distance	39	Distance	1
+0	2	Ordinal_numbers	first.j	4	first	39	Type	7
+0	2	Ordinal_numbers	fourth.j	6	fourth	39	Type	7
+0	2	Desirable_event	should.m	8	should	39	State_of_affairs	0:7
+0	3	Cardinal_numbers	100.c	10	100	39	Entity	11	Number	10
+0	3	Measure_linear_extent	meters.n	11	meters	39	Unit	11	Count	10
+0	2	Range	distance.n	15	distance	39	Distance	10:11
+0	1	Ordinal_numbers	fourth.j	18	fourth	39
+0	2	Desirable_event	should.m	22	should	39	State_of_affairs	23:25
+0	3	Cardinal_numbers	50.c	24	50	39	Entity	25	Number	24
+0	3	Measure_linear_extent	meters.n	25	meters	39	Unit	25	Count	24
+0	2	Vehicle	cars.n	28	cars	39	Vehicle	28
+0	2	Possibility	can.m	29	can	39	Possible_event	28
+0	2	Travel	travel.v	31	travel	39	Traveler	28
+0	4	Speed	fast.r	32	fast	39	Speed	32	Entity	28	Circumstances	33:41
+0	2	Buildings	building.n	38	building	39	Building	38
+0	3	Connectors	wires.n	41	Wires	39	Type	40	Connector	41
+0	2	Desirable_event	should.m	44	should	39	State_of_affairs	43
+0	2	Placing	placed.v	46	placed	39	Theme	43
+0	2	Buildings	building.n	49	building	39	Building	49
+0	2	Architectural_part	walls.n	53	walls	39	Part	53
+0	2	Occupy_rank	top.n	57	top	39	Rank	57
+0	2	Architectural_part	walls.n	60	walls	39	Part	60
+0	2	Connectors	nails.n	62	Nails	39	Connector	62
+0	2	Placing	placed.v	67	placed	39	Goal	65
+0	2	Importance	main.j	70	main	39	Factor	71
+0	3	Quantity	any.d	79	any	39	Individuals	81	Quantity	79
+0	2	Vehicle	car.n	80	car	39	Vehicle	80
+0	3	Motion_noise	crashing.n	81	crashing	39	Theme	80	Goal	82
+0	2	Required_event	have.v	17_18	have to	40	Required_situation	19:21
+0	2	Required_event	have.v	24_25	have to	40	Required_situation	23
+0	3	Desiring	want.v	2	want	40	Experiencer	1	Event	3:6
+0	2	Process_end	end.n	4	end	40	Process	5:6
+0	2	Terrorism	terrorism.n	6	terrorism	40	Act	6
+0	3	Desiring	want.v	10	want	40	Experiencer	9	Event	11:14
+0	2	Process_end	end.n	12	end	40	Process	13:14
+0	2	Giving	give.v	19	give	40	Donor	16
+0	2	People	people.n	20	people	40	Person	20
+0	2	Desiring	hope.n	21	hope	40	Experiencer	20
+0	4	Giving	give.v	26	give	40	Theme	28:33	Recipient	27	Donor	23
+0	3	Means	process.n	33	process	40	Means	33	Purpose	32
+0	2	Required_event	have.v	17_18	have to	41	Required_situation	19:21
+0	2	Required_event	have.v	24_25	have to	41	Required_situation	23
+0	3	Desiring	want.v	2	want	41	Experiencer	1	Event	3:6
+0	2	Process_end	end.n	4	end	41	Process	5:6
+0	2	Terrorism	terrorism.n	6	terrorism	41	Act	6
+0	3	Desiring	want.v	10	want	41	Experiencer	9	Event	11:14
+0	2	Process_end	end.n	12	end	41	Process	13:14
+0	2	Giving	give.v	19	give	41	Donor	16
+0	2	People	people.n	20	people	41	Person	20
+0	2	Desiring	hope.n	21	hope	41	Experiencer	20
+0	4	Giving	give.v	26	give	41	Theme	28:33	Recipient	27	Donor	23
+0	3	Means	process.n	33	process	41	Means	33	Purpose	32
+0	3	Leadership	sheik.n	1	Sheik	42	Leader	1	Role	0
+0	3	Locative_relation	here.r	3	here	42	Ground	3	Figure	1:2
+0	2	Relational_quantity	some.d	5	some	42	Individuals	6:12
+0	2	Event	events.n	8	events	42	Event	9:12
+0	3	Event	happened.v	10	happened	42	Time	11:12	Event	9
+0	2	Existence	there.e	4_5	there 's	43	Entity	6:11
+0	3	Statement	say.v	3	say	43	Message	4:11	Speaker	1
+0	2	Quantity	no.d	7	no	43	Quantity	7
+0	2	Building_subparts	room.n	8	room	43	Building_part	8
+0	2	System	system.n	11	system	43	Complex	11
+0	3	Awareness	know.v	14	know	43	Cognizer	13	Content	45:49
+0	1	Prison	jails.n	18	jails	43
+0	3	Awareness	know.v	24	know	43	Cognizer	23	Content	45:49
+0	3	Appearance	seems.v	31	seems	43	Phenomenon	30	Inference	32:35
+0	1	Sentencing	sentences.n	35	sentences	43
+0	3	Assessing	judge.n	41	judge	43	Assessor	40:41	Phenomenon	42:49
+0	3	Motion	going.v	48	going	43	Theme	46	Goal	49
+0	3	Awareness	know.v	52	know	43	Cognizer	51	Content	45:49
+0	1	Sentencing	sentence.n	54	sentence	43
+0	3	Awareness	know.v	60	know	43	Cognizer	59	Content	45:49
+0	3	Cardinal_numbers	two.c	62	two	43	Entity	63	Number	62
+0	3	Measure_duration	months.n	63	months	43	Unit	63	Count	62
+0	3	Measure_duration	years.n	67	years	43	Unit	67	Count	66
+0	3	Awareness	know.v	70	know	43	Cognizer	69	Content	71
+0	2	Choosing	decide.v	76	decide	43	Cognizer	69
+0	3	Being_obligated	should.m	78	should	43	Duty	75:76	Responsible_party	77
+0	3	Cardinal_numbers	two.c	80	two	43	Entity	81:82	Number	80
+0	3	Measure_duration	months.n	81	months	43	Unit	81	Count	80
+0	2	Existence	there.e	3_4	there 's	44	Entity	6:8
+0	2	Existence	there.e	11_12	there 's	44	Entity	2:10
+0	2	Existence	there.e	24_25	there 's	44	Entity	26:28
+0	2	Temporal_collocation	when.w	2	when	44	Landmark_event	3:8
+0	2	Awareness	understanding.n	8	understanding	44	Content	7
+0	2	Temporal_collocation	when.w	10	when	44	Trajector_event	11:14
+0	1	Verdict	verdict.n	17	verdict	44
+0	2	Instance	example.n	22	example	44	Instance	22
+0	2	Contingency	hung.j	27	hung	44	Determinant	28
+0	2	Locative_relation	here.r	29	here	44	Ground	29
+0	2	Buildings	fort.n	31	Fort	44	Building	31
+0	3	Cardinal_numbers	two.c	33	two	44	Entity	34	Number	33
+0	3	Calendric_unit	day.n	34	day	44	Unit	34	Count	33
+0	3	Cardinal_numbers	eight.c	36	eight	44	Entity	40	Number	36
+0	2	Cardinal_numbers	four.c	38	four	44	Number	38
+0	2	People	guy.n	43	guy	44	Person	43
+0	2	Arriving	got.v	44	got	44	Theme	42:43
+0	2	Locative_relation	off.r	45	off	44	Figure	42:43
+0	2	Revenge	get.v	5_6	get back	45	Avenger	4
+0	1	Commerce_scenario	price.n	8	Price	45
+0	1	Statement	comment.n	10	comment	45
+0	2	Temporal_collocation	when.w	11	when	45	Trajector_event	12:22
+0	2	Becoming_aware	found.v	17	found	45	Phenomenon	18:22
+0	3	Verdict	guilty.j	18	guilty	45	Charges	19	Finding	18
+0	3	Statement	said.v	20	said	45	Message	22	Speaker	19
+0	3	Intentionally_act	did.v	25	did	45	Act	26	Agent	24
+0	3	Quantity	any.d	28	any	45	Individuals	29	Quantity	28
+0	2	Color	blacks.n	29	blacks	45	Color	29
+0	3	Awareness	know.v	34	know	45	Cognizer	33	Content	35:40
+0	3	Observable_body_parts	neck.n	37	neck	45	Body_part	37	Possessor	36
+0	2	Bungling	screwing.v	58_59	screwing up	46	Agent	44
+0	3	Opinion	think.v	4	think	46	Cognizer	3	Circumstances	5:42
+0	2	Quitting	quit.v	7	quit	46	Employee	6
+0	3	Building	building.v	11	building	46	Agent	6	Created_entity	12:14
+0	2	Race_descriptor	color.n	17	color	46	Person	17
+0	3	Cardinal_numbers	thousand.c	23	thousand	46	Entity	16:21	Number	23
+0	2	Calendric_unit	year.n	25	year	46	Unit	25
+0	2	Cause_to_continue	keep.v	27	keep	46	Process	28:29
+0	2	Locative_relation	there.r	31	there	46	Ground	31
+0	1	Sentencing	sentence.n	42	sentence	46
+0	2	Required_event	should.m	45	should	46	Required_situation	44
+0	3	Activity_start	start.v	46	start	46	Activity	50:53	Agent	44
+0	3	Placing	hanging.v	47	hanging	46	Agent	44	Theme	48
+0	3	Getting	get.v	50	get	46	Theme	51	Recipient	44
+0	3	Grant_permission	let.v	55	let	46	Action	56:62	Grantor	44
+0	1	Gizmo	system.n	61	system	46
+0	2	Leadership	general.j	1	general	47	Leader	1
+0	2	Aggregate	groups.n	4	groups	47	Aggregate	4
+0	2	Increment	more.r	6	more	47	Class	7:11
+0	3	Activity_ready_state	prepared.j	7	prepared	47	Activity	8:11	Protagonist	3:4
+0	2	Undergoing	casualties.n	11	casualties	47	Entity	11
+0	3	Subjective_influence	driven.v	16	driven	47	Cognizer	13	Situation	17:20
+0	3	Purpose	goals.n	20	goals	47	Goal	20	Domain	19
+0	2	Mental_property	irrational.j	24	irrational	47	Behavior	25
+0	1	Opinion	belief.n	25	belief	47
+0	3	System	systems.n	26	systems	47	Component_entities	25	Complex	26
+0	1	Predicting	prophecy.n	39	prophecy	47
+0	2	Predicting	predicting.v	41	predicting	47	Eventuality	42:46
+0	2	Process_end	end.n	43	end	47	Process	44:46
+0	2	Political_locales	world.n	46	world	47	Locale	46
+0	2	Event	events.n	3	events	48	Event	4:6
+0	2	Calendric_unit	september.n	5	September	48	Unit	5
+0	2	Text	letter.n	10	letter	48	Text	10
+0	2	Attack	attacks.n	11	attacks	48	Weapon	12:14
+0	2	Conquering	fall.n	13	fall	48	Theme	14
+0	2	Scrutiny	analysts.n	16	analysts	48	Cognizer	16
+0	4	Activity_start	began.v	17	began	48	Activity	18:31	Agent	16	Time	1:14
+0	4	Becoming_aware	observe.v	19	observe	48	Phenomenon	20:31	Cognizer	16	Time	1:14
+0	2	Relational_quantity	some.d	20	some	48	Denoted_quantity	20
+0	2	Stimulus_focus	troubling.j	21	troubling	48	Stimulus	22
+0	2	Progress	developments.n	22	developments	48	Entity	23:31
+0	2	Quantity	all.d	24	all	48	Quantity	24
+0	3	Cardinal_numbers	three.c	25	three	48	Entity	26	Number	25
+0	3	Terrorism	terrorism.n	30	terrorism	48	Instrument	29	Act	30
+0	2	Risky_situation	threat.n	31	threat	48	Situation	30
+0	2	Event	events.n	3	events	49	Event	4:6
+0	2	Calendric_unit	september.n	5	September	49	Unit	5
+0	2	Text	letter.n	10	letter	49	Text	10
+0	2	Attack	attacks.n	11	attacks	49	Weapon	12:14
+0	2	Conquering	fall.n	13	fall	49	Theme	14
+0	2	Scrutiny	analysts.n	16	analysts	49	Cognizer	16
+0	4	Activity_start	began.v	17	began	49	Activity	18:31	Agent	16	Time	1:14
+0	4	Becoming_aware	observe.v	19	observe	49	Phenomenon	20:31	Cognizer	16	Time	1:14
+0	2	Relational_quantity	some.d	20	some	49	Denoted_quantity	20
+0	2	Stimulus_focus	troubling.j	21	troubling	49	Stimulus	22
+0	2	Progress	developments.n	22	developments	49	Entity	23:31
+0	2	Quantity	all.d	24	all	49	Quantity	24
+0	3	Cardinal_numbers	three.c	25	three	49	Entity	26	Number	25
+0	3	Terrorism	terrorism.n	30	terrorism	49	Instrument	29	Act	30
+0	2	Risky_situation	threat.n	31	threat	49	Situation	30
+0	2	Event	events.n	3	events	50	Event	4:6
+0	2	Calendric_unit	september.n	5	September	50	Unit	5
+0	2	Text	letter.n	10	letter	50	Text	10
+0	2	Attack	attacks.n	11	attacks	50	Weapon	12:14
+0	2	Conquering	fall.n	13	fall	50	Theme	14
+0	2	Scrutiny	analysts.n	16	analysts	50	Cognizer	16
+0	4	Activity_start	began.v	17	began	50	Activity	18:31	Agent	16	Time	1:14
+0	4	Becoming_aware	observe.v	19	observe	50	Phenomenon	20:31	Cognizer	16	Time	1:14
+0	2	Relational_quantity	some.d	20	some	50	Denoted_quantity	20
+0	2	Stimulus_focus	troubling.j	21	troubling	50	Stimulus	22
+0	2	Progress	developments.n	22	developments	50	Entity	23:31
+0	2	Quantity	all.d	24	all	50	Quantity	24
+0	3	Cardinal_numbers	three.c	25	three	50	Entity	26	Number	25
+0	3	Terrorism	terrorism.n	30	terrorism	50	Instrument	29	Act	30
+0	2	Risky_situation	threat.n	31	threat	50	Situation	30
+0	2	Event	events.n	3	events	51	Event	4:6
+0	2	Calendric_unit	september.n	5	September	51	Unit	5
+0	2	Text	letter.n	10	letter	51	Text	10
+0	2	Attack	attacks.n	11	attacks	51	Weapon	12:14
+0	2	Conquering	fall.n	13	fall	51	Theme	14
+0	2	Scrutiny	analysts.n	16	analysts	51	Cognizer	16
+0	4	Activity_start	began.v	17	began	51	Activity	18:31	Agent	16	Time	1:14
+0	4	Becoming_aware	observe.v	19	observe	51	Phenomenon	20:31	Cognizer	16	Time	1:14
+0	2	Relational_quantity	some.d	20	some	51	Denoted_quantity	20
+0	2	Stimulus_focus	troubling.j	21	troubling	51	Stimulus	22
+0	2	Progress	developments.n	22	developments	51	Entity	23:31
+0	2	Quantity	all.d	24	all	51	Quantity	24
+0	3	Cardinal_numbers	three.c	25	three	51	Entity	26	Number	25
+0	3	Terrorism	terrorism.n	30	terrorism	51	Instrument	29	Act	30
+0	2	Risky_situation	threat.n	31	threat	51	Situation	30
+0	2	Event	events.n	3	events	52	Event	4:6
+0	2	Calendric_unit	september.n	5	September	52	Unit	5
+0	2	Text	letter.n	10	letter	52	Text	10
+0	2	Attack	attacks.n	11	attacks	52	Weapon	12:14
+0	2	Conquering	fall.n	13	fall	52	Theme	14
+0	2	Scrutiny	analysts.n	16	analysts	52	Cognizer	16
+0	4	Activity_start	began.v	17	began	52	Activity	18:31	Agent	16	Time	1:14
+0	4	Becoming_aware	observe.v	19	observe	52	Phenomenon	20:31	Cognizer	16	Time	1:14
+0	2	Relational_quantity	some.d	20	some	52	Denoted_quantity	20
+0	2	Stimulus_focus	troubling.j	21	troubling	52	Stimulus	22
+0	2	Progress	developments.n	22	developments	52	Entity	23:31
+0	2	Quantity	all.d	24	all	52	Quantity	24
+0	3	Cardinal_numbers	three.c	25	three	52	Entity	26	Number	25
+0	3	Terrorism	terrorism.n	30	terrorism	52	Instrument	29	Act	30
+0	2	Risky_situation	threat.n	31	threat	52	Situation	30
+0	2	Event	events.n	3	events	53	Event	4:6
+0	2	Calendric_unit	september.n	5	September	53	Unit	5
+0	2	Text	letter.n	10	letter	53	Text	10
+0	2	Attack	attacks.n	11	attacks	53	Weapon	12:14
+0	2	Conquering	fall.n	13	fall	53	Theme	14
+0	2	Scrutiny	analysts.n	16	analysts	53	Cognizer	16
+0	4	Activity_start	began.v	17	began	53	Activity	18:31	Agent	16	Time	1:14
+0	4	Becoming_aware	observe.v	19	observe	53	Phenomenon	20:31	Cognizer	16	Time	1:14
+0	2	Relational_quantity	some.d	20	some	53	Denoted_quantity	20
+0	2	Stimulus_focus	troubling.j	21	troubling	53	Stimulus	22
+0	2	Progress	developments.n	22	developments	53	Entity	23:31
+0	2	Quantity	all.d	24	all	53	Quantity	24
+0	3	Cardinal_numbers	three.c	25	three	53	Entity	26	Number	25
+0	3	Terrorism	terrorism.n	30	terrorism	53	Instrument	29	Act	30
+0	2	Risky_situation	threat.n	31	threat	53	Situation	30
+0	2	Locale_by_use	base.n	7	Base	54	Locale	7
+0	3	Cognitive_connection	connected.v	13	connected	54	Concept_2	12	Concept_1	14
+0	2	Political_locales	global.j	14	global	54	Locale	14
+0	5	Network	network.n	15	network	54	Connections	0:7	Descriptor	14	Nodes	16:61	Network	15
+0	2	Terrorism	terrorist.j	18	terrorist	54	Terrorist	18
+0	4	Aggregate	groups.n	19	groups	54	Individuals	18	Aggregate	19	AggregateProperty	17
+0	3	Seeking_to_achieve	seek.v	21	seek	54	Agent	17:19	State_of_affairs	22:61
+0	3	Removing	expel.v	23	expel	54	Agent	17:19	Theme	24:25
+0	2	Temporal_subregion	middle.n	28	Middle	54	Sub_part	28
+0	2	Direction	east.n	29	East	54	Path	29
+0	3	Revenge	revenge.n	32	revenge	54	Injury	33:61	Avenger	17:19
+0	4	Categorization	perceive.v	36	perceive	54	Cognizer	35	Item	34	Category	37:50
+0	3	Attack	attacks.n	40	attacks	54	Victim	41:42	Assailant	38:39
+0	2	People_by_religion	muslims.n	42	Muslims	54	Person	42
+0	2	Cardinal_numbers	one.c	45	one	54	Number	45
+0	2	Supporting	support.n	48	support	54	Supporter	47
+0	3	Removing	eliminate.v	53	eliminate	54	Agent	17:19	Theme	54:56
+0	2	Part_orientational	western.j	54	Western	54	Whole	55
+0	3	Objective_influence	influences.n	56	influences	54	Dependent_variable	55	Influencing_entity	54
+0	4	Categorization	consider.v	58	consider	54	Cognizer	57	Item	54:56	Category	59:61
+0	3	Compliance	contrary.j	59	contrary	54	Act	35:58	Norm	60:61
+0	3	Continued_state_of_affairs	to.t	3_4	to date	55	State_of_affairs	0:1	Reference_occasion	3:4
+0	3	Quantity	no.d	0	No	55	Individuals	1	Quantity	0
+0	2	Evidence	evidence.n	1	evidence	55	Support	1
+0	3	Getting	obtained.v	2	obtained	55	Theme	0:1	Time	3:4
+0	3	Evidence	suggests.v	5	suggests	55	Proposition	6:37	Support	0:4
+0	3	Success_or_failure	succeeded.v	11	succeeded	55	Agent	7:8	Goal	12:20
+0	3	Manufacturing	producing.v	13	producing	55	Manufacturer	7:8	Product	14:20
+0	2	Importance	significant.j	14	significant	55	Factor	15
+0	4	Quantity	quantities.n	15	quantities	55	Q_Prop	14	Individuals	16:20	Quantity	15
+0	2	Weapon	chemical.n	17	chemical	55	Weapon	17
+0	2	Weapon	biological.j	19	biological	55	Weapon	19
+0	3	Active_substance	agents.n	20	agents	55	Type	19	Substance	20
+0	3	Cause_to_make_progress	developed.v	22	developed	55	Agent	7:8	Project	23:27
+0	2	Usefulness	effective.j	24	effective	55	Entity	25
+0	2	Means	means.n	25	means	55	Means	25
+0	1	Delivery	delivery.n	27	delivery	55
+0	2	Purpose	intention.n	31	intention	55	Goal	32:34
+0	3	Intentionally_act	do.v	33	do	55	Act	34	Agent	7:8
+0	2	Obviousness	clearly.r	36	clearly	55	Phenomenon	37
+0	2	Presence	present.j	37	present	55	Entity	7:8
+0	3	Weapon	missiles.n	2	missiles	56	Wielder	0:1	Weapon	2
+0	3	Operating_a_system	operated.v	4	operated	56	System	0:2	Operator	5:9
+0	2	Ordinal_numbers	second.j	7	Second	56	Type	8
+0	2	Weapon	artillery.n	8	Artillery	56	Weapon	8
+0	2	Aggregate	corps.n	9	Corps	56	Aggregate	9
+0	3	Inclusion	include.v	12	include	56	Part	13:67	Total	0:2
+0	2	Weapon	missiles.n	25	missiles	56	Weapon	25
+0	3	Quantity	several.j	29	several	56	Individuals	30	Quantity	29
+0	3	Quantity	dozens.n	30	dozens	56	Q_Prop	29	Quantity	30
+0	3	Position_on_a_scale	medium.n	41	medium	56	Variable	43	Value	41
+0	2	Range	range.n	43	range	56	Distance	41
+0	2	Weapon	missiles.n	44	missiles	56	Weapon	44
+0	3	Capability	can.m	46	can	56	Entity	45	Event	47:53
+0	3	Arriving	reach.v	47	reach	56	Theme	45	Goal	48:53
+0	3	Weapon	icbms.n	59	ICBMs	56	Weapon	59	Descriptor	26:27
+0	3	Capability	can.m	61	can	56	Entity	60	Event	62:67
+0	3	Arriving	reach.v	62	reach	56	Theme	60	Goal	63:67
+0	2	Political_locales	states.n	65	States	56	Locale	65
+0	3	Employing	employs.v	1	employs	57	Employer	0	Employee	2:10
+0	2	Completeness	full.j	3	full	57	Whole	6
+0	2	Measure_duration	time.n	5	time	57	Unit	5
+0	2	Education_teaching	teachers.n	6	teachers	57	Teacher	6
+0	3	Employing	employees.n	10	employees	57	Employee	10	Task	9
+0	3	Employing	employs.v	1	employs	58	Employer	0	Employee	2:10
+0	2	Completeness	full.j	3	full	58	Whole	6
+0	2	Measure_duration	time.n	5	time	58	Unit	5
+0	2	Education_teaching	teachers.n	6	teachers	58	Teacher	6
+0	3	Employing	employees.n	10	employees	58	Employee	10	Task	9
+0	3	Employing	employs.v	1	employs	59	Employer	0	Employee	2:10
+0	2	Completeness	full.j	3	full	59	Whole	6
+0	2	Measure_duration	time.n	5	time	59	Unit	5
+0	2	Education_teaching	teachers.n	6	teachers	59	Teacher	6
+0	3	Employing	employees.n	10	employees	59	Employee	10	Task	9
+0	1	Response	addition.n	1	addition	60
+0	2	Statement	alleged.v	6	alleged	60	Message	7:22
+0	2	Time_vector	former.j	8	former	60	Event	11:22
+0	4	Hiring	hired.v	13	hired	60	Task	16:22	Employee	8:10	Employer	14:15
+0	3	Being_employed	work.v	18	work	60	Employee	8:10	Task	19:22
+0	1	Hostile_encounter	bw.n	21	BW	60
+0	3	Weapon	arsenal.n	22	arsenal	60	Type	21	Weapon	22
+0	2	Accoutrements	gas.n	28_29	gas masks	61	Accoutrement	28:29
+0	2	Compliance	contravening.v	0	Contravening	61	Norm	1:3
+0	3	Possession	own.j	2	own	61	Possession	3	Owner	1
+0	1	Reasoning	argument.n	3	argument	61
+0	1	Concessive	however.r	5	however	61
+0	3	Coming_to_believe	speculated.v	9	speculated	61	Cognizer	7	Content	10:40
+0	2	People_by_origin	iranians.n	12	Iranians	61	Person	12
+0	3	Likelihood	likely.j	15	likely	61	Degree	14	Hypothetical_event	11:12
+0	3	Attempt	trying.v	16	trying	61	Agent	11:12	Goal	17:40
+0	4	Getting	acquire.v	18	acquire	61	Theme	19:20	Recipient	11:12	Purpose	21:40
+0	1	Defend	defensive.j	22	defensive	61
+0	2	Purpose	purposes.n	23	purposes	61	Goal	22
+0	2	Cause_to_make_progress	developing.v	27	developing	61	Project	28:40
+0	2	Event	event.n	36	event	61	Event	37:40
+0	1	Attack	offensive.j	39	offensive	61
+0	3	Using	use.n	40	use	61	Purpose	39	Instrument	38
+0	1	Temporal_collocation	currently.r	0	Currently	62
+0	1	Change_position_on_a_scale	growing.v	3	growing	62
+0	2	Artifact	biotechnology.n	4	biotechnology	62	Artifact	4
+0	2	Fields	industry.n	5	industry	62	Activity	4
+0	2	Intentionally_act	does.v	6	does	62	Act	2:5
+0	3	Possession	have.v	7	have	62	Possession	8:19	Owner	2:5
+0	3	Capability	potential.n	9	potential	62	Entity	2:5	Event	10:19
+0	2	Redirecting	divert.v	11	divert	62	Theme	12:15
+0	3	Cardinal_numbers	dual.j	12	dual	62	Entity	14	Number	12
+0	2	Purpose	use.n	14	use	62	Goal	12
+0	2	Active_substance	agents.n	15	agents	62	Substance	15
+0	2	Legality	illicit.j	17	illicit	62	Action	18
+0	1	Hostile_encounter	warfare.n	18	warfare	62
+0	2	Purpose	purposes.n	19	purposes	62	Goal	18
+0	2	Existence	there.e	13_14_15	there have been	63	Entity	16:28
+0	2	Existence	there.e	1_2	there is	63	Entity	3:11
+0	2	Quantity	no.d	3	no	63	Quantity	3
+0	3	Evidence	evidence.n	5	evidence	63	Proposition	6:11	Support	5
+0	2	Temporal_collocation	currently.r	9	currently	63	Trajector_event	7
+0	4	Cause_to_make_progress	developing.v	10	developing	63	Agent	7	Time	9	Project	11
+0	2	Weapon	cw.n	11	CW	63	Weapon	11
+0	3	Quantity	several.j	16	several	63	Individuals	17	Quantity	16
+0	3	Instance	instances.n	17	instances	63	Type	18:28	Instance	17
+0	3	Locative_relation	where.w	18	where	63	Ground	19:20	Figure	16:17
+0	2	Weapon	cw.n	19	CW	63	Weapon	19
+0	3	Ingredients	precursors.n	20	precursors	63	Material	20	Product	19
+0	3	Commerce_buy	purchased.v	22	purchased	63	Seller	23:28	Goods	19:20
+0	2	Foreign_or_domestic_country	foreign.j	24	foreign	63	Current_country	24
+0	3	Source_of_getting	sources.n	25	sources	63	Source	25	Descriptor	24
+0	2	Individual_history	past.n	28	past	63	Events	28
+0	3	Partitive	out.i	13_14	out of	64	Subset	11	Group	15:17
+0	2	Weapon	mustard.n	30_31	mustard gas	64	Weapon	31
+0	3	Leadership	authorities.n	3	authorities	64	Leader	3	Governed	2
+0	4	Verdict	found.v	4	found	64	Judge	2:3	Time	0:1	Finding	19:35
+0	2	Political_locales	international.n	6	International	64	Locale	6
+0	3	Businesses	firm.n	11	firm	64	Business	11	Product	10
+0	3	Verdict	guilty.j	19	guilty	64	Charges	20:35	Finding	19
+0	2	Sending	shipping.v	22	shipping	64	Recipient	34:35
+0	2	Relational_quantity	almost.r	23	almost	64	Denoted_quantity	23
+0	4	Measure_mass	tons.n	25	tons	64	Stuff	26:27	Unit	25	Count	24
+0	3	Ingredients	precursor.n	32	precursor	64	Material	32	Product	31
+0	3	Partitive	out.i	13_14	out of	65	Subset	11	Group	15:17
+0	2	Weapon	mustard.n	30_31	mustard gas	65	Weapon	31
+0	3	Leadership	authorities.n	3	authorities	65	Leader	3	Governed	2
+0	4	Verdict	found.v	4	found	65	Judge	2:3	Time	0:1	Finding	19:35
+0	2	Political_locales	international.n	6	International	65	Locale	6
+0	3	Businesses	firm.n	11	firm	65	Business	11	Product	10
+0	3	Verdict	guilty.j	19	guilty	65	Charges	20:35	Finding	19
+0	2	Sending	shipping.v	22	shipping	65	Recipient	34:35
+0	2	Relational_quantity	almost.r	23	almost	65	Denoted_quantity	23
+0	4	Measure_mass	tons.n	25	tons	65	Stuff	26:27	Unit	25	Count	24
+0	3	Ingredients	precursor.n	32	precursor	65	Material	32	Product	31
+0	3	Partitive	out.i	13_14	out of	66	Subset	11	Group	15:17
+0	2	Weapon	mustard.n	30_31	mustard gas	66	Weapon	31
+0	3	Leadership	authorities.n	3	authorities	66	Leader	3	Governed	2
+0	4	Verdict	found.v	4	found	66	Judge	2:3	Time	0:1	Finding	19:35
+0	2	Political_locales	international.n	6	International	66	Locale	6
+0	3	Businesses	firm.n	11	firm	66	Business	11	Product	10
+0	3	Verdict	guilty.j	19	guilty	66	Charges	20:35	Finding	19
+0	2	Sending	shipping.v	22	shipping	66	Recipient	34:35
+0	2	Relational_quantity	almost.r	23	almost	66	Denoted_quantity	23
+0	4	Measure_mass	tons.n	25	tons	66	Stuff	26:27	Unit	25	Count	24
+0	3	Ingredients	precursor.n	32	precursor	66	Material	32	Product	31
+0	2	Weapon	nuclear.j	19_20	nuclear weapons	67	Weapon	19:20
+0	3	Purpose	plans.n	2	plans	67	Agent	0:1	Goal	3:9
+0	2	Building	building.v	4	building	67	Created_entity	5:9
+0	2	Weapon	nuclear.j	7	nuclear	67	Weapon	7
+0	3	Electricity	power.n	8	power	67	Source	7	Electricity	8
+0	2	Project	program.n	9	program	67	Agent	6
+0	3	Cause_to_start	prompted.v	11	prompted	67	Cause	0:9	Effect	12:20
+0	3	Relational_quantity	much.j	12	much	67	Denoted_quantity	12	Mass	13
+0	3	Emotion_directed	concern.n	13	concern	67	Degree	12	Topic	14:20
+0	3	Topic	regarding.v	14	regarding	67	Text	12:13	Topic	15:20
+0	3	Purpose	intention.n	16	intention	67	Agent	15	Goal	17:20
+0	3	Cause_to_make_progress	develop.v	18	develop	67	Agent	15	Project	19:20
+0	2	Calendric_unit	february.n	1	February	68	Unit	1
+0	3	Origin	iranian.j	4	Iranian	68	Origin	4	Entity	5
+0	3	Leadership	leaders.n	5	leaders	68	Leader	5	Governed	4
+0	4	Statement	announced.v	6	announced	68	Message	7:19	Speaker	4:5	Time	0:2
+0	2	Familiarity	new.j	8	new	68	Entity	9
+0	3	Purpose	plan.n	9	plan	68	Agent	4:5	Goal	10:19
+0	2	Cause_to_make_progress	develop.v	11	develop	68	Project	12:19
+0	2	Weapon	nuclear.j	13	nuclear	68	Weapon	13
+0	3	Electricity	energy.n	14	energy	68	Source	13	Electricity	14
+0	2	Project	plan.n	15	plan	68	Project	15
+0	3	Using	using.v	16	using	68	Agent	4:5	Instrument	17:19
+0	2	Foreign_or_domestic_country	domestic.j	18	domestic	68	Current_country	18
+0	2	Weapon	nuclear.j	10_11	nuclear weapons	69	Weapon	11
+0	2	Weapon	nuclear.j	29_30	nuclear weapon	69	Weapon	29
+0	3	Statement	denied.v	2	denied	69	Speaker	0	Topic	3:12
+0	2	Notification_of_charges	charges.n	4	charges	69	Charges	5:12
+0	3	Cotheme	pursuing.v	8	pursuing	69	Theme	9:12	Cotheme	6
+0	2	Project	program.n	12	program	69	Salient_entity	11
+0	3	Reasoning	argues.v	15	argues	69	Content	16:35	Arguer	0
+0	2	Weapon	nuclear.j	17	nuclear	69	Weapon	17
+0	3	Gizmo	technology.n	18	technology	69	Use	19:21	Power_source	17
+0	2	Using	use.n	21	use	69	Agent	20
+0	2	Correctness	right.n	24	right	69	Information	25:35
+0	1	Frequency	every.d	26	every	69
+0	2	Political_locales	state.n	31	state	69	Locale	31
+0	3	Aggregate	party.n	32	party	69	Aggregate	32	AggregateProperty	31
+0	3	Calendric_unit	april.n	1	April	70	Unit	1	Relative_time	2
+0	4	Commitment	vowed.v	5	vowed	70	Time	0:2	Message	6:12	Speaker	4
+0	2	Cause_change_of_position_on_a_scale	step.v	7	step	70	Agent	4
+0	1	Locative_relation	up.r	8	up	70
+0	1	Collaboration	cooperation.n	9	cooperation	70
+0	3	Statement	adding.v	14	adding	70	Message	15:30	Speaker	4
+0	1	Sole_instance	only.r	19	only	70
+0	3	Activity_pause	suspended.j	20	suspended	70	Agent	16	Activity	21
+0	1	Processing_materials	enrichment.n	21	enrichment	70
+0	2	Project	programs.n	22	programs	70	Activity	21
+0	3	Activity_stop	stopped.v	25	stopped	70	Activity	26:30	Agent	16
+0	3	Manufacturing	producing.v	26	producing	70	Manufacturer	16	Product	29:30
+0	3	Building	assembling.v	28	assembling	70	Agent	16	Created_entity	29:30
+0	2	Cognitive_connection	related.j	29	related	70	Concept_1	30
+0	3	Part_whole	parts.n	30	parts	70	Part	30	Part_Prop	29
+0	2	Weapon	biological.n	12_13_14_15	Biological and Toxin Weapons	71	Weapon	15
+0	2	Weapon	biological.j	29_30	biological weapon	71	Weapon	29
+0	2	Weapon	biological.j	48_49	biological weapon	71	Weapon	48
+0	4	Sign_agreement	acceded.v	2	acceded	71	Agreement	3:6	Time	7:8	Signatory	1
+0	3	Law	protocol.n	6	Protocol	71	Name	5	Law	6
+0	4	Ratification	ratified.v	10	ratified	71	Proposal	11:16	Ratifier	1	Time	20:21
+0	3	Be_in_agreement_on_action	convention.n	16	Convention	71	Obligation	16	Parties	14
+0	3	Leadership	government.n	25	government	71	Leader	25	Governed	24
+0	3	Certainty	believes.v	26	believes	71	Cognizer	23:25	Content	27:56
+0	3	Activity_start	began.v	28	began	71	Activity	29:31	Agent	27
+0	2	Attempt	efforts.n	31	efforts	71	Agent	27
+0	3	Temporal_subregion	early.j	34	early	71	Time_period	38	Sub_part	34
+0	3	Temporal_subregion	mid.v	36	mid	71	Time_period	38	Sub_part	36
+0	3	Activity_ongoing	continues.v	43	continues	71	Activity	44:56	Agent	42
+0	3	Cotheme	pursue.v	45	pursue	71	Theme	46:56	Cotheme	42
+0	2	Attack	offensive.j	47	offensive	71	Weapon	48
+0	2	Project	program.n	50	program	71	Salient_entity	49
+0	3	Cognitive_connection	linked.v	51	linked	71	Concept_2	52:56	Concept_1	46:50
+0	2	Artifact	biotechnology.n	55	biotechnology	71	Artifact	55
+0	2	Intentionally_act	activities.n	56	activities	71	Agent	53
+0	2	Increment	other.j	0	Other	72	Class	1
+0	2	Source_of_getting	sources.n	1	sources	72	Source	1
+0	3	Statement	suggest.v	2	suggest	72	Message	3:29	Medium	0:1
+0	3	Receiving	receiving.v	7	receiving	72	Theme	15:18	Recipient	5
+0	3	Assistance	assistance.n	8	assistance	72	Goal	15:18	Helper	9:14
+0	3	Quantity	both.d	10	both	72	Individuals	14	Quantity	10
+0	2	Weapon	missile.n	17	missile	72	Weapon	17
+0	2	Project	programs.n	18	programs	72	Salient_entity	17
+0	3	Cardinal_numbers	two.c	21	two	72	Entity	22	Number	21
+0	2	Political_locales	countries.n	22	countries	72	Locale	22
+0	3	Being_employed	working.v	24	working	72	Manner	25	Employee	20:22
+0	2	Event	take.v	10_11	take place	73	Event	6:8
+0	1	Operational_testing	test.n	1	test	73
+0	3	Event	occurred.v	2	occurred	73	Time	3:22	Event	0:1
+0	4	Calendric_unit	days.n	4	days	73	Unit	4	Count	3	Relative_time	5:22
+0	3	Discussion	meeting.n	7	meeting	73	Interlocutors	12:16	Purpose	17:22
+0	3	Origin	european.j	15	European	73	Origin	15	Entity	16
+0	3	Leadership	officials.n	16	officials	73	Leader	16	Governed	15
+0	2	Discussion	discuss.v	18	discuss	73	Topic	19:22
+0	2	Weapon	nuclear.j	21	nuclear	73	Weapon	21
+0	3	Project	program.n	22	program	73	Agent	19:20	Salient_entity	21
+0	2	Weapon	nuclear.j	43_44	nuclear weapons	74	Weapon	43:44
+0	2	Response	addition.n	1	addition	74	Trigger	2:10
+0	2	Feeling	feeling.v	3	feeling	74	Emotional_state	4:10
+0	2	Commitment	threatened.v	4	threatened	74	Message	5:10
+0	2	Change_position_on_a_scale	growing.v	8	growing	74	Item	6:7
+0	2	Weapon	nuclear.j	9	nuclear	74	Weapon	9
+0	3	Project	program.n	10	program	74	Agent	6:7	Salient_entity	9
+0	1	Attack	attacks.n	13	attacks	74
+0	2	Likelihood	may.m	14	may	74	Hypothetical_event	12:13
+0	3	Statement	explain.v	15	explain	74	Message	16:44	Speaker	12:13
+0	1	Reason	why.w	16	why	74
+0	3	Leadership	government.n	19	government	74	Leader	19	Governed	18
+0	2	Temporal_collocation	ultimately.r	20	ultimately	74	Trajector_event	17:19
+0	3	Activity_resume	resumed.v	21	resumed	74	Agent	17:19	Activity	22:44
+0	3	Attempt	efforts.n	23	efforts	74	Agent	22	Goal	24:44
+0	3	Activity_ongoing	continue.v	25	continue	74	Activity	26:30	Agent	22
+0	2	Weapon	nuclear.j	28	nuclear	74	Weapon	28
+0	3	Electricity	power.n	29	power	74	Source	28	Electricity	29
+0	2	Project	program.n	30	program	74	Agent	26:27
+0	3	Cause_change_of_strength	strengthen.v	32	strengthen	74	Agent	22	Patient	33:37
+0	2	Existence	existing.v	34	existing	74	Entity	26:30
+0	2	Weapon	nuclear.j	35	nuclear	74	Weapon	35
+0	2	Research	research.n	36	research	74	Topic	35
+0	1	Project	program.n	37	program	74
+0	2	Temporal_collocation	ultimately.r	40	ultimately	74	Trajector_event	32:37
+0	3	Cause_to_make_progress	develop.v	42	develop	74	Agent	22	Project	43:44
+0	3	Response	responding.v	0	Responding	75	Responding_entity	16:18	Trigger	1:14
+0	2	Judgment_communication	critics.n	5	critics	75	Communicator	5
+0	3	Statement	insist.v	7	insist	75	Message	8:14	Speaker	5
+0	2	Legality	illicit.n	11	illicit	75	Action	12
+0	2	Purpose	intentions.n	12	intentions	75	Agent	9:10
+0	2	Obviousness	obvious.j	14	obvious	75	Phenomenon	9:12
+0	2	Adducing	pointed.v	20	pointed	75	Specified_entity	16:18
+0	2	Process_continue	continued.j	23	continued	75	Event	24
+0	2	Ingest_substance	smoking.n	28	smoking	75	Substance	28
+0	2	Weapon	gun.n	29	gun	75	Weapon	29
+0	1	Being_necessary	fundamental.j	33	fundamental	75
+0	2	Attempt	attempts.n	36	attempts	75	Goal	37:46
+0	3	Assessing	assess.v	39	assess	75	Phenomenon	40:43	Manner	44:46
+0	4	Purpose	goals.n	43	goals	75	Agent	40:41	Goal	43	Restrictor	42
+0	2	Evidence	evidence.n	46	evidence	75	Proposition	45
+0	3	Response	responding.v	0	Responding	76	Responding_entity	16:18	Trigger	1:14
+0	2	Judgment_communication	critics.n	5	critics	76	Communicator	5
+0	3	Statement	insist.v	7	insist	76	Message	8:14	Speaker	5
+0	2	Legality	illicit.n	11	illicit	76	Action	12
+0	2	Purpose	intentions.n	12	intentions	76	Agent	9:10
+0	2	Obviousness	obvious.j	14	obvious	76	Phenomenon	9:12
+0	2	Adducing	pointed.v	20	pointed	76	Specified_entity	16:18
+0	2	Process_continue	continued.j	23	continued	76	Event	24
+0	2	Ingest_substance	smoking.n	28	smoking	76	Substance	28
+0	2	Weapon	gun.n	29	gun	76	Weapon	29
+0	1	Being_necessary	fundamental.j	33	fundamental	76
+0	2	Attempt	attempts.n	36	attempts	76	Goal	37:46
+0	3	Assessing	assess.v	39	assess	76	Phenomenon	40:43	Manner	44:46
+0	4	Purpose	goals.n	43	goals	76	Agent	40:41	Goal	43	Restrictor	42
+0	2	Evidence	evidence.n	46	evidence	76	Proposition	45
+0	3	Response	responding.v	0	Responding	77	Responding_entity	16:18	Trigger	1:14
+0	2	Judgment_communication	critics.n	5	critics	77	Communicator	5
+0	3	Statement	insist.v	7	insist	77	Message	8:14	Speaker	5
+0	2	Legality	illicit.n	11	illicit	77	Action	12
+0	2	Purpose	intentions.n	12	intentions	77	Agent	9:10
+0	2	Obviousness	obvious.j	14	obvious	77	Phenomenon	9:12
+0	2	Adducing	pointed.v	20	pointed	77	Specified_entity	16:18
+0	2	Process_continue	continued.j	23	continued	77	Event	24
+0	2	Ingest_substance	smoking.n	28	smoking	77	Substance	28
+0	2	Weapon	gun.n	29	gun	77	Weapon	29
+0	1	Being_necessary	fundamental.j	33	fundamental	77
+0	2	Attempt	attempts.n	36	attempts	77	Goal	37:46
+0	3	Assessing	assess.v	39	assess	77	Phenomenon	40:43	Manner	44:46
+0	4	Purpose	goals.n	43	goals	77	Agent	40:41	Goal	43	Restrictor	42
+0	2	Evidence	evidence.n	46	evidence	77	Proposition	45
+0	3	Employing	personnel.n	2	personnel	78	Employer	3:5	Employee	2
+0	3	Locale_by_use	university.n	5	University	78	Locale	5	Name	4
+0	5	Collaboration	cooperate.v	6	cooperate	78	Place	19:21	Undertaking	13:18	Partner_1	2:5	Partner_2	7:9
+0	3	Employing	staff.n	9	staff	78	Employer	8	Employee	9
+0	2	Intentionally_act	conduct.v	11	conduct	78	Act	12
+0	3	Research	research.n	12	research	78	Topic	13:18	Researcher	8:9
+0	2	Substance	uranium.n	18	uranium	78	Substance	18
+0	2	Locale_by_use	laboratories.n	21	laboratories	78	Locale	21
+0	1	Change_of_leadership	revolution.n	3	Revolution	79
+0	1	Concessive	however.r	5	however	79
+0	3	Quantity	many.j	7	many	79	Individuals	10	Quantity	7
+0	2	First_rank	leading.j	8	leading	79	Item	10
+0	2	Weapon	nuclear.j	9	nuclear	79	Weapon	9
+0	2	People_by_vocation	scientists.n	10	scientists	79	Person	10
+0	4	Departing	left.v	11	left	79	Theme	7:10	Time	0:3	Source	12:13
+0	2	Political_locales	country.n	13	country	79	Locale	13
+0	2	Unattributed_information	reportedly.r	22	reportedly	79	Reported_fact	20:21
+0	3	Employing	employed.v	23	employed	79	Employer	20:21	Employee	27
+0	2	Locative_relation	around.r	25	around	79	Ground	27
+0	3	Cardinal_numbers	200.c	26	200	79	Entity	27	Number	26
+0	2	People_by_vocation	scientists.n	27	scientists	79	Person	27
+0	3	Cardinal_numbers	2.c	29	2	79	Entity	32	Number	29
+0	2	Employing	personnel.n	32	personnel	79	Employee	32
+0	3	Intentionally_act	engaged.v	33	engaged	79	Act	34:36	Agent	24:32
+0	2	Weapon	nuclear.j	35	nuclear	79	Weapon	35
+0	2	Research	research.n	36	research	79	Field	35
+0	3	Organization	union.n	5	Union	80	Name	4	Organization	5
+0	4	Activity_start	began.v	8	began	80	Activity	9:23	Agent	3:7	Time	0:1
+0	4	Discussion	negotiating.v	9	negotiating	80	Interlocutors	3:7	Time	0:1	Topic	10:23
+0	2	Activity_finish	completion.n	12	completion	80	Activity	13:16
+0	3	Locale_by_use	reactors.n	16	reactors	80	Locale	16	Relative_location	15
+0	2	Supply	supply.n	19	supply	80	Theme	20:23
+0	2	Increment	additional.j	21	additional	80	Class	22
+0	2	Weapon	nuclear.j	22	nuclear	80	Weapon	22
+0	3	Locale_by_use	plants.n	23	plants	80	Use	22	Locale	23
+0	4	Time_vector	prior.r	0	Prior	81	Landmark_event	1:12	Event	19:33	Direction	0
+0	3	Calendric_unit	december.n	5	December	81	Name	5	Whole	6
+0	3	Statement	announcement.n	7	announcement	81	Message	8:12	Speaker	2:3
+0	2	Activity_stop	abandon.v	9	abandon	81	Activity	10:12
+0	2	Weapon	wmd.n	11	WMD	81	Weapon	11
+0	3	Project	programs.n	12	programs	81	Agent	10	Salient_entity	11
+0	2	Information	intelligence.n	15	intelligence	81	Information	15
+0	3	Organization	agencies.n	16	agencies	81	Organization	16	Purpose	15
+0	4	Statement	alleged.v	17	alleged	81	Message	18:47	Speaker	14:16	Time	0:12
+0	3	Attempt	attempted.v	21	attempted	81	Agent	19	Goal	22:33
+0	1	Part_orientational	south.j	24	South	81
+0	3	People_by_vocation	scientists.n	26	scientists	81	Ethnicity	24:25	Person	26
+0	2	Assistance	assist.v	28	assist	81	Goal	29:33
+0	2	Getting	acquisition.n	31	acquisition	81	Theme	32:33
+0	2	Weapon	bw.n	33	BW	81	Weapon	33
+0	3	Activity_start	started.v	39	started	81	Activity	40:47	Agent	37
+0	3	Cause_to_make_progress	develop.v	41	develop	81	Agent	37	Project	42:47
+0	2	Toxic_substance	toxins.n	44	toxins	81	Toxic_substance	44
+0	2	Weapon	weapons.n	46	weapons	81	Weapon	46
+0	1	Using	use.n	47	use	81
+0	2	Response	responded.v	2	responded	82	Agent	0:1
+0	4	Statement	announcing.v	4	announcing	82	Message	8:36	Speaker	0:1	Time	5:7
+0	3	Calendric_unit	november.n	6	November	82	Name	6	Whole	7
+0	3	Activity_pause	suspend.v	11	suspend	82	Agent	9	Activity	12:15
+0	1	Measurable_attributes	heavy.j	12	heavy	82
+0	2	Substance	oil.n	14	oil	82	Substance	14
+0	2	Sending	shipments.n	15	shipments	82	Theme	16:36
+0	2	Supply	provided.v	17	provided	82	Theme	18:36
+0	1	Terms_of_agreement	terms.n	20	terms	82
+0	3	Leadership	led.v	28	led	82	Leader	29:30	Governed	26
+0	2	Part_orientational	north.n	29	North	82	Whole	30
+0	3	Activity_pause	freeze.v	32	freeze	82	Agent	29:30	Activity	33:36
+0	2	Substance	plutonium.n	34	plutonium	82	Substance	34
+0	2	Manufacturing	production.n	35	production	82	Product	34
+0	3	Locale_by_use	facilities.n	36	facilities	82	Use	35	Locale	36
+0	2	Relational_quantity	at.i	23_24	at least	83	Denoted_quantity	23
+0	2	Calendric_unit	september.n	1	September	83	Unit	1
+0	3	Make_agreement_on_action	agreed.v	5	agreed	83	Obligation	6:12	Party_1	4
+0	3	Activity_pause	moratorium.n	8	moratorium	83	Agent	4	Activity	9:12
+0	2	Weapon	missile.n	10	missile	83	Weapon	10
+0	2	Architectural_part	flight.n	11	flight	83	Part	11
+0	3	Operational_testing	tests.n	12	tests	83	Time	0:2	Product	11
+0	2	Time_vector	later.r	14	later	83	Event	4
+0	5	Statement	announced.v	15	announced	83	Message	16:25	Manner	14	Speaker	4	Time	0:2
+0	3	Activity_ongoing	maintain.v	19	maintain	83	Activity	20:21	Agent	17
+0	3	Activity_pause	moratorium.n	21	moratorium	83	Agent	17	Time	22:25
+0	2	Calendric_unit	april.n	1	April	84	Unit	1
+0	3	Origin	egyptian.j	4	Egyptian	84	Origin	4	Entity	6
+0	1	Custom	customs.n	5	customs	84
+0	4	Leadership	officials.n	6	officials	84	Leader	6	Domain	5	Governed	4
+0	4	Intercepting	intercepted.v	7	intercepted	84	Theme	8:9	Time	0:2	Interceptor	4:6
+0	4	Measure_mass	tons.n	9	tons	84	Stuff	10:46	Unit	9	Count	8
+0	2	Substance	aluminum.n	11	aluminum	84	Substance	11
+0	1	Likelihood	likely.r	17	likely	84
+0	2	Using	used.v	20	used	84	Instrument	15
+0	3	System	cascade.n	24	cascade	84	Salient_entity	23	Complex	24
+0	2	Substance	gas.n	28	gas	84	Substance	28
+0	2	Gizmo	centrifuges.n	29	centrifuges	84	Use	28
+0	3	Evidence	indicates.v	32	indicates	84	Proposition	33:46	Support	31
+0	2	Part_orientational	north.n	33	North	84	Whole	34
+0	2	Likelihood	probably.r	36	probably	84	Hypothetical_event	33:34
+0	3	Activity_ready_state	ready.j	39	ready	84	Activity	40:46	Protagonist	33:34
+0	3	Activity_start	begin.v	41	begin	84	Activity	42:46	Agent	33:34
+0	1	Using	operation.n	42	operation	84
+0	3	Locale_by_use	plant.n	46	plant	84	Locale	46	Descriptor	45
+0	2	Documents	treaty.n	1	treaty	85	Document	1
+0	2	Have_as_requirement	requires.v	2	requires	85	Dependent	0:1
+0	1	Waiting	waiting.v	5	waiting	85
+0	2	Frequency	period.n	6	period	85	Interval	5
+0	3	Statement	claimed.v	10	claimed	85	Message	11:41	Speaker	9
+0	1	Withdraw_from_participation	withdrawal.n	12	withdrawal	85
+0	2	Usefulness	effective.j	14	effective	85	Entity	11:12
+0	2	Calendric_unit	days.n	18	days	85	Count	17
+0	3	Event	transpired.v	20	transpired	85	Time	21:41	Event	17:19
+0	2	Temporal_collocation	when.w	23	when	85	Trajector_event	24:41
+0	2	Part_orientational	north.n	24	North	85	Whole	25
+0	4	Statement	announced.v	27	announced	85	Message	28:41	Speaker	24:25	Time	26
+0	3	Purpose	intention.n	29	intention	85	Agent	28	Goal	30:31
+0	2	Withdraw_from_participation	withdraw.v	31	withdraw	85	Participant	28
+0	3	Activity_pause	suspending.v	34	suspending	85	Agent	24:25	Activity	35:41
+0	3	Purpose	intention.n	36	intention	85	Agent	35	Goal	37:41
+0	3	Withdraw_from_participation	withdraw.v	38	withdraw	85	Participant	35	Organization	39:41
+0	2	Documents	treaty.n	41	treaty	85	Document	41
+0	2	Documents	treaty.n	1	treaty	86	Document	1
+0	3	Imposing_obligation	requires.v	2	requires	86	Duty	3:6	Principle	0:1
+0	3	Cardinal_numbers	90.c	3	90	86	Entity	5	Number	3
+0	2	Calendric_unit	day.n	5	day	86	Count	3
+0	3	Becoming_aware	notice.n	6	notice	86	Cognizer	0:1	Time	7:9
+0	1	Withdraw_from_participation	withdrawal.n	9	withdrawal	86
+0	2	Part_orientational	north.n	12	North	86	Whole	13
+0	3	Statement	claims.v	14	claims	86	Message	15:37	Speaker	12:13
+0	3	Being_necessary	necessary.j	18	necessary	86	Required_entity	15	Reason	19:37
+0	2	Time_vector	already.r	21	already	86	Event	20
+0	4	Statement	declared.v	22	declared	86	Message	23:36	Speaker	20	Time	21
+0	3	Purpose	intention.n	24	intention	86	Agent	23	Goal	25:36
+0	2	Withdraw_from_participation	withdraw.v	26	withdraw	86	Participant	23
+0	1	Sole_instance	only.r	30	only	86
+0	3	Activity_pause	suspend.v	33	suspend	86	Agent	20	Activity	34:36
+0	3	Purpose	intention.n	35	intention	86	Agent	34	Goal	36
+0	2	Withdraw_from_participation	withdraw.v	36	withdraw	86	Participant	34
+0	3	Cardinal_numbers	six.c	0	Six	87	Entity	1	Number	0
+0	2	Ammunition	rounds.n	1	rounds	87	Ammunition	1
+0	1	Inspecting	inspections.n	3	inspections	87
+0	3	Process_start	began.v	4	began	87	Time	5:7	Event	0:3
+0	2	Calendric_unit	may.n	6	May	87	Unit	6
+0	3	Process_end	concluded.v	9	concluded	87	Time	10:12	Process	0:3
+0	2	Calendric_unit	february.n	11	February	87	Unit	11
+0	2	Political_locales	states.n	2	States	88	Locale	2
+0	4	Response	responded.v	3	responded	88	Response	7:44	Agent	0:2	Time	4:6
+0	3	Calendric_unit	december.n	5	December	88	Name	5	Whole	6
+0	3	Activity_pause	suspending.v	8	suspending	88	Agent	0:2	Activity	9:11
+0	2	Measurable_attributes	heavy.j	9	heavy	88	Entity	10
+0	2	Substance	oil.n	10	oil	88	Substance	10
+0	2	Sending	shipments.n	11	shipments	88	Theme	10
+0	2	Part_orientational	north.n	14	North	88	Whole	15
+0	2	Temporal_collocation	then.r	16	then	88	Trajector_event	14:15
+0	4	Revenge	retaliated.v	17	retaliated	88	Avenger	14:15	Punishment	18:44	Time	16
+0	3	Cause_to_end	lifting.v	19	lifting	88	Agent	14:15	Process	20:21
+0	2	Activity_pause	freeze.n	21	freeze	88	Activity	22:25
+0	2	Weapon	nuclear.j	24	nuclear	88	Weapon	24
+0	3	Locale_by_use	facilities.n	25	facilities	88	Use	24	Locale	25
+0	3	Removing	expelling.v	27	expelling	88	Agent	14:15	Theme	28:32
+0	2	Scrutiny	inspectors.n	29	inspectors	88	Cognizer	28
+0	3	Scrutiny	monitoring.v	30	monitoring	88	Cognizer	28:29	Ground	31:32
+0	1	Activity_pause	freeze.n	32	freeze	88
+0	3	Statement	announcing.v	35	announcing	88	Message	36:40	Speaker	14:15
+0	4	Withdraw_from_participation	withdrawal.n	37	withdrawal	88	Participant	36	Time	41:44	Organization	38:40
+0	3	Cardinal_numbers	10.c	42	10	88	Entity	43	Number	42
+0	2	Calendric_unit	january.n	43	January	88	Unit	43
+0	2	Withdraw_from_participation	withdrawal.n	2	withdrawal	89	Organization	1
+0	4	Relative_time	followed.v	4	followed	89	Focal_occasion	0:2	Landmark_occasion	5:39	Interval	3
+0	3	Calendric_unit	december.n	6	December	89	Name	6	Whole	7
+0	2	Statement	announcement.n	8	announcement	89	Message	9:39
+0	2	Part_orientational	north.n	10	North	89	Whole	11
+0	3	Cause_to_end	lifting.v	13	lifting	89	Agent	10:11	Process	14:15
+0	2	Activity_pause	freeze.n	15	freeze	89	Activity	16:19
+0	2	Weapon	nuclear.j	18	nuclear	89	Weapon	18
+0	3	Project	program.n	19	program	89	Agent	17	Salient_entity	18
+0	2	Response	response.n	22	response	89	Trigger	23:39
+0	3	Deciding	decision.n	26	decision	89	Cognizer	25	Decision	27:39
+0	3	Activity_pause	suspend.v	28	suspend	89	Agent	25	Activity	29:31
+0	2	Measurable_attributes	heavy.j	29	heavy	89	Entity	31
+0	2	Substance	oil.n	31	oil	89	Substance	31
+0	2	Sending	shipments.n	35	shipments	89	Theme	29:31
+0	2	Existence	there.e	0_1	There are	90	Entity	24:30
+0	2	Military	air.n	18_19	Air Force	90	Force	19
+0	2	Purpose	plans.v	3	plans	90	Goal	4:11
+0	2	Activity_start	start.v	5	start	90	Activity	6:11
+0	2	Manufacturing	production.n	6	production	90	Product	7:11
+0	1	Similarity	variant.n	11	variant	90
+0	3	Being_named	designated.v	13	designated	90	Entity	8:11	Name	14
+0	2	Unattributed_information	reportedly.r	20	reportedly	90	Reported_fact	17:19
+0	3	Activity_start	began.v	21	began	90	Activity	22:30	Agent	17:19
+0	3	Receiving	receive.v	23	receive	90	Theme	24:30	Recipient	17:19
+0	2	Familiarity	new.j	25	new	90	Entity	26
+0	4	Type	type.n	26	type	90	Type_Property	25	Category	27:30	Subtype	26
+0	2	Weapon	strategic.j	28	strategic	90	Weapon	28
+0	1	Ride_vehicle	cruise.n	29	cruise	90
+0	3	Weapon	missile.n	30	missile	90	Type	29	Weapon	30
+0	2	Existence	there.e	0_1	There are	91	Entity	2
+0	2	Sign	indications.n	2	indications	91	Indicator	2
+0	1	Concessive	however.r	4	however	91
+0	2	Idiosyncrasy	certain.j	7	certain	91	Entity	8
+0	2	Employing	personnel.n	8	personnel	91	Employer	8
+0	2	Participation	involved.v	12	involved	91	Event	13:15
+0	1	Project	program.n	15	program	91
+0	3	Inclusion	including.v	17	including	91	Part	18	Total	8
+0	2	Likelihood	may.m	20	may	91	Hypothetical_event	21:37
+0	4	Supply	provided.v	22	provided	91	Theme	23:29	Supplier	8	Recipient	30:37
+0	2	Awareness	knowledge.n	24	knowledge	91	Content	23
+0	1	Gizmo	equipment.n	26	equipment	91
+0	2	Ingredients	materials.n	29	materials	91	Material	29
+0	3	Leadership	regimes.n	33	regimes	91	Leader	33	Descriptor	32
+0	2	Foreign_or_domestic_country	foreign.j	40	foreign	91	Current_country	40
+0	3	Information	intelligence.n	41	intelligence	91	Information	41	Source	40
+0	1	Employing	personnel.n	42	personnel	91
+0	2	Morality_evaluation	unscrupulous.j	45	unscrupulous	91	Evaluee	46
+0	3	Color	black.j	46	black	91	Color	46	Entity	47
+0	2	Risky_situation	dangerous.j	50	dangerous	91	Situation	51
+0	3	Weapon	weapons.n	51	weapons	91	Weapon	51	Descriptor	50
+0	2	Idiosyncrasy	certain.j	58	certain	91	Entity	59
+0	2	People_by_vocation	journalists.n	59	journalists	91	Person	59
+0	3	Capability	can.m	60	can	91	Entity	58:59	Event	61:75
+0	2	Trust	believed.v	62	believed	91	Source	58:59
+0	3	Ingredients	elements.n	65	elements	91	Material	65	Product	66:75
+0	2	Secrecy_status	shadowy.j	68	shadowy	91	Phenomenon	69
+0	2	Political_locales	international.j	69	international	91	Locale	69
+0	4	Network	network.n	70	network	91	Descriptor	69	Nodes	71:75	Network	70
+0	2	Correctness	right.n	72	right	91	Information	75
+0	2	Building_subparts	wing.n	74	wing	91	Building_part	74
+0	2	Existence	there.e	0_1	There are	92	Entity	2
+0	2	Sign	indications.n	2	indications	92	Indicator	2
+0	1	Concessive	however.r	4	however	92
+0	2	Idiosyncrasy	certain.j	7	certain	92	Entity	8
+0	2	Employing	personnel.n	8	personnel	92	Employer	8
+0	2	Participation	involved.v	12	involved	92	Event	13:15
+0	1	Project	program.n	15	program	92
+0	3	Inclusion	including.v	17	including	92	Part	18	Total	8
+0	2	Likelihood	may.m	20	may	92	Hypothetical_event	21:37
+0	4	Supply	provided.v	22	provided	92	Theme	23:29	Supplier	8	Recipient	30:37
+0	2	Awareness	knowledge.n	24	knowledge	92	Content	23
+0	1	Gizmo	equipment.n	26	equipment	92
+0	2	Ingredients	materials.n	29	materials	92	Material	29
+0	3	Leadership	regimes.n	33	regimes	92	Leader	33	Descriptor	32
+0	2	Foreign_or_domestic_country	foreign.j	40	foreign	92	Current_country	40
+0	3	Information	intelligence.n	41	intelligence	92	Information	41	Source	40
+0	1	Employing	personnel.n	42	personnel	92
+0	2	Morality_evaluation	unscrupulous.j	45	unscrupulous	92	Evaluee	46
+0	3	Color	black.j	46	black	92	Color	46	Entity	47
+0	2	Risky_situation	dangerous.j	50	dangerous	92	Situation	51
+0	3	Weapon	weapons.n	51	weapons	92	Weapon	51	Descriptor	50
+0	2	Idiosyncrasy	certain.j	58	certain	92	Entity	59
+0	2	People_by_vocation	journalists.n	59	journalists	92	Person	59
+0	3	Capability	can.m	60	can	92	Entity	58:59	Event	61:75
+0	2	Trust	believed.v	62	believed	92	Source	58:59
+0	3	Ingredients	elements.n	65	elements	92	Material	65	Product	66:75
+0	2	Secrecy_status	shadowy.j	68	shadowy	92	Phenomenon	69
+0	2	Political_locales	international.j	69	international	92	Locale	69
+0	4	Network	network.n	70	network	92	Descriptor	69	Nodes	71:75	Network	70
+0	2	Correctness	right.n	72	right	92	Information	75
+0	2	Building_subparts	wing.n	74	wing	92	Building_part	74
+0	2	Activity_finish	completion.n	1	completion	93	Activity	2:6
+0	3	Quantity	several.j	3	several	93	Individuals	6	Quantity	3
+0	2	Substance	uranium.n	4	uranium	93	Substance	4
+0	1	Project	projects.n	6	projects	93
+0	3	Activity_start	began.v	9	began	93	Activity	10:19	Agent	8
+0	3	Removing	extract.v	12	extract	93	Source	14:19	Theme	13
+0	2	Substance	uranium.n	13	uranium	93	Substance	13
+0	4	Store	reserves.n	19	reserves	93	Resource	18	Supply	19	Possessor	15
+0	4	Giving	gives.v	2	gives	94	Theme	8	Recipient	3	Donor	0:1
+0	2	Capability	capability.n	5	capability	94	Entity	0:1
+0	2	Manufacturing	produce.v	7	produce	94	Product	10:11
+0	2	Weapon	nuclear.j	10	nuclear	94	Weapon	10
+0	1	Scrutiny	analysis.n	11	analysis	94
+0	1	Manufacturing	industrial.j	15	industrial	94
+0	2	Using	applications.n	16	applications	94	Purpose	20:22
+0	1	Education_teaching	training.n	21	training	94
+0	1	Purpose	purposes.n	22	purposes	94
+0	2	Suitability	unsuitable.j	26	unsuitable	94	Purpose	27:29
+0	2	Weapon	weapons.n	28	weapons	94	Weapon	28
+0	2	Manufacturing	production.n	29	production	94	Product	28
+0	2	Cardinal_numbers	four.c	1	Four	95	Number	1
+0	2	Evidence	proving.v	3	Proving	95	Proposition	5
+0	1	Ground_up	ground.n	4	Ground	95
+0	2	Employing	employees.n	5	employees	95	Employee	5
+0	4	Bringing	taken.v	7	taken	95	Time	12	Goal	8:11	Theme	0:5
+0	2	Political_locales	local.j	10	local	95	Locale	11
+0	2	Buildings	hospital.n	11	hospital	95	Building	11
+0	2	Calendric_unit	yesterday.n	12	yesterday	95	Unit	12
+0	2	Statement	report.n	15	report	95	Message	16:45
+0	2	Substance	chemical.n	18	chemical	95	Substance	18
+0	2	Ordinal_numbers	third.j	22	third	95	Type	23
+0	2	Catastrophe	incident.n	23	incident	95	Undesirable_Event	23
+0	1	Topic	about.r	25	about	95
+0	2	Calendric_unit	week.n	27	week	95	Unit	27
+0	2	Employing	workers.n	30	workers	95	Employee	30
+0	3	Run_risk	risk.n	33	risk	95	Bad_outcome	34:38	Protagonist	30
+0	2	Killing	lethal.j	37	lethal	95	Instrument	38
+0	2	Military	army.n	41	Army	95	Force	41
+0	4	Locale_by_use	base.n	42	base	95	Locale	42	Container_possessor	41	Relative_location	43:45
+0	3	Political_locales	county.n	45	County	95	Locale	45	Name	44
+0	1	Transfer	transfer.n	1	transfer	96
+0	3	Part_whole	part.n	3	part	96	Whole	4:60	Part	0:1
+0	2	Political_locales	global.j	6	Global	96	Locale	6
+0	1	Risky_situation	threat.n	7	Threat	96
+0	2	Cause_change_of_position_on_a_scale	reduction.n	8	Reduction	96	Item	7
+0	1	Proliferating_in_number	nonproliferation.n	15	nonproliferation	96
+0	2	Attempt	effort.n	16	effort	96	Goal	15
+0	3	Getting	secures.n	18	secures	96	Theme	20:22	Place	26:28
+0	2	Weapon	nuclear.j	20	nuclear	96	Weapon	20
+0	2	Substance	materials.n	23	materials	96	Substance	23
+0	2	Gizmo	equipment.n	25	equipment	96	Gizmo	25
+0	2	Political_locales	world.n	28	world	96	Locale	28
+0	2	Causation	resulted.v	30	resulted	96	Effect	35:44
+0	3	Attempt	effort.n	34	effort	96	Agent	35:44	Manner	33
+0	2	Political_locales	states.n	38	States	96	Locale	38
+0	2	Political_locales	international.n	52	International	96	Locale	52
+0	2	Electricity	energy.n	54	Energy	96	Electricity	54
+0	2	Organization	agency.n	55	Agency	96	Organization	55
+0	2	Connectors	link.n	68	Link	96	Connector	68
+0	2	Weapon	chemical.j	5_6	chemical weapons	97	Weapon	5
+0	3	Attributed_information	according.v	22_23	according to	97	Text	24:29	Proposition	3:20
+0	3	Causation	makes.v	1	makes	97	Effect	11:20	Cause	0
+0	2	Being_employed	working.v	2	working	97	Place_of_employment	3:20
+0	1	Destroying	destruction.n	7	destruction	97
+0	2	Locale_by_use	facility.n	8	facility	97	Locale	8
+0	2	Cardinal_numbers	one.c	11	one	97	Number	11
+0	3	Risky_situation	safest.j	14	safest	97	Degree	14	Situation	15
+0	4	Locale	places.n	15	places	97	Locale	15	Related_event	19:20	Descriptor	14
+0	2	Political_locales	nation.n	18	nation	97	Locale	18
+0	1	Being_employed	work.n	20	work	97
+0	2	Political_locales	national.n	27	National	97	Locale	27
+0	2	Being_at_risk	safety.n	28	Safety	97	Asset	27
+0	3	Military	army.n	33	Army	97	Force	33	Possessor	32
+0	2	Weapon	chemical.n	34	Chemical	97	Weapon	34
+0	2	Substance	materials.n	35	Materials	97	Substance	35
+0	2	Organization	agency.n	36	Agency	97	Organization	36
+0	2	Aggregate	group.n	41	Group	97	Aggregate	41
+0	2	Political_locales	international.n	42	International	97	Locale	42
+0	2	Connectors	link.n	45	Link	97	Connector	45
+0	2	Substance	chemical.n	8	Chemical	98	Substance	8
+0	3	Active_substance	agent.n	9	Agent	98	Type	8	Substance	9
+0	3	Locale_by_use	facility.n	11	Facility	98	Use	10	Locale	11
+0	3	Possession	have.v	12	have	98	Possession	13:31	Owner	0:11
+0	2	Increment	more.j	13	more	98	Class	14:16
+0	3	Cardinal_numbers	million.c	16	million	98	Number	16	Multiplier	15
+0	2	Risky_situation	safe.j	17	safe	98	Situation	18
+0	2	Being_employed	work.n	18	work	98	Task	18
+0	3	Calendric_unit	hours.n	19	hours	98	Unit	19	Count	18
+0	3	Cardinal_numbers	2.c	21	2	98	Entity	23:26	Number	21
+0	2	Risky_situation	safe.j	24	safe	98	Situation	25
+0	2	Being_employed	work.n	25	work	98	Task	25
+0	3	Calendric_unit	days.n	26	days	98	Unit	26	Count	25
+0	3	Frequency	rate.n	31	rate	98	Event	30	Rate	34:39
+0	2	Cardinal_numbers	200.c	35	200	98	Number	35
+0	3	Measure_duration	hours.n	38	hours	98	Unit	38	Count	37
+0	2	Working_on	worked.v	39	worked	98	Agent	37:38
+0	3	Temporal_subregion	end.n	43	end	98	Time_period	44:45	Sub_part	43
+0	2	Calendric_unit	may.n	45	May	98	Unit	45
+0	3	Quantity	hundreds.n	0	Hundreds	99	Individuals	1:2	Quantity	0
+0	2	Employing	workers.n	2	workers	99	Employee	2
+0	4	Being_employed	working.v	5	working	99	Manner	6	Employee	0:2	Task	8:20
+0	1	Experiencer_focus	feverishly.r	6	feverishly	99
+0	3	Placing	place.v	9	place	99	Agent	0:2	Goal	13:20
+0	1	Connectors	wiring.v	12	wiring	99
+0	2	Locative_relation	underground.j	16	underground	99	Figure	14:15
+0	1	Processing_materials	enrichment.n	17	enrichment	99
+0	5	Locale_by_use	facility.n	18	facility	99	Use	17	Locale	18	Container_possessor	14:15	Relative_location	19:20
+0	3	Statement	said.v	22	said	99	Message	0:20	Speaker	23:28
+0	2	Leadership	diplomat.n	24	diplomat	99	Leader	24
+0	3	Appointing	accredited.v	25	accredited	99	Official	23:24	Body	26:28
+0	2	Organization	agency.n	28	agency	99	Organization	28
+0	3	Locative_relation	next.j	25_26	next to	100	Ground	27:28	Figure	22
+0	2	Buildings	church.n	9	church	100	Building	9
+0	2	Appearance	feels.v	11	feels	100	Phenomenon	12:28
+0	2	Judgment	fault.n	13	fault	100	Evaluee	15:28
+0	3	Connecting_architecture	stairs.n	17	stairs	100	Source	18:21	Part	17
+0	2	Noise_makers	bell.n	20	bell	100	Noise_maker	20
+0	3	Buildings	tower.n	21	tower	100	Function	20	Building	21
+0	3	Being_located	located.v	24	located	100	Place	25:28	Theme	22
+0	2	Building_subparts	altar.n	28	altar	100	Building_part	28
+0	1	Sounds	crunch.n	2	crunch	101
+0	1	Sounds	crunch.n	4	crunch	101
+0	1	Sounds	crunch.n	6	crunch	101
+0	1	Sounds	bang.n	8	bang	101
+0	1	Sounds	bang.n	10	bang	101
+0	1	Sounds	bang.n	12	bang	101
+0	2	Locative_relation	here.r	14	here	101	Ground	14
+0	5	Arriving	come.v	15	come	101	Theme	16:17	Depictive	21:31	Source	18:19	Goal	14
+0	2	Cause_to_make_noise	ringers.n	17	ringers	101	Agent	17
+0	3	Intentionally_create	making.v	21	making	101	Created_entity	22:25	Creator	16:17
+0	2	Degree	very.r	23	very	101	Gradable_attribute	24
+0	3	Obviousness	obvious.j	24	obvious	101	Phenomenon	25	Degree	23
+0	4	Departing	exit.n	25	exit	101	Theme	16:17	Manner	23:24	Time	26:31
+0	2	Rite	prayer.n	31	prayer	101	Member	27:28
+0	2	Statement	says.v	35	says	101	Speaker	34
+0	2	People_along_political_spectrum	far.r	0	Far	102	Individual	1
+0	2	Building_subparts	belfry.n	4	belfry	102	Building_part	4
+0	2	Size	huge.j	7	huge	102	Entity	9
+0	2	Accoutrements	bronze.n	8	bronze	102	Accoutrement	8
+0	3	Noise_makers	bells.n	9	bells	102	Noise_maker	9	Material	8
+0	1	Attaching	mounted.v	11	mounted	102
+0	2	Artifact	wheels.n	13	wheels	102	Artifact	13
+0	5	Moving_in_place	swing.v	15	swing	102	Angle	17:21	Theme	6:14	Manner	16	Place	0:4
+0	2	Completeness	full.j	19	full	102	Whole	20
+0	3	Quantity	degrees.n	21	degrees	102	Q_Prop	20	Quantity	21
+0	2	Process_start	starting.v	23	starting	102	Depictive	29:35
+0	3	Process_end	ending.v	25	ending	102	Depictive	29:35	Process	9
+0	1	Body_decoration	mouth-up.j	34	mouth-up	102
+0	2	Posture	position.n	35	position	102	Depictive	34
+0	3	Existence	there.e	5_6	there was	103	Entity	7:12	Time	13:16
+0	3	Appearance	looked.v	1	looked	103	Characterization	2	Phenomenon	0
+0	2	Experiencer_focus	calm.n	2	calm	103	Experiencer	0
+0	1	Position_on_a_scale	low.j	9	low	103
+0	2	Rank	level.n	10	level	103	Rank	9
+0	2	Process_continue	continued.v	16	continued	103	Event	14:15
+0	2	Temporal_collocation	when.w	0	When	104	Landmark_event	1:5
+0	3	Coming_to_believe	realized.v	2	realized	104	Cognizer	1	Content	3:5
+0	3	Motion	went.v	8	went	104	Theme	7	Goal	12:16
+0	3	Posture	stood.v	10	stood	104	Agent	7	Location	12:16
+0	2	Front_for	front.n	13	front	104	Front	14:16
+0	2	Buildings	house.n	16	house	104	Building	16
+0	3	Waiting	waiting.v	18	waiting	104	Protagonist	7	Expected_event	21:25
+0	4	Rite	praying.v	20	praying	104	Time	0:5	Desired_state	21:25	Member	7
+0	3	Arriving	come.v	24	come	104	Theme	22	Goal	25
+0	2	Buildings	home.n	25	home	104	Building	25
+0	4	Body_movement	shivering.v	27	shivering	104	Duration	35:38	Agent	7	Manner	28:34
+0	2	Cardinal_numbers	20.c	32	20	104	Number	32
+0	2	Cardinal_numbers	zero.c	34	zero	104	Number	34
+0	3	Arriving	got.v	37	got	104	Theme	36	Goal	38
+0	3	Locative_relation	there.r	38	there	104	Ground	38	Figure	36:37
+0	2	Existence	there.e	2_3	there are	105	Entity	4:8
+0	2	Success_or_failure	unsuccessful.j	7	unsuccessful	105	Agent	8
+0	3	Locale_by_use	schools.n	8	schools	105	Locale	8	Descriptor	7
+0	3	Awareness	know.v	12	know	105	Cognizer	11	Content	13:19
+0	2	Attempt	efforts.n	14	efforts	105	Goal	15:17
+0	1	Education_teaching	educational.j	16	educational	105
+0	2	Reforming_a_system	reform.n	17	reform	105	Entity	16
+0	2	Time_vector	beforehand.r	20	beforehand	105	Event	13:19
+0	3	Existence	there.e	0_1	There is	106	Place	6:43	Entity	2:5
+0	2	Text	mystery.n	3	mystery	106	Text	3
+0	1	Education_teaching	educational.j	11	educational	106
+0	2	Existence	real.j	15	real	106	Entity	16
+0	2	Terms_of_agreement	terms.n	16	terms	106	Requirements	16
+0	3	Change_position_on_a_scale	increased.v	19	increased	106	Duration	21:24	Manner	20
+0	2	Relative_time	past.j	23	past	106	Focal_occasion	24
+0	2	Part_whole	quarter-of-a-century.n	24	quarter-of-a-century	106	Part	24
+0	2	Temporal_collocation	now.r	27	now	106	Trajector_event	26
+0	1	Used_up	spend.v	28	spend	106
+0	3	Increment	more.j	29	more	106	Increment	30:31	Added_set	29
+0	2	Education_teaching	pupil.n	31	pupil	106	Student	31
+0	3	Quantity	any.d	33	any	106	Individuals	35	Quantity	33
+0	2	Increment	other.j	34	other	106	Class	35
+0	2	Political_locales	country.n	35	country	106	Locale	35
+0	2	Political_locales	world.n	38	world	106	Locale	38
+0	1	Education_teaching	educational.j	40	educational	106
+0	2	Performing_arts	performance.n	41	performance	106	Performance	41
+0	2	Change_position_on_a_scale	declined.v	43	declined	106	Item	40:41
+0	3	Time_vector	finally.r	0	Finally	107	Landmark_event	2:6	Event	8
+0	2	Evidence	shown.v	3	shown	107	Proposition	4:6
+0	3	Position_on_a_scale	higher.j	11	higher	107	Item	12	Value	11
+0	3	Employing	staffs.n	16	staffs	107	Employer	14	Employee	16
+0	2	Political_locales	district.n	18	district	107	Locale	18
+0	2	Building_subparts	offices.n	19	offices	107	Building_part	19
+0	3	Locative_relation	where.w	21	where	107	Ground	21	Figure	22:37
+0	2	Political_locales	local.j	22	local	107	Locale	22
+0	2	Being_obligated	duties.n	24	duties	107	Duty	22:24
+0	1	Increment	more.r	26	more	107
+0	2	Political_locales	national.j	28	national	107	Locale	28
+0	3	Law	policy.n	29	policy	107	Law	29	Jurisdiction	28
+0	2	Intentionally_create	making.n	30	making	107	Created_entity	29
+0	2	Intentionally_act	activities.n	31	activities	107	Act	28:31
+0	1	Kinship	relative.j	34	relative	107
+0	2	Building_subparts	offices.n	37	offices	107	Building_part	37
+0	3	Emotion_directed	concerned.v	3	concerned	108	Stimulus	4	Experiencer	0:1
+0	2	Likelihood	may.m	6	may	108	Hypothetical_event	5
+0	3	Getting	acquire.v	9	acquire	108	Theme	10:13	Recipient	5
+0	1	Processing_materials	enrichment.n	12	enrichment	108
+0	3	Locale_by_use	facility.n	13	facility	108	Use	12	Locale	13
+0	2	Likelihood	might.m	17	might	108	Hypothetical_event	16
+0	3	Getting	get.v	18	get	108	Theme	19	Recipient	16
+0	2	Part_whole	parts.n	19	parts	108	Part	19
+0	2	Political_locales	international.n	26	International	108	Locale	26
+0	1	Heralding	herald.n	27	Herald	108
+0	2	Weapon	biological.n	12_13_14_15	Biological and Toxin Weapons	109	Weapon	15
+0	2	Weapon	biological.j	29_30	biological weapon	109	Weapon	29
+0	2	Weapon	biological.j	48_49	biological weapon	109	Weapon	48
+0	4	Sign_agreement	acceded.v	2	acceded	109	Agreement	3:6	Time	7:8	Signatory	1
+0	3	Law	protocol.n	6	Protocol	109	Name	5	Law	6
+0	4	Ratification	ratified.v	10	ratified	109	Proposal	11:16	Ratifier	1	Time	20:21
+0	3	Be_in_agreement_on_action	convention.n	16	Convention	109	Obligation	16	Parties	14
+0	3	Leadership	government.n	25	government	109	Leader	25	Governed	24
+0	3	Certainty	believes.v	26	believes	109	Cognizer	23:25	Content	27:56
+0	3	Activity_start	began.v	28	began	109	Activity	29:31	Agent	27
+0	2	Attempt	efforts.n	31	efforts	109	Agent	27
+0	3	Temporal_subregion	early.j	34	early	109	Time_period	38	Sub_part	34
+0	3	Temporal_subregion	mid.v	36	mid	109	Time_period	38	Sub_part	36
+0	3	Activity_ongoing	continues.v	43	continues	109	Activity	44:56	Agent	42
+0	3	Cotheme	pursue.v	45	pursue	109	Theme	46:56	Cotheme	42
+0	2	Attack	offensive.j	47	offensive	109	Weapon	48
+0	2	Project	program.n	50	program	109	Salient_entity	49
+0	3	Cognitive_connection	linked.v	51	linked	109	Concept_2	52:56	Concept_1	46:50
+0	2	Artifact	biotechnology.n	55	biotechnology	109	Artifact	55
+0	2	Intentionally_act	activities.n	56	activities	109	Agent	53
+0	2	Weapon	nuclear.j	11_12	nuclear weapons	110	Weapon	11:12
+0	4	Intentionally_create	set.v	15_16	set up	110	Created_entity	17:24	Purpose	25:28	Creator	0
+0	3	Attempt	trying.v	2	trying	110	Agent	0	Goal	3:12
+0	4	Getting	acquire.v	4	acquire	110	Theme	5:6	Recipient	0	Purpose	7:12
+0	2	Nuclear_process	fissile.j	5	fissile	110	Element	6
+0	3	Ingredients	material.n	6	material	110	Type	5	Material	6
+0	1	Supporting	support.n	8	support	110
+0	2	Cause_to_make_progress	development.n	9	development	110	Project	10:12
+0	1	Gizmo	system.n	19	system	110
+0	2	Military	military.j	21	military	110	Force	21
+0	3	Organization	organizations.n	24	organizations	110	Organization	24	Purpose	25:28
+0	3	Supporting	support.v	26	support	110	Supported	27:28	Supporter	0
+0	2	Attempt	effort.n	28	effort	110	Agent	27
