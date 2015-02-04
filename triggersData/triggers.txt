@@ -1,0 +1,441 @@
+sent-0	addition.n	helping.v	find.v	jobs.n	reduced.v	state.n	public.j	support.n	estimated.v	4.c	million.c
+sent-1	gift.n	help.v	do.v	more.r	year.n	gift.n	used.v	support.v	work.n
+sent-2	a.d	months.n	received.v	letter.n	telling.v	success.n	people.n	got.v	jobs.n	help.n
+sent-3	work.n	do.v	together.r
+sent-4	done.v	some.d	important.j	work.n	together.r
+sent-5	need.v	support.n	continue.v	getting.v	people.n	public.j	assistance.n
+sent-6	more.j	people.n	served.v	have.v	multiple.j	finding.n	keeping.v	job.n
+sent-7	took.v	some.d	time.n	hard.j	work.n	help.n	able.j	work.v	out.r	payment.n	plan.n	office.n	find.v	housing.n	conduct.v	more.j	job.n	search.n
+sent-8	kind.n	people.n	contribution.n	run.n	children.n	homes.n
+sent-9	pleasant.n	run.n	continue.v	serve.v	children.n	families.n	need.v	support.n
+sent-10	think.v	why.w	doing.v	book.n	gives.v	one.c	ability.n	use.v	much.r	left.v	room.n	floor.n	daily.j
+sent-11	could.m	hasten.v	prediction.n	where.w	all.d	going.v
+sent-12	attempt.n	counter.v	threat.n	muslims.n	new.j	force.n	east.n	army.n	enlisted.v	men.n	islands.n
+sent-13	happen.v	remains.v	seen.v	aid.n	offered.v	turkey.n	devastating.j	earthquake.n	sign.n	two.c	traditional.j	beginning.v	diminish.v
+sent-14	airfields.n	constructed.v	number.n	islands.n	road.n	systems.n	expanded.v	improved.v
+sent-15	held.v	islands.n	northern.j	greek.n	coast.n	kept.v	control.n	main.j	sea.n	routes.n	south.r	area.n	trade.v	continued.v
+sent-16	held.v	islands.n	northern.j	greek.n	coast.n	kept.v	control.n	main.j	sea.n	routes.n	south.r	area.n	trade.v	continued.v
+sent-17	held.v	islands.n	northern.j	greek.n	coast.n	kept.v	control.n	main.j	sea.n	routes.n	south.r	area.n	trade.v	continued.v
+sent-18	held.v	islands.n	northern.j	greek.n	coast.n	kept.v	control.n	main.j	sea.n	routes.n	south.r	area.n	trade.v	continued.v
+sent-19	held.v	islands.n	northern.j	greek.n	coast.n	kept.v	control.n	main.j	sea.n	routes.n	south.r	area.n	trade.v	continued.v
+sent-20	wake.n	tremendous.j	islands.n	came.v	influence.n	had.v	base.n	region.n	greek.n	mainland.n
+sent-21	wake.n	tremendous.j	islands.n	came.v	influence.n	had.v	base.n	region.n	greek.n	mainland.n
+sent-22	had.v	many.j	leave.v	fleeing.v	greek-ruled.j	islands.n	offshore.r
+sent-23	ottoman.n	empire.n	weakening.v	however.r	peoples.n	greek.n	mainland.n	achieved.v	first.j	time.n
+sent-24	ottoman.n	empire.n	weakening.v	however.r	peoples.n	greek.n	mainland.n	achieved.v	first.j	time.n
+sent-25	ottomans.n	brought.v	new.j	influences.n	islands.n	controlled.v	forming.v	large.j	empire.n	stretched.v	eastern.j
+sent-26	broke.v	promised.v	modern.j	state.n	people.n	became.v	civil.j	strife.n	turkish.j	cities.n	considered.v	greek.n	victims.n	threats.n
+sent-27	broke.v	promised.v	modern.j	state.n	people.n	became.v	civil.j	strife.n	turkish.j	cities.n	considered.v	greek.n	victims.n	threats.n
+sent-28	eventually.r	reached.v	islands.n	founded.v	colonies.n	islands.n	northernmost.n	part.n	sea.n
+sent-29	islands.n	centuries.n	important.j	ports.n	routes.n	became.v	backwaters.n	new.j	transport.n	network.n	economies.n	several.j	islands.n	came.v	close.r
+sent-30	return.n	turks.n	put.v	down.r	every.d	insurrection.n	including.v	massacre.n	when.w	people.n	slaughtered.v
+sent-31	return.n	turks.n	put.v	down.r	every.d	insurrection.n	including.v	massacre.n	when.w	people.n	slaughtered.v
+sent-32	work.v	several.j	islands.n	greek.j	city-states.n	agreed.v	created.v	plans.n	held.v	island.n
+sent-33	temple.n	addressed.v	can.m	contain.v	much.r	house.n	built.v
+sent-34	brought.v	covenant.n	portable.j	tabernacle.n	containing.v	law.n	received.v	mount.n	spring.n	walls.n
+sent-35	end.n	roman.j	general.j	laid.v	siege.v	70.c	finally.r	attacking.v	starved.v	weakened.v	defenders.n
+sent-36	scholars.n	speculate.v	might.m	ancient.j	name.n	resembles.v	modern.j	words.n
+sent-37	temple.n	mount.n	identified.v	tradition.n	spot.n	site.n	transported.v	one.c	night.n	described.v	chapter.n
+sent-38	west.n	separated.v	rest.n	new.j	nation.n	held.v	out.r	siege.n	several.j	months.n	forces.n	secured.v	land.n	corridor.n	connecting.v	city.n	coastal.j	areas.n
+sent-39	air.n	both.d	school.n	became.v	base.n	test.n	site.n	north.n	basic.j	town.n	arrived.v	early.j	result.n	war.n	effort.n
+sent-40	air.n	both.d	school.n	became.v	base.n	test.n	site.n	north.n	basic.j	town.n	arrived.v	early.j	result.n	war.n	effort.n
+sent-41	found.v	spring.n	valley.n	dubbed.v	name.n	leaves.v	many.j	modern.j	visitors.n	wondering.v	exactly.r	where.w	lay.v
+sent-42	track.n	traveled.v	ranch.n
+sent-43	areas.n	surrounding.v	springs.n	desert.n	oases.n	sprawling.v	collections.n	grasses.n
+sent-44	areas.n	surrounding.v	springs.n	desert.n	oases.n	sprawling.v	collections.n	grasses.n
+sent-45	time.n	valley.n	much.r	same.j	state.n	exists.v	today.n	one.c	presence.n	springs.n	bubbled.v	surface.n	several.j	areas.n
+sent-46	time.n	valley.n	much.r	same.j	state.n	exists.v	today.n	one.c	presence.n	springs.n	bubbled.v	surface.n	several.j	areas.n
+sent-47	mid-.j	growing.v	sense.n	capital.n	world.n
+sent-48	went.v	work.v	become.v	one.c	lengthiest.j	tourism.n	attempted.v
+sent-49	happened.v	mark.v	end.n	successful.j	ranch.n	beginning.n	era.n	seen.v	almost.r	all.d	western.n	day.n
+sent-50	there.e	no.r	any.d	question.n	when.w	wanted.v	some.d	adult.n	place.n
+sent-51	about.r	years.n	thrived.v	included.v	many.j	signs.n	early.j
+sent-52	many.j	springs.n	lay.v	areas.n	eventually.r	become.v	center.n	modern.j	metropolis.n
+sent-53	sold.v	ranch.n	railroad.n
+sent-54	history.n	valley.n	stretches.v	when.w	much.j	area.n	covered.v	prehistoric.j	lake.n
+sent-55	history.n	valley.n	stretches.v	when.w	much.j	area.n	covered.v	prehistoric.j	lake.n
+sent-56	standing.v	depot.n	streets.n	railroad.n	officials.n	auctioned.v	1200.c	forty.j	square.j	blocks.n	desert.n	scrub.n
+sent-57	standing.v	depot.n	streets.n	railroad.n	officials.n	auctioned.v	1200.c	forty.j	square.j	blocks.n	desert.n	scrub.n
+sent-58	standing.v	depot.n	streets.n	railroad.n	officials.n	auctioned.v	1200.c	forty.j	square.j	blocks.n	desert.n	scrub.n
+sent-59	loud.n	english.n	waving.v	hands.n	reflect.v	social.j	relations.n	conducted.v	here.r
+sent-60	surrounded.v	areas.n	formations.n	scrub.n	grassland.n	cliffs.n	fine.j	sand.n	beaches.n
+sent-61	surrounded.v	areas.n	formations.n	scrub.n	grassland.n	cliffs.n	fine.j	sand.n	beaches.n
+sent-62	surrounded.v	areas.n	formations.n	scrub.n	grassland.n	cliffs.n	fine.j	sand.n	beaches.n
+sent-63	surrounded.v	areas.n	formations.n	scrub.n	grassland.n	cliffs.n	fine.j	sand.n	beaches.n
+sent-64	a.d	warm.j	sunshine.n	beautiful.j	beaches.n	fine.j	hotels.n	guaranteed.v	provide.v	rest.n	relaxation.n
+sent-65	sociable.j	people.n	living.v	out.r	open.j	knowing.v	neighbor.n	business.n
+sent-66	third.j	largest.j	island.n	south.r	miles.n	length.n	miles.n	widest.j	point.n
+sent-67	once.r	begin.v	look.v	underneath.n	initial.j	do.v	peeling.v
+sent-68	there.e	young.j	graduates.n	leaving.v	now.r	multinational.j	corporations.n	european.j	union.n	investment.n	mean.v	plenty.j	opportunities.n	home.n
+sent-69	old.j	too.r	city.n	wit.n	charm.n	peculiar.j	magic.n	possessed.v	irish.n
+sent-70	there.e	all.d	constantly.r	crowded.v	busy.j	street.n	visible.j	center.n	shopping.n	shops.n	carry.v	international.j	array.n	goods.n	irish.j	crafts.n	expect.v
+sent-71	there.e	all.d	constantly.r	crowded.v	busy.j	street.n	visible.j	center.n	shopping.n	shops.n	carry.v	international.j	array.n	goods.n	irish.j	crafts.n	expect.v
+sent-72	there.e	all.d	constantly.r	crowded.v	busy.j	street.n	visible.j	center.n	shopping.n	shops.n	carry.v	international.j	array.n	goods.n	irish.j	crafts.n	expect.v
+sent-73	there.e	all.d	constantly.r	crowded.v	busy.j	street.n	visible.j	center.n	shopping.n	shops.n	carry.v	international.j	array.n	goods.n	irish.j	crafts.n	expect.v
+sent-74	river.n	forms.v	line.n	north.n	south.j	sections.n	city.n
+sent-75	river.n	forms.v	line.n	north.n	south.j	sections.n	city.n
+sent-76	river.n	forms.v	line.n	north.n	south.j	sections.n	city.n
+sent-77	river.n	forms.v	line.n	north.n	south.j	sections.n	city.n
+sent-78	post.n	busy.j	modern.j	european.j	city.n	sits.v	thousand.c	years.n	history.n	history.n	present.j	everywhere.r	elegant.j	square.n	bullet.n	general.n
+sent-79	proverbial.j	hospitality.n	warm.j	still.r	here.r
+sent-80	occasional.j	cry.n	unexpected.j	distant.j	remind.v	sea.n	mountains.n	hold.v	closely.r	coast.n	visible.j	everywhere.r
+sent-81	occasional.j	cry.n	unexpected.j	distant.j	remind.v	sea.n	mountains.n	hold.v	closely.r	coast.n	visible.j	everywhere.r
+sent-82	street.n	city.n	grand.j	boulevard.n	leads.v	north.r	square.n
+sent-83	street.n	city.n	grand.j	boulevard.n	leads.v	north.r	square.n
+sent-84	beautiful.j	mountains.n	mountains.n	national.n	park.n	provide.v	more.j	rugged.j	countryside.n	area.n	breathtaking.v	houses.n	gardens.n	mount.n
+sent-85	beautiful.j	mountains.n	mountains.n	national.n	park.n	provide.v	more.j	rugged.j	countryside.n	area.n	breathtaking.v	houses.n	gardens.n	mount.n
+sent-86	beautiful.j	mountains.n	mountains.n	national.n	park.n	provide.v	more.j	rugged.j	countryside.n	area.n	breathtaking.v	houses.n	gardens.n	mount.n
+sent-87	beautiful.j	mountains.n	mountains.n	national.n	park.n	provide.v	more.j	rugged.j	countryside.n	area.n	breathtaking.v	houses.n	gardens.n	mount.n
+sent-88	beautiful.j	mountains.n	mountains.n	national.n	park.n	provide.v	more.j	rugged.j	countryside.n	area.n	breathtaking.v	houses.n	gardens.n	mount.n
+sent-89	beautiful.j	mountains.n	mountains.n	national.n	park.n	provide.v	more.j	rugged.j	countryside.n	area.n	breathtaking.v	houses.n	gardens.n	mount.n
+sent-90	beautiful.j	mountains.n	mountains.n	national.n	park.n	provide.v	more.j	rugged.j	countryside.n	area.n	breathtaking.v	houses.n	gardens.n	mount.n
+sent-91	all.d	universities.n	attract.v	students.n	world.n	influx.n	helps.v	make.v	busy.j	buzzing.v	international.j	city.n
+sent-92	all.d	universities.n	attract.v	students.n	world.n	influx.n	helps.v	make.v	busy.j	buzzing.v	international.j	city.n
+sent-93	coast.n	strands.n	places.n	go.v
+sent-94	coast.n	strands.n	places.n	go.v
+sent-95	college.n	green.n	home.n	college.n	provides.v	focus.n	south.r	street.n	bridge.n
+sent-96	college.n	green.n	home.n	college.n	provides.v	focus.n	south.r	street.n	bridge.n
+sent-97	college.n	green.n	home.n	college.n	provides.v	focus.n	south.r	street.n	bridge.n
+sent-98	college.n	green.n	home.n	college.n	provides.v	focus.n	south.r	street.n	bridge.n
+sent-99	there.e	many.j	guided.j	bus.n	tours.n	sights.n	city.n	some.d	accessible.j	city.n	bus.n
+sent-100	today.n	president.n	defenders.n	claim.v	admitted.v	60.c	minutes.n	fully.r	informed.v	did.v
+sent-101	suggests.v	60.c	minutes.n	admitted.v
+sent-102	university.n	campus.n	spread.v	road.n
+sent-103	university.n	campus.n	spread.v	road.n
+sent-104	hotel.n	runs.v	busy.j	road.n	shopping.n	street.n	lined.v	shops.n	hotels.n	restaurants.n
+sent-105	hotel.n	runs.v	busy.j	road.n	shopping.n	street.n	lined.v	shops.n	hotels.n	restaurants.n
+sent-106	hotel.n	runs.v	busy.j	road.n	shopping.n	street.n	lined.v	shops.n	hotels.n	restaurants.n
+sent-107	interesting.j	glimpse.n	small.j	family.n	owned.v	shops.n	walk.v	strand.n	east.n	west.n	man.n	lane.n	street.n
+sent-108	interesting.j	glimpse.n	small.j	family.n	owned.v	shops.n	walk.v	strand.n	east.n	west.n	man.n	lane.n	street.n
+sent-109	western.n	district.n	one.c	oldest.j	narrow.j	streets.n	hold.v	collection.n	fascinating.j	traditional.j	shops.n
+sent-110	top.n	driveway.n	structure.n	university.n	building.n	presides.n	institution.n	newer.j	buildings.n
+sent-111	go.n	down.r	one.c	flight.n	steps.n	row.n	known.v	street.n	more.j	shops.n
+sent-112	sight.n	children.n	frolicking.v	deck.n	women.n	preparing.v	food.n	elderly.j	watching.v	all.d
+sent-113	west.n	convention.n	center.n	another.d	modern.j	performing.v	arts.n	road.n
+sent-114	continue.v	end.n	east.n	busy.j	district.n	built.v	more.j	60.c	hectares.n	acres.n	land.n
+sent-115	a.d	continuing.v	coast.n	water.n	bay.n	offers.v	beach.n	harbors.n
+sent-116	crowded.j	peninsula.n	new.n	territories.n	mainland.n	call.n	some.d	serious.j	begin.v	harbor.n	island.n	where.w	city.n	first.j	founded.v	remains.v	center.n	government.n	business.n	commerce.n
+sent-117	up.r	tower.n	winding.v	path.n	leads.v	park.n
+sent-118	up.r	climb.n	take.v	mount.n	road.n	peak.n	gardens.n
+sent-119	there.e	restaurants.n	basement.n	can.m	raised.v	crosswalk.n	escalators.n	ground.n	floor.n
+sent-120	there.e	restaurants.n	basement.n	can.m	raised.v	crosswalk.n	escalators.n	ground.n	floor.n
+sent-121	about.r	2.c	mile.n	east.j	bay.n	second.j	only.r	place.n	shop.v
+sent-122	go.n	underground.j	statue.n	square.n	east.j	side.n	square.n	building.n	one.c	few.j	buildings.n	left.v
+sent-123	go.n	underground.j	statue.n	square.n	east.j	side.n	square.n	building.n	one.c	few.j	buildings.n	left.v
+sent-124	go.n	underground.j	statue.n	square.n	east.j	side.n	square.n	building.n	one.c	few.j	buildings.n	left.v
+sent-125	no.d	many.j	tunnels.n	systems.n	speed.n	cross.n	harbor.n	matches.v	ride.n	star.n	ferry.n	district.n	harbor.n
+sent-126	no.d	many.j	tunnels.n	systems.n	speed.n	cross.n	harbor.n	matches.v	ride.n	star.n	ferry.n	district.n	harbor.n
+sent-127	peninsula.n	east.j	coast.n	island.n	contains.v	ocean.n	park.n	open.j	daily.r	10.c	admission.n	adults.n	children.n	become.v	one.c	biggest.j
+sent-128	peninsula.n	east.j	coast.n	island.n	contains.v	ocean.n	park.n	open.j	daily.r	10.c	admission.n	adults.n	children.n	become.v	one.c	biggest.j
+sent-129	peninsula.n	east.j	coast.n	island.n	contains.v	ocean.n	park.n	open.j	daily.r	10.c	admission.n	adults.n	children.n	become.v	one.c	biggest.j
+sent-130	can.m	catch.v	one.c	historic.j	trams.n	road.n	ride.n	bay.n	see.v	box.n	page.n
+sent-131	walk.n	steps.n	reach.v	lane.n	where.w	find.v	museum.n	sciences.n	open.j	tuesday.n	saturday.n	10.c	admission.n	donation.n
+sent-132	university.n	museum.n	road.n	open.j	monday.n	saturday.n	30.c	admission.n	free.j	holds.v	significant.j	collection.n	bronzes.n	dating.v	including.v
+sent-133	university.n	museum.n	road.n	open.j	monday.n	saturday.n	30.c	admission.n	free.j	holds.v	significant.j	collection.n	bronzes.n	dating.v	including.v
+sent-134	president.n	says.v	told.v	explosive.j	material.n	could.m	only.r	come.v	two.c	countries.n
+sent-135	12-year-old.j	boy.n	reports.v	seeing.v	man.n	launch.n	boat.n	car.n	parked.v	harbor.n
+sent-136	finds.v	explosives.n	clothes.n	found.v	neighbors.n	say.v	saw.v	two.c	men.n	describe.v	living.v	there.r	several.j	weeks.n
+sent-137	world.n	trade.n	organization.n	appeals.n	thursday.n	ruled.v	states.n	can.m	continue.v	some.d	rules.n	country.n	foreign.j
+sent-138	chemical.j	many.j	components.n	new.j	agents.n	developed.v	former.j	union.n	chemicals.n	have.v	legitimate.j	civil.j	applications.n	association.n	use.n
+sent-139	continues.v	seek.v	considerable.j	production.n	technology.n	training.n	expertise.n	equipment.n	chemicals.n	entities.n	could.m	used.v	help.v	reach.v	goal.n	indigenous.j	nerve.n	agent.n	production.n	capability.n
+sent-140	same.j	time.n	does.v	have.v	very.r	sophisticated.j	biotechnology.n	infrastructure.n	includes.v	leading.v	research.n	facilities.n	trained.j	personnel.n
+sent-141	other.j	two.c	plants.n	government.n	claimed.v	various.j	times.n	complex.n	facility.n	tunnels.n	part.n	great.j	man-made.n	river.n	project.n	water.n	southern.j	coastal.j	cities.n
+sent-142	other.j	two.c	plants.n	government.n	claimed.v	various.j	times.n	complex.n	facility.n	tunnels.n	part.n	great.j	man-made.n	river.n	project.n	water.n	southern.j	coastal.j	cities.n
+sent-143	other.j	two.c	plants.n	government.n	claimed.v	various.j	times.n	complex.n	facility.n	tunnels.n	part.n	great.j	man-made.n	river.n	project.n	water.n	southern.j	coastal.j	cities.n
+sent-144	other.j	two.c	plants.n	government.n	claimed.v	various.j	times.n	complex.n	facility.n	tunnels.n	part.n	great.j	man-made.n	river.n	project.n	water.n	southern.j	coastal.j	cities.n
+sent-145	ballistic.j	countries.n	provided.v	missile-related.j	technology.n
+sent-146	continued.j	willingness.n	people.n	people.n	provide.v	both.d	missiles.n	missile-related.j	technology.n	very.r	exceed.v	intentions.n	missile.n	technology.n	control.n	regime.n
+sent-147	continued.j	willingness.n	people.n	people.n	provide.v	both.d	missiles.n	missile-related.j	technology.n	very.r	exceed.v	intentions.n	missile.n	technology.n	control.n	regime.n
+sent-148	has.v	period.n	three.c	days.n	most.j	deaths.n	occurring.v	one.c	week.n	onset.n	symptoms.n
+sent-149	biological.j	does.v	possess.v	technology.n	produce.v
+sent-150	traveled.v	other.j	crisis.n	points.n	including.v	north.n	spend.v	three.c	days.n	visiting.v	hospitals.n	other.j	facilities.n	seek.v	understanding.n	why.w	aid.n	ineffective.j	malnourishment.n	other.j	problems.n
+sent-151	said.v	pay.v	particular.j	attention.n	happens.v	food.n	medicine.n	entering.v	country.n	u.n..n	oil-for-food.n	program.n
+sent-152	hall.n	one.c	very.r	few.j	congressmen.n	visit.v	gulf.n	war.n	embark.v	sunday.n	trip.n	iraqi.n	capital.n
+sent-153	representative.n	hall.n	arrived.v	saturday.n	route.n	where.w	expected.v	look.v	plight.n	iraqis.n	nearly.r	10.c	years.n	u.n..n	trade.n	sanctions.n
+sent-154	earlier.r	year.n	some.d	70.c	congressmen.n	sent.v	letter.n	president.n	bill.n	calling.v	end.n	crisis.n	sanctions.n	lifted.v
+sent-155	claimed.v	more.j	million.c	people.n	children.n	elderly.j	died.v	curable.j	diseases.n	decade-long.j	u.n..n	sanctions.n
+sent-156	claimed.v	more.j	million.c	people.n	children.n	elderly.j	died.v	curable.j	diseases.n	decade-long.j	u.n..n	sanctions.n
+sent-157	claimed.v	million.c	people.n	children.n	elderly.j	died.v	last.j	10.c	years.n	blames.v	deaths.n	food.n	medicine.n	other.j	essential.j	supplies.n
+sent-158	claimed.v	million.c	people.n	children.n	elderly.j	died.v	last.j	10.c	years.n	blames.v	deaths.n	food.n	medicine.n	other.j	essential.j	supplies.n
+sent-159	hall.n	said.v	monday.n	regretted.v	miserable.j	visiting.v	hospital.n	district.n	iraqi.n	capital.n
+sent-160	brochure.n	enclosing.v	give.v	historic.j	significance.n	activities.n	donors.n	level.n
+sent-161	brochure.n	enclosing.v	give.v	historic.j	significance.n	activities.n	donors.n	level.n
+sent-162	extraordinary.j	collection.n	facility.n	grounds.n	understand.v	possible.j	support.n	men.n	women.n
+sent-163	carried.v	spying.v	confronting.v	infiltration.n	operations.n	spying.v	agents.n	moles.n
+sent-164	provide.v	power.n	when.w	other.j	engaged.v	gun.n	battle.n
+sent-165	take.v	shields.v	off.r	all.d	activities.n	location.n
+sent-166	choosing.v	locations.n	hours.n	main.j	cities.n	have.v	water.n
+sent-167	all.d	actions.n	methods.n	adopted.v	confront.v	dangers.n
+sent-168	parking.n	outside.j	protection.n	walls.n	human.j	protection.n	close.j	locations.n	distant.j	location.n	protection.n	protection.n	alarm.n	equipment.n	night.n	equipment.n
+sent-169	parking.n	outside.j	protection.n	walls.n	human.j	protection.n	close.j	locations.n	distant.j	location.n	protection.n	protection.n	alarm.n	equipment.n	night.n	equipment.n
+sent-170	parking.n	in.i	inside.n	should.m	designated.v	location.n	cars.n	protect.v	sabotage.n
+sent-171	confronting.v	falls.v	three.c	intelligence.n	organizations.n	states.n	jews.n	group.n	existing.v
+sent-172	all.d	actions.n	methods.n	adopted.v	confront.v	dangers.n	outside.j
+sent-173	however.r	should.m	outside.j	part.n
+sent-174	individuals.n	foreigners.n	foreigners.n	unknown.j	foreigners.n	reporters.n	people.n
+sent-175	individuals.n	foreigners.n	foreigners.n	unknown.j	foreigners.n	reporters.n	people.n
+sent-176	individuals.n	foreigners.n	foreigners.n	unknown.j	foreigners.n	reporters.n	people.n
+sent-177	individuals.n	foreigners.n	foreigners.n	unknown.j	foreigners.n	reporters.n	people.n
+sent-178	individuals.n	foreigners.n	foreigners.n	unknown.j	foreigners.n	reporters.n	people.n
+sent-179	individuals.n	foreigners.n	foreigners.n	unknown.j	foreigners.n	reporters.n	people.n
+sent-180	hope.v	enjoying.v	stay.n	there.r
+sent-181	set.v	said.v	companies.n	engaged.v	able.j	offices.n	employ.v	staff.n	own.j	equipment.n	open.j	zone.n	including.v	foreign.j	companies.n
+sent-182	trade.n	free.j	trade.n	zone.n	situated.v	north.n	close.r	free.j	industrial.j	zone.n	mountain.n	area.n	considered.v	first.j	country.n	tenth.n	world.n
+sent-183	trade.n	free.j	trade.n	zone.n	situated.v	north.n	close.r	free.j	industrial.j	zone.n	mountain.n	area.n	considered.v	first.j	country.n	tenth.n	world.n
+sent-184	trade.n	free.j	trade.n	zone.n	situated.v	north.n	close.r	free.j	industrial.j	zone.n	mountain.n	area.n	considered.v	first.j	country.n	tenth.n	world.n
+sent-185	stand.v	say.v	want.v	signal.v	ready.j	may.m	president.n	latest.j	court.n	pick.n	move.n	make.v	events.n	seem.v	opening.v	much.j	nastier.j	battle.n
+sent-186	stand.v	say.v	want.v	signal.v	ready.j	may.m	president.n	latest.j	court.n	pick.n	move.n	make.v	events.n	seem.v	opening.v	much.j	nastier.j	battle.n
+sent-187	a.d	a.d	think.v	people.n	citizens.n	people.n	public.j	health.n	community.n
+sent-188	a.d	a.d	think.v	people.n	citizens.n	people.n	public.j	health.n	community.n
+sent-189	a.d	other.j	hand.n	able.j	outline.v	do.v	talked.v	today.n	public.j	health.n	system.n	local.j	officials.n	can.m	talk.v	state.n	officials.n	can.m	talk.v	federal.j	officials.n	able.j	exactly.r	when.w	cluster.n	flu.n	happens.v	takes.v	probably.r	more.j	money.n	complete.j	public.j	health.n	systems.n
+sent-190	think.v	ready.j	join.v	process.n	however.r	only.j	price.n	price.n	must.m	fight.v	requiring.v	do.v	almost.r	fail.v
+sent-191	announced.v	repentance.n	mosque.n	twice.r	front.n	tribe.n	denouncing.v	joins.v	army.n	sorry.j	all.d	done.v	any.d	pressure.n	threats.n	brothers.n
+sent-192	there.e	people.n	raping.v	thousands.n	muslim.n	women.n	taking.v	stealing.v	muslim.n	money.n	land.n	other.j	people.n	do.v	rape.n	steal.v	take.v	thousands.n	muslims.n	more.r	important.j	land.n
+sent-193	there.e	people.n	raping.v	thousands.n	muslim.n	women.n	taking.v	stealing.v	muslim.n	money.n	land.n	other.j	people.n	do.v	rape.n	steal.v	take.v	thousands.n	muslims.n	more.r	important.j	land.n
+sent-194	there.e	people.n	raping.v	thousands.n	muslim.n	women.n	taking.v	stealing.v	muslim.n	money.n	land.n	other.j	people.n	do.v	rape.n	steal.v	take.v	thousands.n	muslims.n	more.r	important.j	land.n
+sent-195	there.e	people.n	raping.v	thousands.n	muslim.n	women.n	taking.v	stealing.v	muslim.n	money.n	land.n	other.j	people.n	do.v	rape.n	steal.v	take.v	thousands.n	muslims.n	more.r	important.j	land.n
+sent-196	there.e	people.n	raping.v	thousands.n	muslim.n	women.n	taking.v	stealing.v	muslim.n	money.n	land.n	other.j	people.n	do.v	rape.n	steal.v	take.v	thousands.n	muslims.n	more.r	important.j	land.n
+sent-197	there.e	people.n	raping.v	thousands.n	muslim.n	women.n	taking.v	stealing.v	muslim.n	money.n	land.n	other.j	people.n	do.v	rape.n	steal.v	take.v	thousands.n	muslims.n	more.r	important.j	land.n
+sent-198	there.e	people.n	raping.v	thousands.n	muslim.n	women.n	taking.v	stealing.v	muslim.n	money.n	land.n	other.j	people.n	do.v	rape.n	steal.v	take.v	thousands.n	muslims.n	more.r	important.j	land.n
+sent-199	there.e	people.n	raping.v	thousands.n	muslim.n	women.n	taking.v	stealing.v	muslim.n	money.n	land.n	other.j	people.n	do.v	rape.n	steal.v	take.v	thousands.n	muslims.n	more.r	important.j	land.n
+sent-200	there.e	people.n	raping.v	thousands.n	muslim.n	women.n	taking.v	stealing.v	muslim.n	money.n	land.n	other.j	people.n	do.v	rape.n	steal.v	take.v	thousands.n	muslims.n	more.r	important.j	land.n
+sent-201	there.e	people.n	raping.v	thousands.n	muslim.n	women.n	taking.v	stealing.v	muslim.n	money.n	land.n	other.j	people.n	do.v	rape.n	steal.v	take.v	thousands.n	muslims.n	more.r	important.j	land.n
+sent-202	living.v	general.j	head.n	sheiks.n	some.d	tribes.n	party.n	sat.v	americans.n	other.j	places.n	fight.v	terrorism.n	people.n
+sent-203	living.v	general.j	head.n	sheiks.n	some.d	tribes.n	party.n	sat.v	americans.n	other.j	places.n	fight.v	terrorism.n	people.n
+sent-204	sheik.n	sheik.n	tribe.n	governor.n	man.n	worked.v	hard.r	fighting.v	organization.n	all.d	got.v	money.n	power.n	reputation.n
+sent-205	there.e	came.v	brothers.n	killed.v	three.c	spies.n	tribe.n	first.j	time.n	no.d	reaction.n	brothers.n	asking.v	forgiveness.n	ready.j	cooperate.v
+sent-206	there.e	came.v	brothers.n	killed.v	three.c	spies.n	tribe.n	first.j	time.n	no.d	reaction.n	brothers.n	asking.v	forgiveness.n	ready.j	cooperate.v
+sent-207	bill.n	when.w	finish.v	normal.j	hour.n	ending.v	one.c
+sent-208	go.v	mean.v	there.r	many.j	major.j	major.j	murders.n	one.c	instance.n	horrifying.v	some.d	murders.n
+sent-209	at.i	does.v	system.n	prevent.v	know.v	help.v
+sent-210	have.v	right.r	whole.j	whole.j	spend.v	all.p	money.n	people.n	know.v	go.v	back.r	court.n	all.p	lawyers.n	mean.v	winds.v	up.r	costing.v	fortune.n	know.v	fortune.n	keep.v	doing.v
+sent-211	theft.n	foreign.j	industrial.j	spies.n	disgruntled.v	employees.n	costing.v	companies.n	billions.n	international.j	competitive.j
+sent-212	former.j	handling.v	drug.n	indictments.n	does.v	think.v	minute.n	much.r	trials.n	high.j	officials.n	engaged.v	drug.n	trade.n	mean.v	broken.v	off.r	drug.n	cartel.n
+sent-213	carried.v	four.c	associates.n	captured.v	executed.v	kill.v	egyptian.j	another.d	egyptian.j	group.n
+sent-214	carried.v	four.c	associates.n	captured.v	executed.v	kill.v	egyptian.j	another.d	egyptian.j	group.n
+sent-215	cold.n	war.n	example.n	states.n	union.n	supported.v	national.j	groups.n	engaged.v	wars.n
+sent-216	perpetrated.v	april.n	bombing.n	federal.j	building.n	city.n	member.n	organization.n	identified.v	government.n	community.n	belief.n
+sent-217	structure.n	terrorist.j	groups.n	greatest.j	concern.n	have.v	structure.n	control.n	mechanisms.n	prevent.v	government.n	agents.n	defection.n	group.n	members.n
+sent-218	structure.n	terrorist.j	groups.n	greatest.j	concern.n	have.v	structure.n	control.n	mechanisms.n	prevent.v	government.n	agents.n	defection.n	group.n	members.n
+sent-219	can.m	have.v	impact.n	explosives.n	suggested.v	letter.n	attacks.n	killed.v	only.r	five.c	people.n	frightened.v	millions.n	americans.n
+sent-220	can.m	have.v	impact.n	explosives.n	suggested.v	letter.n	attacks.n	killed.v	only.r	five.c	people.n	frightened.v	millions.n	americans.n
+sent-221	purposes.n	however.r	term.n	terrorism.n	used.v	describe.v	acts.n	incorporate.v	following.v	elements.n	threatened.v	directed.v	actors.n	national.j	groups.n	individuals.n	may.m	receive.v	support.n	governments.n	motivations.n	often.r	some.d	element.n	choice.n	target.n	together.r	desire.n	elicit.v	fear.n	larger.j	victims.n	attack.n
+sent-222	purposes.n	however.r	term.n	terrorism.n	used.v	describe.v	acts.n	incorporate.v	following.v	elements.n	threatened.v	directed.v	actors.n	national.j	groups.n	individuals.n	may.m	receive.v	support.n	governments.n	motivations.n	often.r	some.d	element.n	choice.n	target.n	together.r	desire.n	elicit.v	fear.n	larger.j	victims.n	attack.n
+sent-223	to.t	no.d	evidence.n	obtained.v	suggests.v	succeeded.v	producing.v	significant.j	quantities.n	chemical.n	biological.j	agents.n	developed.v	effective.j	means.n	delivery.n	intention.n	do.v	clearly.r	present.j
+sent-224	chemical.n	warfare.n	cw.n	agents.n	non-living.j	manufactured.j	chemicals.n	toxic.j	can.m	enter.v	body.n	skin.n
+sent-225	august.n	issued.v	regulations.n	control.n	list.n	restricting.v	export.n	missiles.n	missile.n	technology.n
+sent-226	august.n	issued.v	regulations.n	control.n	list.n	restricting.v	export.n	missiles.n	missile.n	technology.n
+sent-227	august.n	issued.v	regulations.n	control.n	list.n	restricting.v	export.n	missiles.n	missile.n	technology.n
+sent-228	august.n	issued.v	regulations.n	control.n	list.n	restricting.v	export.n	missiles.n	missile.n	technology.n
+sent-229	so.r	engaged.v	consultation.n	however.r	application.n	membership.n	successful.j	suspicions.n	states.n	chinese.j	missile.n	technology.n	transfers.n	remain.v
+sent-230	early.j	improved.v	export.n	controls.n	including.v	promulgation.n	regulations.n	nuclear.j	nuclear.j	dual.j	use.n	exports.n	pledged.v	halt.v	exports.n	nuclear.j	technology.n	safeguarded.v	facilities.n
+sent-231	early.j	improved.v	export.n	controls.n	including.v	promulgation.n	regulations.n	nuclear.j	nuclear.j	dual.j	use.n	exports.n	pledged.v	halt.v	exports.n	nuclear.j	technology.n	safeguarded.v	facilities.n
+sent-232	early.j	improved.v	export.n	controls.n	including.v	promulgation.n	regulations.n	nuclear.j	nuclear.j	dual.j	use.n	exports.n	pledged.v	halt.v	exports.n	nuclear.j	technology.n	safeguarded.v	facilities.n
+sent-233	joined.v	missile.n	technology.n	control.n	regime.n	pledged.v	abide.v	main.j	parameters.n
+sent-234	provided.v	technology.n	expertise.n	missile.n	programs.n	several.j	countries.n	including.v	north.n
+sent-235	nuclear.j	provided.v	nuclear.j	reactors.n	technology.n	several.j	countries.n	early.j	including.v	design.n	information.n	fissile.j	material.n	reportedly.r	helped.v	develop.v
+sent-236	ballistic.j	chemical.j	serious.j	concerns.n	remain.v	proliferation.n	technology.n	ability.n	control.v	chemical.j	items.n	could.m	used.v	production.n
+sent-237	ballistic.j	chemical.j	serious.j	concerns.n	remain.v	proliferation.n	technology.n	ability.n	control.v	chemical.j	items.n	could.m	used.v	production.n
+sent-238	ballistic.j	chemical.j	serious.j	concerns.n	remain.v	proliferation.n	technology.n	ability.n	control.v	chemical.j	items.n	could.m	used.v	production.n
+sent-239	no.r	claims.v	possesses.v	any.d	cw.n	stockpiles.n	government.n	believes.v	revealed.v	full.j	scope.n	program.n
+sent-240	given.v	strong.j	biotechnology.n	infrastructure.n	difficult.j	development.n	concealed.j	bw.n	program.n
+sent-241	sophisticated.j	research.n	facilities.n	could.m	serve.v	front.n	illicit.n	bw.n	related.j	activities.n	offer.v	legitimate.j	import.v	dual.j	use.n	material.n
+sent-242	taking.v	covert.j	activities.n	location.n	inspections.n	jeopardized.v	efforts.n
+sent-243	field.n	research.n	creating.v	produce.v	toxins.n	improving.v	biological.j	plants.n	formulating.v	new.j	improving.v	techniques.n	spraying.v	disseminating.v	investigating.v	effects.n	native.j	plant.n	various.j	diseases.n	preventing.v	production.n	crops.n	producing.v	plant.n	bank.n	manufacturing.v	industry.n
+sent-244	field.n	research.n	creating.v	produce.v	toxins.n	improving.v	biological.j	plants.n	formulating.v	new.j	improving.v	techniques.n	spraying.v	disseminating.v	investigating.v	effects.n	native.j	plant.n	various.j	diseases.n	preventing.v	production.n	crops.n	producing.v	plant.n	bank.n	manufacturing.v	industry.n
+sent-245	field.n	research.n	creating.v	produce.v	toxins.n	improving.v	biological.j	plants.n	formulating.v	new.j	improving.v	techniques.n	spraying.v	disseminating.v	investigating.v	effects.n	native.j	plant.n	various.j	diseases.n	preventing.v	production.n	crops.n	producing.v	plant.n	bank.n	manufacturing.v	industry.n
+sent-246	field.n	research.n	creating.v	produce.v	toxins.n	improving.v	biological.j	plants.n	formulating.v	new.j	improving.v	techniques.n	spraying.v	disseminating.v	investigating.v	effects.n	native.j	plant.n	various.j	diseases.n	preventing.v	production.n	crops.n	producing.v	plant.n	bank.n	manufacturing.v	industry.n
+sent-247	field.n	research.n	creating.v	produce.v	toxins.n	improving.v	biological.j	plants.n	formulating.v	new.j	improving.v	techniques.n	spraying.v	disseminating.v	investigating.v	effects.n	native.j	plant.n	various.j	diseases.n	preventing.v	production.n	crops.n	producing.v	plant.n	bank.n	manufacturing.v	industry.n
+sent-248	field.n	research.n	creating.v	produce.v	toxins.n	improving.v	biological.j	plants.n	formulating.v	new.j	improving.v	techniques.n	spraying.v	disseminating.v	investigating.v	effects.n	native.j	plant.n	various.j	diseases.n	preventing.v	production.n	crops.n	producing.v	plant.n	bank.n	manufacturing.v	industry.n
+sent-249	biological.j	middle.n	east.n	defense.n	reports.v	used.v	front.j	company.n	purchase.v	following.j	equipment.n	states.n	training.n	apple.n	shielding.v	reactor.n	technologies.n	appears.v	related.v
+sent-250	carry.v	given.v	current.j	state.n	technology.n	problems.n	associated.v	delivering.v	sophisticated.j	bw.n	agent.n	unlikely.j	currently.r	has.v	means.n	significant.j	biological.j	attack.n
+sent-251	ballistic.j	there.e	conducted.v	chemical.n	biological.j	defense.n	military.j	exercises.n	helicopter.n	worked.v	cruise.n	no.d	evidence.n	developed.v	biological.j	warhead.n	fit.v	missiles.n
+sent-252	biological.j	clearly.r	possesses.v	technology.n	useful.j	producing.v	facilities.n	section.n
+sent-253	there.e	no.d	mechanism.n	verifying.v	government.n	reports.n	allegations.n	groups.n	many.j	allegations.n	regarding.v	iranian.j	bw.n	program.n	remain.v
+sent-254	same.j	time.n	does.v	have.v	very.r	sophisticated.j	biotechnology.n	infrastructure.n	includes.v	leading.v	research.n	facilities.n	trained.j	personnel.n
+sent-255	chemical.j	deal.n	build.v	chemical.n	plant.n	used.v	produce.v	dual.j	use.n	chemical.n	could.m	used.v	produce.v
+sent-256	chemical.j	deal.n	build.v	chemical.n	plant.n	used.v	produce.v	dual.j	use.n	chemical.n	could.m	used.v	produce.v
+sent-257	chemical.n	to.t	conducted.v	several.j	military.j	exercises.n	included.v	defensive.j
+sent-258	gas.n	report.n	mentions.v	sale.n	chemical.n	industries.n	war.n	supply.n	gas.n	chemical.n	warfare.n	agents.n
+sent-259	has.v	several.j	advanced.j	research.n	institutions.n	employing.v	various.j	chemicals.n	variety.n	reasons.n	including.v	production.n	research.n	other.j	studies.n
+sent-260	agreed.v	sell.v	dual.j	use.n	chemical.n	used.v	production.n	nerve.n	agent.n
+sent-261	recent.j	years.n	principal.j	source.n	cw.n	precursors.n	production.n	technology.n
+sent-262	involved.v	several.j	other.j	sales.n	involving.v	cw.n	technology.n	result.n	several.j	chinese.j	companies.n	individuals.n	faced.v	american.j	sanctions.n
+sent-263	according.v	key.j	supplier.n	cw.n	equipment.n	technologies.n	defense.n
+sent-264	according.v	metric.j	press.n	reports.v	citing.v	top.j	secret.j	report.n	sold.v	nearly.r	400.c	chemicals.n	used.v	produce.v	nerve.n	agents.n	control.n	gas.n
+sent-265	intelligence.n	reports.v	regarding.v	expansion.n	capabilities.n	persistent.j	interest.n	acquiring.v	new.j	technologies.n	led.v	states.n	seek.v	other.j	options.n	dealing.v	regional.j	threat.n
+sent-266	nuclear.j	means.v	place.v	facility.n	any.d	enriched.v	uranium.n	produces.v	inspection.n	that.r	long.r	no.d	nuclear.j	materials.n	present.j	have.v	no.d	ability.n	examine.v	locations.n	where.w	believed.v	design.n	research.n	might.m	way.n
+sent-267	nuclear.j	nuclear.n	non-proliferation.n	treaty.n	allows.v	transfers.n	nuclear.j	technology.n	purposes.n	states.n	states.n	opposed.v	russian.j	iranian.j	deal.n
+sent-268	biological.n	biological.j	biological.j	acceded.v	protocol.n	ratified.v	convention.n	government.n	believes.v	began.v	efforts.n	early.j	mid.v	continues.v	pursue.v	offensive.j	program.n	linked.v	biotechnology.n	activities.n
+sent-269	biological.n	biological.j	biological.j	acceded.v	protocol.n	ratified.v	convention.n	government.n	believes.v	began.v	efforts.n	early.j	mid.v	continues.v	pursue.v	offensive.j	program.n	linked.v	biotechnology.n	activities.n
+sent-270	nuclear.j	fears.v	deal.n	used.v	cover.n	transfer.n	more.j	sensitive.j	nuclear.j	technology.n	provide.v	training.n	iranian.j	nuclear.j	specialists.n	could.m	used.v	support.v	program.n
+sent-271	ongoing.j	ability.n	willingness.n	development.n	missiles.n	missile.n	related.v	technology.n	other.j	countries.n
+sent-272	both.d	countries.n	secured.v	increased.v	military.j	assistance.n	agreements.n	sell.v	iranian.j	missiles.n	engage.v	missile.n	technology.n	exchanges.n
+sent-273	ballistic.j	technology.n	transfer.n	long.j	term.n	assistance.n	development.n	iranian.j	artillery.n	rockets.n
+sent-274	ballistic.j	ballistic.j	ballistic.j	believed.v	assisted.v	construction.n	plant.n	where.w	scientists.n	carry.v	research.n	using.v	russian.j	technology.n	produce.v	other.j	technologies.n
+sent-275	ballistic.j	ballistic.j	ballistic.j	believed.v	assisted.v	construction.n	plant.n	where.w	scientists.n	carry.v	research.n	using.v	russian.j	technology.n	produce.v	other.j	technologies.n
+sent-276	ballistic.j	ballistic.j	ballistic.j	believed.v	assisted.v	construction.n	plant.n	where.w	scientists.n	carry.v	research.n	using.v	russian.j	technology.n	produce.v	other.j	technologies.n
+sent-277	ballistic.j	ballistic.j	ballistic.j	believed.v	assisted.v	construction.n	plant.n	where.w	scientists.n	carry.v	research.n	using.v	russian.j	technology.n	produce.v	other.j	technologies.n
+sent-278	ballistic.j	ballistic.j	ballistic.j	believed.v	assisted.v	construction.n	plant.n	where.w	scientists.n	carry.v	research.n	using.v	russian.j	technology.n	produce.v	other.j	technologies.n
+sent-279	ballistic.j	ballistic.j	ballistic.j	believed.v	assisted.v	construction.n	plant.n	where.w	scientists.n	carry.v	research.n	using.v	russian.j	technology.n	produce.v	other.j	technologies.n
+sent-280	ballistic.j	ballistic.j	ballistic.j	believed.v	assisted.v	construction.n	plant.n	where.w	scientists.n	carry.v	research.n	using.v	russian.j	technology.n	produce.v	other.j	technologies.n
+sent-281	technology.n	transfer.n	new.j	iranian.j	missiles.n	artillery.n	rockets.n
+sent-282	assistance.n	establishment.n	factory.n	assemble.v	scud.n	missiles.n
+sent-283	ballistic.j	period.n	approached.v	people.n	seeking.v	missile.n	technology.n	scud-b.n	class.n
+sent-284	ballistic.j	period.n	approached.v	people.n	seeking.v	missile.n	technology.n	scud-b.n	class.n
+sent-285	term.n	assistance.n	establishment.n	factories.n	manufacture.v
+sent-286	beginning.v	june.n	initiated.v	scud-b.n	attacks.n
+sent-287	building.n	foundations.n	established.v	war.n	missile.n	long.j	range.n	artillery.n	rocket.n	programs.n	late.j	developed.v	two.c	broad.j	paths.n	solid.j	fueled.v	liquid.j	fueled.v	systems.n
+sent-288	primary.j	continued.v	willingness.n	people.n	people.n	provide.v	both.d	missiles.n	missile.n	related.j	technology.n	very.r	exceed.v	intentions.n	missile.n	technology.n	control.n	regime.n
+sent-289	faced.v	probability.n	sanctions.n	international.j	case.n	noncompliance.n	demands.n	announced.v	october.n	cooperate.v	full.j	disclosure.n	sign.v	additional.j	protocol.n	commence.v	ratification.n	procedures.n	suspend.v	all.d	enrichment.n	reprocessing.v	activities.n	interim.j	period.n
+sent-290	faced.v	probability.n	sanctions.n	international.j	case.n	noncompliance.n	demands.n	announced.v	october.n	cooperate.v	full.j	disclosure.n	sign.v	additional.j	protocol.n	commence.v	ratification.n	procedures.n	suspend.v	all.d	enrichment.n	reprocessing.v	activities.n	interim.j	period.n
+sent-291	in.i	third.j	approach.n	might.m	regional.j	effort.n	part.n	states.n	pressure.v	abandon.v	sensitive.j	technology.n	questionable.j	activities.n	weapons.n	free.j	zone.n	middle.n	east.n
+sent-292	did.v	shifting.v	country.n	military.j	newly.r	established.v	energy.n	organization.n
+sent-293	board.n	governors.n	october.n	resolve.v	all.d	outstanding.j	issues.n	provide.v	full.j	complete.j	declaration.n	nuclear.j	material.n	nuclear.j	activities.n	enrichment.n	program.n	past.j	conversion.n
+sent-294	carried.v	nuclear.j	takes.v	training.n	likely.j	khan.n	former.j	director.n	research.n	laboratories.n	later.r	renamed.v	khan.n	research.n	laboratories.n	where.w	research.n	enrichment.n
+sent-295	called.v	taking.v	all.d	necessary.j	steps.n	basis.n	resolve.v	all.d	outstanding.j	issues.n	including.v	related.v	low.j	enriched.v	uranium.n	production.n	plutonium.n
+sent-296	all.d	research.n	activities.n	recent.j	past.n	contribute.v	future.j	development.n	complete.j	nuclear.j	cycle.n	turn.n	weaponize.v	relying.v	outside.j	assistance.n
+sent-297	alarming.j	developments.n	revealed.v	time.n	admitted.v	having.v	construction.n	plans.n	two.c	enrichment.n	facilities.n	heavy.j	water.n	production.n	plant.n	fabrication.n	plant.n	undertaken.v	research.n	conversion.n	enrichment.n	activities.n	including.v	centrifuges.n	possibly.r
+sent-298	claim.n	substantiated.v	inspectors.n	argue.v	violated.v	country.n	nuclear.j	file.n	should.m	turn.n	referred.v	nations.n	security.n
+sent-299	president.n	however.r	declared.v	commitment.n	nonproliferation.n	bw.n	associated.j	technologies.n
+sent-300	december.n	leader.n	publicly.r	confirmed.v	commitment.n	disclose.v	dismantle.v	wmd.j	programs.n	country.n	following.v	period.n	negotiations.n	authorities.n
+sent-301	along.i	provided.v	authorities.n	revealed.v	significant.j	quantity.n	agent.n	produced.v	more.j	10.c	years.n	ago.r	facility.n	located.v	desert.n	chemical.n	munitions.n	equipment.n	needed.v	establish.v	second.j	cw.n	production.n	facility.n
+sent-302	there.e	chemical.n	allegations.n	alleged.j	cw.n	plants.n	could.m	contain.v	bw.j	research.n	facilities.n
+sent-303	nuclear.j	december.n	announcement.n	eliminating.v	all.d	materials.n	equipment.n	programs.n	proscribed.v	international.j	community.n	took.v	unusual.j	step.n	first.r	publicly.r	revealing.v	program.n	then.r	renouncing.v
+sent-304	finally.r	late.j	reported.v	north.n	able.j	produce.v	cw.n	agents.n	large.j	quantity.n	deployed.v	large.j	numbers.n	chemical.n	ordnance.n
+sent-305	sure.j	wide.j	oil.n	makes.v	large.j	manufacture.n	cw.j	agents.n	capabilities.n
+sent-306	there.e	challenges.n	posed.v	source.n	produced.v	precursors.n	cw.n	agents.n	believed.v	north.n	emphasizes.v	production.n	v.n	agents..n	previous.j	reports.n	alleged.v	large.j	stock.n	nerve.n	agent..n	estimated.v	12.c	facilities.n	where.w	raw.j	chemicals.n	precursors.n	cw.n	agents.n	produced.v	stored.v
+sent-307	chemical.j	sung.n	declaration.n	called.v	further.j	development.n	chemical.n	industry.n	support.v	production.n	basic.j	organization.n	current.j	nuclear.n	chemical.n	defense.n	established.v	time.n
+sent-308	recent.j	estimates.n	north.j	chemical.n	ordnance.n	south.n	national.n	defense.n	since.r	raised.v	thousands.n	tons.n	probably.r	recent.j	information.n	provided.v	north.j	including.v	former.j	members.n	military.j	defence.n	organizations.n
+sent-309	chemical.n	chemical.j	believed.v	maintain.v	2.c	500.c	tons.n	chemical.n	agents.n	v.n	series.n	nerve.n	agents..n	other.j	reports.n	including.v	allegations.n	causes.n	seem.v	south.n	agency.n	defense.n	development.n	estimated.v	north.n	production.n	capability.n	4.c	500.c	tons.n	could.m	increase.v	12.c	tons.n
+sent-310	chemical.n	official.j	reports.n	testimonies.n	north.j	believed.v	military.j	possesses.n	2.c	500.c	tons.n
+sent-311	testing.n	agents.n	reportedly.r	performed.v	two.c	locations.n	possibly.r	very.r	large.j	underground.j	facilities.n
+sent-312	precursor.n	nerve.n	agents.n	japanese.j	authorities.n	arrested.v	individual.j	japanese.j	citizen.n	controlled.j
+sent-313	north.n	exported.v	missiles.n	missile.n	components.n	technology.n
+sent-314	north.n	exported.v	missiles.n	missile.n	components.n	technology.n
+sent-315	north.n	reportedly.r	established.v	facility.n	produce.v	nuclear.j	complex.n	gives.v	capability.n	produce.v	stock.n	uranium.n	gas.n	feed.v	cascades.n	centrifuges.n	plant.n
+sent-316	north.n	reportedly.r	established.v	facility.n	produce.v	nuclear.j	complex.n	gives.v	capability.n	produce.v	stock.n	uranium.n	gas.n	feed.v	cascades.n	centrifuges.n	plant.n
+sent-317	reports.n	indicate.v	north.n	has.v	some.d	12.c	cw.n	facilities.n	where.w	raw.j	chemicals.n	precursors.n	actual.j	agents.n	produced.v	stored.v	six.c	major.j	storage.n	depots.n	cw.n	ordnance.n
+sent-318	weapons.n	programs.n	can.m	indigenous.j	domestic.j	production.n	capabilities.n	can.m	rely.v	foreign.j	supplies.n	technologies.n
+sent-319	countries.n	may.m	seek.v	develop.v	all.d	capabilities.n	independent.j	indigenous.j	basis.n	can.m	often.r	do.v	seek.v	some.d	foreign.j	sources.n
+sent-320	double.j	key.n	data.n	sources.n	include.v	testimony.n	may.m	given.v	possibility.n	know.v	unclassified.j	estimates.n	intelligence.n	agencies.n	may.m	have.v	certain.j	biases.n	national.j	interest.n	worst.j	case.n	expectations.n	domestic.j	most.j	estimates.n	do.v	rely.v	may.m	some.d	translation.n	issues.n
+sent-321	atomic.j	nuclear.j	dropped.v	used.v	low.j	level.n	technology.n
+sent-322	atomic.j	nuclear.j	dropped.v	used.v	low.j	level.n	technology.n
+sent-323	lack.n	reliable.j	information.n	results.v	uncertainty.n	capabilities.n	clandestine.j	programs.n
+sent-324	north.n	case.n	later.r	discovered.v	agency.n	provided.v	wrong.j	documents.n	safeguards.n	agreement.n	subsequently.r	gave.v	north.n	additional.j	months.n	complete.v	agreement.n
+sent-325	improved.v	implementation.n	meant.v	safeguards.n	inspections.n	agreement.n	did.v	require.v	submit.v	full.j	safeguards.n	inspections.n	verify.v	past.j	activities.n	significant.j	portion.n	reactor.n	construction.n	completed.v	delivery.n	critical.j	reactor.n	components.n
+sent-326	improved.v	implementation.n	meant.v	safeguards.n	inspections.n	agreement.n	did.v	require.v	submit.v	full.j	safeguards.n	inspections.n	verify.v	past.j	activities.n	significant.j	portion.n	reactor.n	construction.n	completed.v	delivery.n	critical.j	reactor.n	components.n
+sent-327	ballistic.j	nuclear.j	many.j	analysts.n	argue.v	record.n	exporting.v	indicates.v	north.n	willing.j	sell.v	nuclear.j	materials.n	technology.n	complete.j
+sent-328	ballistic.j	nuclear.j	many.j	analysts.n	argue.v	record.n	exporting.v	indicates.v	north.n	willing.j	sell.v	nuclear.j	materials.n	technology.n	complete.j
+sent-329	ballistic.j	nuclear.j	many.j	analysts.n	argue.v	record.n	exporting.v	indicates.v	north.n	willing.j	sell.v	nuclear.j	materials.n	technology.n	complete.j
+sent-330	dragged.v	talks.n	states.n	north.n	return.n	north.n	continued.v	operate.v	reactor.n
+sent-331	terms.n	agreement.n	north.n	provided.v	initial.j	declaration.n	nuclear.j	facilities.n	materials.n	provided.v	access.n	inspectors.v	verify.v	completeness.n	correctness.n	initial.j	declaration.n
+sent-332	ballistic.j	summer.n	intelligence.n	reportedly.r	discovered.v	new.j	evidence.n	transfers.n	technology.n	materials.n	exchange.n
+sent-333	ballistic.j	nuclear.j	north.j	motivations.n	south.n	states.n	record.n	exporting.v	missile.n	production.n	technology.n	indicates.v	north.n	could.m	willing.j	sell.v	nuclear.j	materials.n	technology.n	complete.j
+sent-334	ballistic.j	nuclear.j	north.j	motivations.n	south.n	states.n	record.n	exporting.v	missile.n	production.n	technology.n	indicates.v	north.n	could.m	willing.j	sell.v	nuclear.j	materials.n	technology.n	complete.j
+sent-335	ballistic.j	nuclear.j	north.j	motivations.n	south.n	states.n	record.n	exporting.v	missile.n	production.n	technology.n	indicates.v	north.n	could.m	willing.j	sell.v	nuclear.j	materials.n	technology.n	complete.j
+sent-336	ballistic.j	nuclear.j	north.j	motivations.n	south.n	states.n	record.n	exporting.v	missile.n	production.n	technology.n	indicates.v	north.n	could.m	willing.j	sell.v	nuclear.j	materials.n	technology.n	complete.j
+sent-337	ballistic.j	nuclear.j	north.j	motivations.n	south.n	states.n	record.n	exporting.v	missile.n	production.n	technology.n	indicates.v	north.n	could.m	willing.j	sell.v	nuclear.j	materials.n	technology.n	complete.j
+sent-338	ballistic.j	nuclear.j	north.j	motivations.n	south.n	states.n	record.n	exporting.v	missile.n	production.n	technology.n	indicates.v	north.n	could.m	willing.j	sell.v	nuclear.j	materials.n	technology.n	complete.j
+sent-339	ballistic.j	nuclear.j	north.j	motivations.n	south.n	states.n	record.n	exporting.v	missile.n	production.n	technology.n	indicates.v	north.n	could.m	willing.j	sell.v	nuclear.j	materials.n	technology.n	complete.j
+sent-340	ballistic.j	nuclear.j	north.j	motivations.n	south.n	states.n	record.n	exporting.v	missile.n	production.n	technology.n	indicates.v	north.n	could.m	willing.j	sell.v	nuclear.j	materials.n	technology.n	complete.j
+sent-341	nuclear.j	north.n	joined.v	violated.v	withdrawn.v	nuclear.n	proliferation.n	treaty.n	course.n	activities.n	production.n
+sent-342	nuclear.j	north.n	joined.v	violated.v	withdrawn.v	nuclear.n	proliferation.n	treaty.n	course.n	activities.n	production.n
+sent-343	there.e	nuclear.j	reports.n	sung.n	asked.v	technology.n	following.v	first.j	nuclear.j	test.n	october.n	chairman.n	refused.v
+sent-344	there.e	nuclear.j	reports.n	sung.n	asked.v	technology.n	following.v	first.j	nuclear.j	test.n	october.n	chairman.n	refused.v
+sent-345	early.j	nuclear.j	scientist.n	khan.n	revealed.v	sold.v	gas.n	centrifuge.j	technology.n	north.n
+sent-346	led.v	reports.n	exports.n	russian.j	missile.n	technology.n	countries.n	north.n	concerns.n	contravening.v	obligations.n	member.n	missile.n	technology.n	control.n	regime.n
+sent-347	chief.n	facility.n	researching.v	producing.v	testing.v	bw.n	agents.n	lethal.j	toxic.j	chemicals.n	military.j	front.n	company.n	called.v	research.n	laboratories.n	located.v	north.n	other.j	facilities.n	established.v	develop.v	clothing.n	manufacture.n	assassination.n	devices.n
+sent-348	chief.n	facility.n	researching.v	producing.v	testing.v	bw.n	agents.n	lethal.j	toxic.j	chemicals.n	military.j	front.n	company.n	called.v	research.n	laboratories.n	located.v	north.n	other.j	facilities.n	established.v	develop.v	clothing.n	manufacture.n	assassination.n	devices.n
+sent-349	chief.n	facility.n	researching.v	producing.v	testing.v	bw.n	agents.n	lethal.j	toxic.j	chemicals.n	military.j	front.n	company.n	called.v	research.n	laboratories.n	located.v	north.n	other.j	facilities.n	established.v	develop.v	clothing.n	manufacture.n	assassination.n	devices.n
+sent-350	existence.n	scientists.n	tested.v	developed.v	both.d	small.j	quantities.n	known.v	cw.n	agents.n	including.v	agent.n	host.n	lethal.j	hard.j	toxic.j	chemicals.n
+sent-351	existence.n	scientists.n	tested.v	developed.v	both.d	small.j	quantities.n	known.v	cw.n	agents.n	including.v	agent.n	host.n	lethal.j	hard.j	toxic.j	chemicals.n
+sent-352	era.n	south.j	government.n	viewed.v	target.n	total.j	onslaught.n	guerrillas.n	regimes.n	neighboring.v	states.n	black.j	home.n	meet.v	all.d	red.j	black.j	danger.n	willing.j	use.v	almost.r	any.d	means.n	defend.v
+sent-353	nuclear.j	south.n	acceded.v	treaty.n	proliferation.n	nuclear.n	weapons.n	state.n	international.n	energy.n	agency.n	inspectors.v	subsequently.r	verified.v	completeness.n	nuclear.j	dismantlement.n
+sent-354	there.e	indications.n	however.r	certain.j	personnel.n	involved.v	program.n	including.v	may.m	provided.v	knowledge.n	equipment.n	materials.n	regimes.n	foreign.j	intelligence.n	personnel.n	unscrupulous.j	black.j	dangerous.j	weapons.n	certain.j	journalists.n	can.m	believed.v	elements.n	shadowy.j	international.j	network.n	right.n	wing.n
+sent-355	proliferation.n	south.n	nuclear.j	missile.n	programs.n	resolved.v	verified.j	disarmament.n	measures.n	won.v	international.j	acclaim.n	dismantlement.n	country.n	capabilities.n	verified.v	comparable.j	degree.n	certainty.n
+sent-356	claims.n	have.v	fully.r	investigated.v	much.r	verified.v
+sent-357	there.e	indications.n	however.r	certain.j	personnel.n	involved.v	program.n	including.v	may.m	provided.v	knowledge.n	equipment.n	materials.n	regimes.n	foreign.j	intelligence.n	personnel.n	unscrupulous.j	black.j	dangerous.j	weapons.n	certain.j	journalists.n	can.m	believed.v	elements.n	shadowy.j	international.j	network.n	right.n	wing.n
+sent-358	claims.n	have.v	fully.r	investigated.v	much.r	verified.v
+sent-359	set.v	chief.n	facility.n	researching.v	producing.v	cw.n	agents.n	military.j	front.n	company.n	called.v	delta.n	located.v	several.j	other.j	facilities.n	develop.v	clothing.n	manufacture.v	assassination.n	devices.n	weaponize.v	irritants.n	control.n	agents.n	incapacitants.n	placing.v	artillery.n	shells.n	bombs.n	grenades.n
+sent-360	set.v	chief.n	facility.n	researching.v	producing.v	cw.n	agents.n	military.j	front.n	company.n	called.v	delta.n	located.v	several.j	other.j	facilities.n	develop.v	clothing.n	manufacture.v	assassination.n	devices.n	weaponize.v	irritants.n	control.n	agents.n	incapacitants.n	placing.v	artillery.n	shells.n	bombs.n	grenades.n
+sent-361	weapons.n	post.n	government.n	south.n	implemented.v	nonproliferation.n	disarmament.n	policy.n	proliferation.n	act.n	control.v	transfer.n	sensitive.j	items.n	technologies.n
+sent-362	weapons.n	post.n	government.n	south.n	implemented.v	nonproliferation.n	disarmament.n	policy.n	proliferation.n	act.n	control.v	transfer.n	sensitive.j	items.n	technologies.n
+sent-363	era.n	south.j	government.n	viewed.v	target.n	total.j	onslaught.n	backed.v	guerrillas.n	regimes.n	neighboring.v	states.n	black.j	home.n	meet.v	all.d	red.j	black.j	danger.n	willing.j	use.v	almost.r	any.d	means.n	defend.v
+sent-364	there.e	however.r	number.n	operating.n	research.n	facilities.n	including.v	nuclear.n	research.n	center.n	nuclear.j	analysis.n	laboratory.n	research.n	institute.n
+sent-365	there.e	however.r	number.n	operating.n	research.n	facilities.n	including.v	nuclear.n	research.n	center.n	nuclear.j	analysis.n	laboratory.n	research.n	institute.n
+sent-366	international.n	energy.n	association.n	assisted.v	numerous.j	projects.n	including.v	uranium.n	uranium.n	extraction.n	acid.n	production.n	construction.n	facility.n	development.n	nuclear.j	research.n	laboratories.n	preparation.n	nuclear.j	power.n	program.n
+sent-367	appears.v	syrian.j	nuclear.j	program.n	continues.v	focused.v	nuclear.j	research.n	international.j	cooperation.n	set.v	support.v	continued.j	domestic.j	aspiration.n	nuclear.j	power.n	program.n
+sent-368	incorporates.v	global.j	positioning.v	system.n	technology.n	has.v	estimated.v	100.c	500.c	one.c	report.n	claims.v	many.j	50.c	missiles.n	deployed.v	island.n	second.j	location.n
+sent-369	incorporates.v	global.j	positioning.v	system.n	technology.n	has.v	estimated.v	100.c	500.c	one.c	report.n	claims.v	many.j	50.c	missiles.n	deployed.v	island.n	second.j	location.n
+sent-370	chairman.n	medicine.n	hospital.n	told.v	workshop.n	last.j	week.n	appealed.v	federal.n	government.n	remove.v	hospital.n	state.n	control.n	declare.v	national.j	security.n	hospital.n
+sent-371	island.n	preparing.v	major.j	other.j	disaster.n	state.n	local.j	officials.n	testified.v	field.n	hearing.n	senate.n	homeland.n	security.n	committee.n	thursday.n	including.v	establishing.v	communications.n	systems.n	community.n	evacuation.n	plans.n
+sent-372	island.n	preparing.v	major.j	other.j	disaster.n	state.n	local.j	officials.n	testified.v	field.n	hearing.n	senate.n	homeland.n	security.n	committee.n	thursday.n	including.v	establishing.v	communications.n	systems.n	community.n	evacuation.n	plans.n
+sent-373	april.n	attack.n	personnel.n	volunteer.n	told.v	occurred.v	parade.n	said.v	risk.n	communication.n	specialist.n	south.n	health.n	district.n
+sent-374	people.n	participated.v	drill.n	500.c	processed.v	many.j	participants.n	went.v	multiple.j	times.n	varying.v	symptoms.n	time.n
+sent-375	people.n	participated.v	drill.n	500.c	processed.v	many.j	participants.n	went.v	multiple.j	times.n	varying.v	symptoms.n	time.n
+sent-376	yesterday.n	incident.n	involved.v	toxic.j	industrial.j	chemical.n	used.v	agent.n	world.n	war.n	make.v	link.n
+sent-377	image.n	produced.v	more.j	large.j	black.j	mass..n	fear.v	every.d	truck.n	caught.v	carrying.v	contraband.n	many.j	more.j	get.v	drugs.n	other.j	illegal.j	material.n
+sent-378	putting.v	state.n	localities.n	said.v	sometimes.r	get.v	use.v	federal.j	homeland.n	security.n	funds.n	decontamination.n	preparation.n	bioterrorism.n	when.w	money.n	might.m	better.r	spent.v	communications.n	systems.n	let.v	first.j	different.j	communities.n	communicate.v	other.j	more.j	times.n	baron.n	link.n
+sent-379	putting.v	state.n	localities.n	said.v	sometimes.r	get.v	use.v	federal.j	homeland.n	security.n	funds.n	decontamination.n	preparation.n	bioterrorism.n	when.w	money.n	might.m	better.r	spent.v	communications.n	systems.n	let.v	first.j	different.j	communities.n	communicate.v	other.j	more.j	times.n	baron.n	link.n
+sent-380	putting.v	state.n	localities.n	said.v	sometimes.r	get.v	use.v	federal.j	homeland.n	security.n	funds.n	decontamination.n	preparation.n	bioterrorism.n	when.w	money.n	might.m	better.r	spent.v	communications.n	systems.n	let.v	first.j	different.j	communities.n	communicate.v	other.j	more.j	times.n	baron.n	link.n
+sent-381	homeland.n	security.n	recently.r	completed.v	study.n	conducted.v	response.n	request.n	made.v	acknowledges.v	security.n	risk.v	trucks.n	pose.v
+sent-382	deadly.j	chemical.n	exercise.n	sent.v	nearly.r	100.c	national.j	women.n	action.n	wednesday.n	morning.n
+sent-383	chemical.j	according.v	makes.v	working.v	destruction.n	facility.n	one.c	safest.j	places.n	nation.n	work.n	national.n	safety.n	army.n	chemical.n	materials.n	agency.n	group.n	international.n	link.n
+sent-384	chemical.j	according.v	makes.v	working.v	destruction.n	facility.n	one.c	safest.j	places.n	nation.n	work.n	national.n	safety.n	army.n	chemical.n	materials.n	agency.n	group.n	international.n	link.n
+sent-385	chemical.j	according.v	makes.v	working.v	destruction.n	facility.n	one.c	safest.j	places.n	nation.n	work.n	national.n	safety.n	army.n	chemical.n	materials.n	agency.n	group.n	international.n	link.n
+sent-386	chemical.j	according.v	makes.v	working.v	destruction.n	facility.n	one.c	safest.j	places.n	nation.n	work.n	national.n	safety.n	army.n	chemical.n	materials.n	agency.n	group.n	international.n	link.n
+sent-387	chemical.n	worked.v	arms.n	control.n	issues.n	40.c	years.n	told.v	best.j	case.n	might.m	kill.v	most.j	inhabitants.n	car.n	added.v	every.d	can.m	make.v	casualties.n	relies.v	whole.j	series.n
+sent-388	resident.n	commanded.v	group.n	light.j	tugs.n	made.v	trips.n	islands.n	last.j	week.n	declared.v	other.j	atolls.n	region.n
+sent-389	resident.n	commanded.v	group.n	light.j	tugs.n	made.v	trips.n	islands.n	last.j	week.n	declared.v	other.j	atolls.n	region.n
+sent-390	a.d	biological.j	told.v	post.n	surprised.v	when.w	days.n	later.r	february.n	told.v	u.n..n	security.n	have.v	descriptions.n	factories.n	wheels.n
+sent-391	homeland.n	security.n	break.v	ground.n	monday.n	national.n	biodefense.n	analysis.n	center.n
+sent-392	chemical.n	agent.n	facility.n	have.v	more.j	million.c	safe.j	work.n	hours.n	2.c	safe.j	work.n	days.n	rate.n	200.c	hours.n	worked.v	end.n	may.n
+sent-393	deal.n	best.j	interests.n	states.n	make.v	partners.n	world.n	largest.j	marking.v	important.j	step.n	strategic.j	relationship.n	said.v
+sent-394	cooperated.v	safeguards.n	continue.v	do.v	cooperation.n	treaties.n	said.v	senior.j	iranian.j	diplomat.n
+sent-395	far.r	belfry.n	huge.j	bronze.n	bells.n	mounted.v	wheels.n	swing.v	full.j	degrees.n	starting.v	ending.v	mouth-up.j	position.n
+sent-396	public.j	housing.n	scarce.j	court.n	system.n	schools.n	mail.n	service.n	telephone.n	network.n	highways.n	disgraceful.j	condition.n
+sent-397	a.d	doors.n	flying.v	can.n	kitchen.n	walked.v	feet.n	came.v	running.v	scooted.v	run.n	stood.v	watching.v	outside.j	cans.n	dance.n
+sent-398	a.d	doors.n	flying.v	can.n	kitchen.n	walked.v	feet.n	came.v	running.v	scooted.v	run.n	stood.v	watching.v	outside.j	cans.n	dance.n
+sent-399	a.d	doors.n	flying.v	can.n	kitchen.n	walked.v	feet.n	came.v	running.v	scooted.v	run.n	stood.v	watching.v	outside.j	cans.n	dance.n
+sent-400	could.m	decide.v	should.m	come.v	home.n	house.n
+sent-401	hundreds.n	californians.n	made.v	way.n	quake.n	checked.v	other.j	bulletin.n	link.v	phone.n	lines.n
+sent-402	realized.v	happening.v	screamed.v	house.n
+sent-403	woman.n	apartment.n	able.j	walk.v	window.n	third.j	floor.n	street.n	level.n	quake.n
+sent-404	worse.j	community.n	involvement.n
+sent-405	sum.v	bad.j	let.v	do.v	know.v	education.n	education.n	reforms.n	do.v	work.n	do.v	work.v	parental.j	involvement.n
+sent-406	make.v	should.m	see.v	kids.n	do.v	play.v	should.m	children.n	spend.v	enough.j	time.n	doing.v	should.m	scrutinize.v	report.n
+sent-407	can.m	buy.v	one.c	two.c	brands.n	when.w	select.v	agents.n	brand.n	believes.v	state.n	vices.n	public.j	action.n	brand.n	believes.v	big.j	government.n	public.j	remedy.v	attendant.n	pursuit.n	interest.n
+sent-408	local.j	more.r	national.j	policy.n	making.n	lower.j	chamber.n	precisely.r	pattern.n	expect.v	willing.j	engage.v	local.j
+sent-409	finally.r	shown.v	higher.j	staffs.n	district.n	offices.n	where.w	local.j	duties.n	more.r	national.j	policy.n	making.n	activities.n	relative.j	offices.n
+sent-410	finally.r	shown.v	higher.j	staffs.n	district.n	offices.n	where.w	local.j	duties.n	more.r	national.j	policy.n	making.n	activities.n	relative.j	offices.n
+sent-411	finally.r	shown.v	higher.j	staffs.n	district.n	offices.n	where.w	local.j	duties.n	more.r	national.j	policy.n	making.n	activities.n	relative.j	offices.n
+sent-412	nuclear.j	already.r	received.v	technology.n	north.n
+sent-413	nuclear.j	means.v	place.v	facility.n	any.d	enriched.v	uranium.n	produces.v	inspection.n	that.r	long.r	no.d	nuclear.j	materials.n	present.j	have.v	no.d	ability.n	examine.v	locations.n	where.w	believed.v	design.n	research.n	might.m	way.n
+sent-414	member.n	missile.n	technology.n	control.n	regime.n
+sent-415	nuclear.j	said.v	heading.v	nuclear.j	program.n	says.v	no.d	country.n	can.m	taken.v	seriously.r	nuclear.j	research.n	program.n	wants.v	have.v	technology.n	knowledge.n	make.v	case.n	needs.v
+sent-416	prime.n	denies.v	reports.n	iranian.j	cooperation.n	agreement.n	nuclear.j	technology.n
+sent-417	post.n	reported.v	told.v	members.n	proposed.v	sale.n	uranium.n	conversion.n	facility.n
+sent-418	denied.v	claims.n	reported.v	rejected.v	iranian.j	former.j	army.n	chief.n	staff.n	purchase.v	weapons.n	technology.n
+sent-419	nuclear.j	does.v	have.v	necessary.j	infrastructure.n	support.v	program.n	negotiating.v	purchase.n	technologies.n	whole.j	facilities.n	support.v	all.d
+sent-420	nuclear.j	does.v	have.v	necessary.j	infrastructure.n	support.v	program.n	negotiating.v	purchase.n	technologies.n	whole.j	facilities.n	support.v	all.d
+sent-421	according.v	allegedly.r	aiding.v	development.n	nuclear.j	bomb.n	intelligence.n	sources.n	supplied.v	technology.n	reactor.n
+sent-422	nuclear.j	reports.n	state.v	received.v	technology.n
+sent-423	chemical.j	making.v	effort.n	independent.j	production.n	capability.n	all.d	aspects.n	program.n	remains.v	dependent.j	foreign.j	sources.n	chemical.n	warfare.n	related.j	technologies.n
+sent-424	stated.v	assured.v	out.r	proposed.v	plans.n	build.v	reactor.n	one.c	hope.v	pledge.n	received.v	reflects.v	general.j	chinese.j	decision.n	prevent.v	world.n	journal.n	august.n	lauds.n	reactor.n	august.n	says.v	received.v	assurances.n	august.n
+sent-425	stated.v	assured.v	out.r	proposed.v	plans.n	build.v	reactor.n	one.c	hope.v	pledge.n	received.v	reflects.v	general.j	chinese.j	decision.n	prevent.v	world.n	journal.n	august.n	lauds.n	reactor.n	august.n	says.v	received.v	assurances.n	august.n
+sent-426	stated.v	assured.v	out.r	proposed.v	plans.n	build.v	reactor.n	one.c	hope.v	pledge.n	received.v	reflects.v	general.j	chinese.j	decision.n	prevent.v	world.n	journal.n	august.n	lauds.n	reactor.n	august.n	says.v	received.v	assurances.n	august.n
+sent-427	stated.v	assured.v	out.r	proposed.v	plans.n	build.v	reactor.n	one.c	hope.v	pledge.n	received.v	reflects.v	general.j	chinese.j	decision.n	prevent.v	world.n	journal.n	august.n	lauds.n	reactor.n	august.n	says.v	received.v	assurances.n	august.n
+sent-428	need.v	additional.j	confidence.n	statements.n	actions.n	sufficient.j	defend.v	kind.n	want.v	sure.j	done.v	all.d	can.m	obtain.v	maximum.j	level.n	cooperation.n	subject..n	state.n	press.n	14.c	october.n
+sent-429	need.v	additional.j	confidence.n	statements.n	actions.n	sufficient.j	defend.v	kind.n	want.v	sure.j	done.v	all.d	can.m	obtain.v	maximum.j	level.n	cooperation.n	subject..n	state.n	press.n	14.c	october.n
+sent-430	there.e	there.e	reports.n	acquired.v	enriched.j	uranium.n	intelligence.n	says.v	no.d	evidence.n	received.v	material.n
+sent-431	stated.v	told.v	reached.v	important.j	decision.n	provide.v	means.n	building.v	reactor.n	asked.v	supply.v	very.r	important.j	hope.v	serve.v	guiding.v	light.n	other.j	countries.n	contacts.n
+sent-432	nuclear.j	officials.n	estimate.v	10.c	15.c	years.n	say.v	seeking.v	wide.j	range.n	technology.n
+sent-433	chemical.j	because.i	early.j	put.v	high.j	program.n	respond.v	kind.n	chemical.n	attacks.n	discovery.n	iraqi.j	efforts.n	advanced.j	agents.n	persistent.j	nerve.n	agent.n
+sent-434	chemical.j	because.i	early.j	put.v	high.j	program.n	respond.v	kind.n	chemical.n	attacks.n	discovery.n	iraqi.j	efforts.n	advanced.j	agents.n	persistent.j	nerve.n	agent.n
+sent-435	nuclear.j	general.n	may.m	working.v	reports.n	say.v	may.m	receive.v	technology.n
+sent-436	opposition.n	group.n	reports.v	requested.v	nuclear.j	warheads.n	uranium.n	enrichment.n	technology.n	recent.j	meeting.n	chinese.j	officials.n
+sent-437	suspected.v	sites.n	could.m	identified.v	could.m	monitor.v
+sent-438	continues.v	adhere.v	pledge.n	end.v	all.d	nuclear.j	cooperation.n	recent.j	media.n	reports.n	citing.v	intelligence.n	sources.n	reveal.v	some.d	continued.v	iranian.j	nuclear.j	cooperation.n	activities.n
+sent-439	continues.v	adhere.v	pledge.n	end.v	all.d	nuclear.j	cooperation.n	recent.j	media.n	reports.n	citing.v	intelligence.n	sources.n	reveal.v	some.d	continued.v	iranian.j	nuclear.j	cooperation.n	activities.n
+sent-440	continues.v	adhere.v	pledge.n	end.v	all.d	nuclear.j	cooperation.n	recent.j	media.n	reports.n	citing.v	intelligence.n	sources.n	reveal.v	some.d	continued.v	iranian.j	nuclear.j	cooperation.n	activities.n
