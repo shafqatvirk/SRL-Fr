@@ -1,0 +1,364 @@
+SCIP version 3.1.0 [precision: 8 byte] [memory: block] [mode: optimized] [LP solver: SoPlex 2.0.0] [GitHash: 577ee45]
+Copyright (c) 2002-2014 Konrad-Zuse-Zentrum fuer Informationstechnik Berlin (ZIB)
+
+External codes: 
+  Readline EditLine w  GNU library for command line editing (gnu.org/s/readline)
+  SoPlex 2.0.0         Linear Programming Solver developed at Zuse Institute Berlin (soplex.zib.de) [GitHash: 568f354]
+  cppad-20140000.1     Algorithmic Differentiation of C++ algorithms developed by B. Bell (www.coin-or.org/CppAD)
+  ZLIB 1.2.5           General purpose compression library by J. Gailly and M. Adler (zlib.net)
+  GMP 6.0.0            GNU Multiple Precision Arithmetic Library developed by T. Granlund (gmplib.org)
+  ZIMPL 3.3.2          Zuse Institute Mathematical Programming Language developed by T. Koch (zimpl.zib.de)
+
+user parameter file <scip.set> not found - using default parameters
+
+read problem <../zimplCode/srlsent-235.txt.zpl>
+============
+
+
+base directory for ZIMPL parsing: </Users/virk/shafqat/postDoc-Fr/SRL/mySRL/zimplCode>
+
+original problem has 6760 variables (6760 bin, 0 int, 0 impl, 0 cont) and 611 constraints
+
+solve problem
+=============
+
+presolving:
+(round 1) 0 del vars, 0 del conss, 0 add conss, 0 chg bounds, 0 chg sides, 0 chg coeffs, 611 upgd conss, 2 impls, 610 clqs
+(round 2) 6695 del vars, 117 del conss, 0 add conss, 0 chg bounds, 15 chg sides, 18 chg coeffs, 611 upgd conss, 44 impls, 21 clqs
+(round 3) 6730 del vars, 143 del conss, 0 add conss, 0 chg bounds, 15 chg sides, 23 chg coeffs, 611 upgd conss, 50 impls, 11 clqs
+(round 4) 6738 del vars, 151 del conss, 0 add conss, 0 chg bounds, 15 chg sides, 25 chg coeffs, 611 upgd conss, 50 impls, 8 clqs
+(round 5) 6741 del vars, 154 del conss, 0 add conss, 0 chg bounds, 15 chg sides, 26 chg coeffs, 611 upgd conss, 50 impls, 7 clqs
+(round 6) 6743 del vars, 156 del conss, 0 add conss, 0 chg bounds, 15 chg sides, 26 chg coeffs, 611 upgd conss, 50 impls, 7 clqs
+(round 7) 6744 del vars, 164 del conss, 0 add conss, 0 chg bounds, 15 chg sides, 26 chg coeffs, 611 upgd conss, 50 impls, 7 clqs
+(round 8) 6753 del vars, 167 del conss, 0 add conss, 0 chg bounds, 15 chg sides, 26 chg coeffs, 611 upgd conss, 50 impls, 4 clqs
+(round 9) 6754 del vars, 167 del conss, 0 add conss, 0 chg bounds, 15 chg sides, 26 chg coeffs, 611 upgd conss, 50 impls, 3 clqs
+   (0.1s) probing cycle finished: starting next cycle
+presolving (10 rounds):
+ 6754 deleted vars, 167 deleted constraints, 0 added constraints, 0 tightened bounds, 0 added holes, 15 changed sides, 26 changed coefficients
+ 50 implications, 3 cliques
+presolved problem has 6 variables (6 bin, 0 int, 0 impl, 0 cont) and 5 constraints
+      5 constraints of type <setppc>
+Presolving Time: 0.09
+
+ time | node  | left  |LP iter|LP it/n| mem |mdpt |frac |vars |cons |cols |rows |cuts |confs|strbr|  dualbound   | primalbound  |  gap   
+t 0.1s|     1 |     0 |     0 |     - |  13M|   0 |   - |   6 |   5 |   0 |   0 |   0 |   0 |   0 |      --      | 7.183631e+02 |    Inf 
+b 0.1s|     1 |     0 |     0 |     - |  13M|   0 |   - |   6 |   5 |   6 |   5 |   0 |   0 |   0 |      --      | 7.382095e+02 |    Inf 
+  0.1s|     1 |     0 |     0 |     - |  13M|   0 |   - |   6 |   0 |   6 |   5 |   0 |   0 |   0 | 7.382095e+02 | 7.382095e+02 |   0.00%
+
+SCIP Status        : problem is solved [optimal solution found]
+Solving Time (sec) : 0.12
+Solving Nodes      : 1
+Primal Bound       : +7.38209522100955e+02 (2 solutions)
+Dual Bound         : +7.38209522100955e+02
+Gap                : 0.00 %
+
+primal solution:
+================
+
+objective value:                     738.209522100955
+z0$Type$-1_-1                                       1 	(obj:5.60018484640415)
+z0$Use$-1_-1                                        1 	(obj:4.60207798040359)
+z0$Wielder$-1_-1                                    1 	(obj:4.68331095665789)
+z0$Descriptor$-1_-1                                 1 	(obj:5.84087823290206)
+z0$Material$-1_-1                                   1 	(obj:7.88117239310382)
+z0$Name$-1_-1                                       1 	(obj:6.36555216863353)
+z0$Part$-1_-1                                       1 	(obj:7.16515493030311)
+z0$Weapon$27_28                                     1 	(obj:11.1743824754338)
+z0$Time_of_creation$-1_-1                           1 	(obj:7.89398578227924)
+z0$Creator$-1_-1                                    1 	(obj:7.14467666028513)
+z1$Recipient$-1_-1                                  1 	(obj:4.0512133679661)
+z1$Circumstances$-1_-1                              1 	(obj:4.99732955546223)
+z1$Time$9_14                                        1 	(obj:6.26346560149094)
+z1$Supplier$0_0                                     1 	(obj:10.6127618047578)
+z1$Place$-1_-1                                      1 	(obj:4.63659279673214)
+z1$Co_theme$-1_-1                                   1 	(obj:4.34994198922519)
+z1$Purpose$-1_-1                                    1 	(obj:6.41491892773842)
+z1$Period_of_iterations$-1_-1                       1 	(obj:5.65355273767946)
+z1$Means$-1_-1                                      1 	(obj:4.71821058892558)
+z1$Source$-1_-1                                     1 	(obj:6.06451725183718)
+z1$Theme$2_5                                        1 	(obj:10.0092771344019)
+z1$Purpose_of_recipient$-1_-1                       1 	(obj:6.76270529259202)
+z1$Manner$-1_-1                                     1 	(obj:5.75243590195934)
+z2$Type$-1_-1                                       1 	(obj:6.21517174846129)
+z2$Use$-1_-1                                        1 	(obj:5.24258449868754)
+z2$Wielder$-1_-1                                    1 	(obj:6.5665624080235)
+z2$Descriptor$-1_-1                                 1 	(obj:7.22622616008591)
+z2$Material$-1_-1                                   1 	(obj:5.85321470594561)
+z2$Name$-1_-1                                       1 	(obj:6.23331830287585)
+z2$Part$-1_-1                                       1 	(obj:5.75325370316648)
+z2$Weapon$2_2                                       1 	(obj:10.3426191984375)
+z2$Time_of_creation$-1_-1                           1 	(obj:6.07883259144518)
+z2$Creator$-1_-1                                    1 	(obj:8.47363524405576)
+z3$Formational_cause$-1_-1                          1 	(obj:6.16312857892407)
+z3$Use$2_2                                          1 	(obj:4.97517437179634)
+z3$Locale$3_3                                       1 	(obj:6.89020463998906)
+z3$Relative_location$-1_-1                          1 	(obj:3.82029385994367)
+z3$Name$-1_-1                                       1 	(obj:5.55053429971654)
+z3$Container_possessor$-1_-1                        1 	(obj:5.13587717610646)
+z3$Constituent_parts$-1_-1                          1 	(obj:6.36399420579058)
+z3$Descriptor$-1_-1                                 1 	(obj:3.13423639064052)
+z4$Creator$-1_-1                                    1 	(obj:4.74976216266598)
+z4$Type$-1_-1                                       1 	(obj:3.45585141215648)
+z4$Use$-1_-1                                        1 	(obj:3.9387272084528)
+z4$Material$-1_-1                                   1 	(obj:6.81302208069682)
+z4$Time_of_creation$-1_-1                           1 	(obj:5.54681528702904)
+z4$Name$-1_-1                                       1 	(obj:4.58949422219169)
+z4$Artifact$5_5                                     1 	(obj:6.44082774426379)
+z5$Mass$-1_-1                                       1 	(obj:5.77761351346723)
+z5$Q_Prop$-1_-1                                     1 	(obj:5.93426298141766)
+z5$Degree$-1_-1                                     1 	(obj:5.87419913758889)
+z5$Quantity$7_7                                     1 	(obj:6.44908592177714)
+z5$Individuals$8_8                                  1 	(obj:7.46171130258264)
+z6$Relative_location$-1_-1                          1 	(obj:5.52814292935822)
+z6$Constituent_parts$-1_-1                          1 	(obj:5.26975422502035)
+z6$Container_possessor$-1_-1                        1 	(obj:5.8605987591213)
+z6$Descriptor$-1_-1                                 1 	(obj:3.79471197898498)
+z6$Name$-1_-1                                       1 	(obj:4.72086955401103)
+z6$Population$-1_-1                                 1 	(obj:5.90248109200899)
+z6$Locale$8_8                                       1 	(obj:8.57430862991303)
+z7$Time_period$14_14                                1 	(obj:5.45354535217097)
+z7$Time$-1_-1                                       1 	(obj:6.52927854359619)
+z7$Degree$-1_-1                                     1 	(obj:4.89574044848681)
+z7$Sub_part$13_13                                   1 	(obj:5.87191567680832)
+z8$Purpose$-1_-1                                    1 	(obj:6.44148978228783)
+z8$Total$2_5                                        1 	(obj:3.49125630904796)
+z8$Contrast_set$-1_-1                               1 	(obj:5.65985803541926)
+z8$Subregion$-1_-1                                  1 	(obj:5.3955367055604)
+z8$Frequency$-1_-1                                  1 	(obj:5.8793224406148)
+z8$Part$17_28                                       1 	(obj:10.0428295314158)
+z9$Place$-1_-1                                      1 	(obj:3.24840688235336)
+z9$Cognizer$-1_-1                                   1 	(obj:4.35705386149394)
+z9$Result$-1_-1                                     1 	(obj:5.32140421165365)
+z9$Location_of_appearance$-1_-1                     1 	(obj:4.70539723299939)
+z9$Idea$-1_-1                                       1 	(obj:1.87976042334503)
+z9$Manner$-1_-1                                     1 	(obj:4.76917641762223)
+z9$Means$-1_-1                                      1 	(obj:4.48729940184308)
+z9$Material$-1_-1                                   1 	(obj:5.89467757062959)
+z9$Purpose$-1_-1                                    1 	(obj:4.36120927669468)
+z9$Amount_of_progress$-1_-1                         1 	(obj:4.7053972329994)
+z10$Means_of_Gathering$-1_-1                        1 	(obj:3.85911817538369)
+z10$Source$-1_-1                                    1 	(obj:4.56365817656917)
+z10$Topic$17_17                                     1 	(obj:2.50066091743533)
+z10$Information$18_18                               1 	(obj:6.79438653697981)
+z10$Cognizer$-1_-1                                  1 	(obj:4.52379457484948)
+z11$Time$-1_-1                                      1 	(obj:4.77156001692144)
+z11$Final_element$-1_-1                             1 	(obj:3.88592564627364)
+z11$Place$-1_-1                                     1 	(obj:5.33656990484167)
+z11$Manner$-1_-1                                    1 	(obj:4.53925851637845)
+z11$Element$21_21                                   1 	(obj:4.12743995946127)
+z11$Degree$-1_-1                                    1 	(obj:4.67110522721441)
+z12$Source$-1_-1                                    1 	(obj:5.41873683280668)
+z12$Type$-1_-1                                      1 	(obj:4.55581511673243)
+z12$Use$-1_-1                                       1 	(obj:4.11636833977369)
+z12$Descriptor$20_20                                1 	(obj:6.23849294175657)
+z12$Substance$21_21                                 1 	(obj:4.89934232729327)
+z12$Constituents$-1_-1                              1 	(obj:5.44288460021247)
+z13$Reported_fact$24_28                             1 	(obj:9.64988791450338)
+z13$Time$-1_-1                                      1 	(obj:6.23977825244061)
+z13$Explanation$-1_-1                               1 	(obj:5.03696572822994)
+z13$Duration$-1_-1                                  1 	(obj:5.2133004637775)
+z14$Purpose$-1_-1                                   1 	(obj:6.85686179774308)
+z14$Time$-1_-1                                      1 	(obj:2.76608300610321)
+z14$Goal$26_28                                      1 	(obj:7.20532871910106)
+z14$Place$-1_-1                                     1 	(obj:5.66390860907673)
+z14$Frequency$-1_-1                                 1 	(obj:5.33936288785252)
+z14$Degree$-1_-1                                    1 	(obj:6.44550973806391)
+z14$Helper$22_22                                    1 	(obj:4.27878060583961)
+z14$Means$-1_-1                                     1 	(obj:4.13925960996747)
+z14$Benefited_party$25_25                           1 	(obj:4.22019842731318)
+z14$Domain$-1_-1                                    1 	(obj:6.08631414153044)
+z14$Duration$-1_-1                                  1 	(obj:4.91769739782245)
+z14$Focal_entity$-1_-1                              1 	(obj:5.48617981458794)
+z14$Manner$-1_-1                                    1 	(obj:5.2458925070056)
+z14$Explanation$-1_-1                               1 	(obj:6.48018782531206)
+z15$Purpose$-1_-1                                   1 	(obj:5.88453819334068)
+z15$Time$-1_-1                                      1 	(obj:5.32302995874606)
+z15$Place$-1_-1                                     1 	(obj:4.68006096152723)
+z15$Degree$-1_-1                                    1 	(obj:6.0419344033511)
+z15$Rate$-1_-1                                      1 	(obj:5.53809567581119)
+z15$Means$-1_-1                                     1 	(obj:5.30559389265466)
+z15$Domain$-1_-1                                    1 	(obj:6.9170151141794)
+z15$Duration$-1_-1                                  1 	(obj:6.38390878214562)
+z15$Particular_iteration$-1_-1                      1 	(obj:6.44330137704487)
+z15$Project$27_28                                   1 	(obj:9.80838277473826)
+z15$Post_state$-1_-1                                1 	(obj:4.93008483834596)
+z15$Manner$-1_-1                                    1 	(obj:4.19177199839431)
+z15$Explanation$-1_-1                               1 	(obj:5.72472402202963)
+z15$Agent$25_25                                     1 	(obj:5.57081535474195)
+z15$Prior_state$-1_-1                               1 	(obj:5.2196925557331)
+
+Statistics
+==========
+
+SCIP Status        : problem is solved [optimal solution found]
+Total Time         :       0.32
+  solving          :       0.12
+  presolving       :       0.09 (included in solving)
+  reading          :       0.20
+  copying          :       0.00 (0 times copied the problem)
+Original Problem   :
+  Problem name     : srlsent-235.txt.zpl
+  Variables        : 6760 (6760 binary, 0 integer, 0 implicit integer, 0 continuous)
+  Constraints      : 611 initial, 611 maximal
+  Objective sense  : maximize
+Presolved Problem  :
+  Problem name     : t_srlsent-235.txt.zpl
+  Variables        : 6 (6 binary, 0 integer, 0 implicit integer, 0 continuous)
+  Constraints      : 5 initial, 5 maximal
+Presolvers         :   ExecTime  SetupTime  Calls  FixedVars   AggrVars   ChgTypes  ChgBounds   AddHoles    DelCons    AddCons   ChgSides   ChgCoefs
+  boundshift       :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  components       :       0.00       0.00      1          0          0          0          0          0          0          0          0          0
+  convertinttobin  :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  domcol           :       0.00       0.00      2          1          0          0          0          0          0          0          0          0
+  dualinfer        :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  gateextraction   :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  implics          :       0.00       0.00     10          0          0          0          0          0          0          0          0          0
+  inttobinary      :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  trivial          :       0.00       0.00     10          0          0          0          0          0          0          0          0          0
+  dualfix          :       0.00       0.00     10         22          0          0          0          0          0          0          0          0
+  genvbounds       :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  probing          :       0.00       0.00      1          0          0          0          0          0          0          0          0          0
+  pseudoobj        :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  setppc           :       0.02       0.00      9       6690         41          0          0          0        167          0         15         26
+  linear           :       0.05       0.00      1          0          0          0          0          0          0          0          0          0
+  root node        :          -          -      -          6          -          -          6          -          -          -          -          -
+Constraints        :     Number  MaxNumber  #Separate #Propagate    #EnfoLP    #EnfoPS     #Check   #ResProp    Cutoffs    DomReds       Cuts    Applied      Conss   Children
+  integral         :          0          0          0          0          0          0          4          0          0          0          0          0          0          0
+  setppc           :          5          5          0          8          0          0          3          0          0          0          0          0          0          0
+  countsols        :          0          0          0          0          0          0          3          0          0          0          0          0          0          0
+Constraint Timings :  TotalTime  SetupTime   Separate  Propagate     EnfoLP     EnfoPS      Check    ResProp    SB-Prop
+  integral         :       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00
+  setppc           :       0.01       0.00       0.01       0.00       0.00       0.00       0.00       0.00       0.00
+  countsols        :       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00
+Propagators        : #Propagate   #ResProp    Cutoffs    DomReds
+  dualfix          :          3          0          0          1
+  genvbounds       :          0          0          0          0
+  obbt             :          0          0          0          0
+  probing          :          0          0          0          0
+  pseudoobj        :          3          0          1          5
+  redcost          :          0          0          0          0
+  rootredcost      :          0          0          0          0
+  vbounds          :          2          0          0          0
+Propagator Timings :  TotalTime  SetupTime   Presolve  Propagate    ResProp    SB-Prop
+  dualfix          :       0.00       0.00       0.00       0.00       0.00       0.00
+  genvbounds       :       0.00       0.00       0.00       0.00       0.00       0.00
+  obbt             :       0.00       0.00       0.00       0.00       0.00       0.00
+  probing          :       0.00       0.00       0.00       0.00       0.00       0.00
+  pseudoobj        :       0.00       0.00       0.00       0.00       0.00       0.00
+  redcost          :       0.00       0.00       0.00       0.00       0.00       0.00
+  rootredcost      :       0.00       0.00       0.00       0.00       0.00       0.00
+  vbounds          :       0.00       0.00       0.00       0.00       0.00       0.00
+Conflict Analysis  :       Time      Calls    Success    DomReds  Conflicts   Literals    Reconvs ReconvLits   LP Iters
+  propagation      :       0.00          0          0          -          0        0.0          0        0.0          -
+  infeasible LP    :       0.00          0          0          -          0        0.0          0        0.0          0
+  bound exceed. LP :       0.00          0          0          -          0        0.0          0        0.0          0
+  strong branching :       0.00          0          0          -          0        0.0          0        0.0          0
+  pseudo solution  :       0.00          0          0          -          0        0.0          0        0.0          -
+  applied globally :       0.00          -          -          0          0        0.0          -          -          -
+  applied locally  :          -          -          -          0          0        0.0          -          -          -
+Separators         :   ExecTime  SetupTime      Calls    Cutoffs    DomReds       Cuts    Applied      Conss
+  cut pool         :       0.00                     0          -          -          0          -          -    (maximal pool size: 0)
+  cgmip            :       0.00       0.00          0          0          0          0          0          0
+  clique           :       0.00       0.00          0          0          0          0          0          0
+  closecuts        :       0.00       0.00          0          0          0          0          0          0
+  cmir             :       0.00       0.00          0          0          0          0          0          0
+  flowcover        :       0.00       0.00          0          0          0          0          0          0
+  gomory           :       0.00       0.00          0          0          0          0          0          0
+  impliedbounds    :       0.00       0.00          0          0          0          0          0          0
+  intobj           :       0.00       0.00          0          0          0          0          0          0
+  mcf              :       0.00       0.00          0          0          0          0          0          0
+  oddcycle         :       0.00       0.00          0          0          0          0          0          0
+  rapidlearning    :       0.00       0.00          0          0          0          0          0          0
+  strongcg         :       0.00       0.00          0          0          0          0          0          0
+  zerohalf         :       0.00       0.00          0          0          0          0          0          0
+Pricers            :   ExecTime  SetupTime      Calls       Vars
+  problem variables:       0.00          -          0          0
+Branching Rules    :   ExecTime  SetupTime   BranchLP  BranchExt   BranchPS    Cutoffs    DomReds       Cuts      Conss   Children
+  allfullstrong    :       0.00       0.00          0          0          0          0          0          0          0          0
+  cloud            :       0.00       0.00          0          0          0          0          0          0          0          0
+  fullstrong       :       0.00       0.00          0          0          0          0          0          0          0          0
+  inference        :       0.00       0.00          0          0          0          0          0          0          0          0
+  leastinf         :       0.00       0.00          0          0          0          0          0          0          0          0
+  mostinf          :       0.00       0.00          0          0          0          0          0          0          0          0
+  pscost           :       0.00       0.00          0          0          0          0          0          0          0          0
+  random           :       0.00       0.00          0          0          0          0          0          0          0          0
+  relpscost        :       0.00       0.00          0          0          0          0          0          0          0          0
+Primal Heuristics  :   ExecTime  SetupTime      Calls      Found
+  LP solutions     :       0.00          -          -          0
+  pseudo solutions :       0.00          -          -          0
+  strong branching :       0.00          -          -          0
+  actconsdiving    :       0.00       0.00          0          0
+  clique           :       0.00       0.00          0          0
+  coefdiving       :       0.00       0.00          0          0
+  crossover        :       0.00       0.00          0          0
+  dins             :       0.00       0.00          0          0
+  dualval          :       0.00       0.00          0          0
+  feaspump         :       0.00       0.00          0          0
+  fixandinfer      :       0.00       0.00          0          0
+  fracdiving       :       0.00       0.00          0          0
+  guideddiving     :       0.00       0.00          0          0
+  intdiving        :       0.00       0.00          0          0
+  intshifting      :       0.00       0.00          0          0
+  linesearchdiving :       0.00       0.00          0          0
+  localbranching   :       0.00       0.00          0          0
+  mutation         :       0.00       0.00          0          0
+  nlpdiving        :       0.00       0.00          0          0
+  objpscostdiving  :       0.00       0.00          0          0
+  octane           :       0.00       0.00          0          0
+  oneopt           :       0.01       0.00          1          1
+  proximity        :       0.00       0.00          0          0
+  pscostdiving     :       0.00       0.00          0          0
+  randrounding     :       0.00       0.00          0          0
+  rens             :       0.00       0.00          0          0
+  rins             :       0.00       0.00          0          0
+  rootsoldiving    :       0.00       0.00          0          0
+  rounding         :       0.00       0.00          0          0
+  shiftandpropagate:       0.00       0.00          0          0
+  shifting         :       0.00       0.00          0          0
+  simplerounding   :       0.00       0.00          0          0
+  subnlp           :       0.00       0.00          0          0
+  trivial          :       0.01       0.00          2          1
+  trysol           :       0.00       0.00          0          0
+  twoopt           :       0.00       0.00          0          0
+  undercover       :       0.00       0.00          0          0
+  vbounds          :       0.00       0.00          0          0
+  veclendiving     :       0.00       0.00          0          0
+  zeroobj          :       0.00       0.00          0          0
+  zirounding       :       0.00       0.00          0          0
+  other solutions  :          -          -          -          0
+LP                 :       Time      Calls Iterations  Iter/call   Iter/sec  Time-0-It Calls-0-It
+  primal LP        :       0.00          0          0       0.00          -       0.00          0
+  dual LP          :       0.00          0          0       0.00          -       0.00          0
+  lex dual LP      :       0.00          0          0       0.00          -
+  barrier LP       :       0.00          0          0       0.00          -       0.00          0
+  diving/probing LP:       0.00          0          0       0.00          -
+  strong branching :       0.00          0          0       0.00          -
+    (at root node) :          -          0          0       0.00          -
+  conflict analysis:       0.00          0          0       0.00          -
+B&B Tree           :
+  number of runs   :          1
+  nodes            :          1 (0 internal, 1 leaves)
+  nodes (total)    :          1 (0 internal, 1 leaves)
+  nodes left       :          0
+  max depth        :          0
+  max depth (total):          0
+  backtracks       :          0 (0.0%)
+  delayed cutoffs  :          0
+  repropagations   :          0 (0 domain reductions, 0 cutoffs)
+  avg switch length:       2.00
+  switching time   :       0.00
+Root Node          :
+  First LP value   :          -
+  First LP Iters   :          0
+  First LP Time    :       0.00
+  Final Dual Bound : +7.38209522100955e+02
+  Final Root Iters :          0
+Solution           :
+  Solutions found  :          2 (2 improvements)
+  First Solution   : +7.18363094413497e+02   (in run 1, after 1 nodes, 0.11 seconds, depth 0, found by <trivial>)
+  Gap First Sol.   :   infinite
+  Gap Last Sol.    :   infinite
+  Primal Bound     : +7.38209522100955e+02   (in run 1, after 1 nodes, 0.11 seconds, depth 0, found by <oneopt>)
+  Dual Bound       : +7.38209522100955e+02
+  Gap              :       0.00 %
+  Avg. Gap         :     100.00 % (12.00 primal-dual integral)
