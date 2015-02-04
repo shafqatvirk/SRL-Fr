@@ -1,0 +1,28 @@
+Frame 2 Frame Relation:  PerspectiveOn
+Total number of frames with matching Spans=0
+Total number of Frames with unmatching Spans=3
+=====================================================================
+
+With matching Spans
+Frame                    Frame Element            Span           Span Text                                                                       Sentence
+=======================================================================================================================================================================
+
+***********************************************************************************************************************************************************************
+With Un-matching Spans
+Frame                    Frame Element            Span           Span Text                                                                       Sentence
+=======================================================================================================================================================================
+Hostile_encounter        Side_2                   46-54          with Iraq                                                                       From approximately 1983 - 1988 during the war with Iraq , Iran suffered extensive CW attacks , including blister ( mustard ) and nerve agents .
+Attack                   Victim                   58-61          Iran                                                                            From approximately 1983 - 1988 during the war with Iraq , Iran suffered extensive CW attacks , including blister ( mustard ) and nerve agents .
+-----------------------------------------------------------------------------------------------------------
+Hostile_encounter        Side_2                   19-27          with Iraq                                                                       Eight years of war with Iraq , multiple bombings of the Bushehr reactor site , chemical attacks on its forces , missile strikes on its cities , and an overall drain on its resources would certainly have had a devastating effect on Iran .
+Attack                   Victim                   49-75          of the Bushehr reactor site                                                     Eight years of war with Iraq , multiple bombings of the Bushehr reactor site , chemical attacks on its forces , missile strikes on its cities , and an overall drain on its resources would certainly have had a devastating effect on Iran .
+-----------------------------------------------------------------------------------------------------------
+Causation                Effect                   19-130         American students do so poorly in math tests , as compared with British , French , German or Japanese students ,One of the reasons American students do so poorly in math tests , as compared with British , French , German or Japanese students , is the influence of the `` New Math '' on American textbooks and teaching methods .
+Means                    Purpose                  197-204        teaching                                                                        One of the reasons American students do so poorly in math tests , as compared with British , French , German or Japanese students , is the influence of the `` New Math '' on American textbooks and teaching methods .
+-----------------------------------------------------------------------------------------------------------
+Causation                Effect                   19-130         American students do so poorly in math tests , as compared with British , French , German or Japanese students ,One of the reasons American students do so poorly in math tests , as compared with British , French , German or Japanese students , is the influence of the `` New Math '' on American textbooks and teaching methods .
+Means                    Purpose                  197-204        teaching                                                                        One of the reasons American students do so poorly in math tests , as compared with British , French , German or Japanese students , is the influence of the `` New Math '' on American textbooks and teaching methods .
+-----------------------------------------------------------------------------------------------------------
+Causation                Cause                    135-212        the influence of the `` New Math '' on American textbooks and teaching methods  One of the reasons American students do so poorly in math tests , as compared with British , French , German or Japanese students , is the influence of the `` New Math '' on American textbooks and teaching methods .
+Means                    Means                    206-212        methods                                                                         One of the reasons American students do so poorly in math tests , as compared with British , French , German or Japanese students , is the influence of the `` New Math '' on American textbooks and teaching methods .
+-----------------------------------------------------------------------------------------------------------

@@ -1,0 +1,22 @@
+Frame 2 Frame Relation:  SubFrame
+Total number of frames with matching Spans=1
+Total number of Frames with unmatching Spans=2
+=====================================================================
+
+With matching Spans
+Frame                    Frame Element            Span           Span Text                                                                                                               Trigger                       Sentence
+======================================================================================================================================================================================================================
+Buildings                Building                 23-27          hotel                                                                                                                   hotel                         Over 20,000 additional hotel rooms have been added in a few short years , including resorts in Summerlin and Lake Las Vegas .
+Building_subparts        Whole                    23-27          hotel                                                                                                                   rooms                         Over 20,000 additional hotel rooms have been added in a few short years , including resorts in Summerlin and Lake Las Vegas .
+-----------------------------------------------------------------------------------------------------------
+
+*********************************************************************************************************************************************************************************************************************
+With Un-matching Spans
+Frame                    Frame Element            Span           Span Text                                                                                                               Trigger                       Sentence
+=====================================================================================================================================================================================================================
+Process                  Process                  147-153        process                                                                                                                 process                       If you want an end to terrorism , if you want an end to violence , you have to give people hope and you have to give them a stake in the political process .
+Process_end              Process                  53-63          to violence                                                                                                             end                           If you want an end to terrorism , if you want an end to violence , you have to give people hope and you have to give them a stake in the political process .
+-----------------------------------------------------------------------------------------------------------
+Buildings                Building                 111-116        church                                                                                                                  church                        ASLACTON , England -- Of all scenes that evoke rural England , this is one of the loveliest : An ancient stone church stands amid the fields , the sound of bells cascading from its tower , calling the faithful to evensong .
+Building_subparts        Whole                    177-179        its                                                                                                                     tower                         ASLACTON , England -- Of all scenes that evoke rural England , this is one of the loveliest : An ancient stone church stands amid the fields , the sound of bells cascading from its tower , calling the faithful to evensong .
+-----------------------------------------------------------------------------------------------------------

@@ -1,0 +1,150 @@
+Frame                    Frame Element            Span           Span Text                                                                                                               Trigger                       Sentence
+Attempt                  Agent                    22-25          Iran                                                                                                                    attempt                       ['He also declares that Iran is neither currently planning to build nuclear weapons nor will attempt to do so in the future , any nuclear technology will be applied to developing nuclear energy for peaceful purposes .']
+Purpose                  Agent                    
+e1 non-emply e2 empty
+=======================================================================================================================================================================================================
+Purpose                  Agent                    
+Attempt                  Agent                    22-25          Iran                                                                                                                    attempt                       ['He also declares that Iran is neither currently planning to build nuclear weapons nor will attempt to do so in the future , any nuclear technology will be applied to developing nuclear energy for peaceful purposes .']
+e1 empty e2 non-empty
+=======================================================================================================================================================================================================
+Success_or_failure       Goal                     
+Attempt                  Goal                     41-127         to develop its own indigenous missile , and to extend the range of its aging SCUD force                                 tried                         ['Libya has tried , with limited success , to develop its own indigenous missile , and to extend the range of its aging SCUD force for many years under the Al Fatah and other missile programs .']
+e1 empty e2 non-empty
+=======================================================================================================================================================================================================
+Frame                    Frame Element            Span           Span Text                                                                                                               Trigger                       Sentence
+Attempt                  Goal                     41-127         to develop its own indigenous missile , and to extend the range of its aging SCUD force                                 tried                         ['Libya has tried , with limited success , to develop its own indigenous missile , and to extend the range of its aging SCUD force for many years under the Al Fatah and other missile programs .']
+Success_or_failure       Goal                     
+e1 non-emply e2 empty
+=======================================================================================================================================================================================================
+Frame                    Frame Element            Span           Span Text                                                                                                               Trigger                       Sentence
+Arriving                 Time                     29-53          before the president left                                                                                               arrive                        ['QN : Did the diplomat arrive before the president left ?']
+Departing                Time                     
+e1 non-emply e2 empty
+=======================================================================================================================================================================================================
+Departing                Time                     
+Arriving                 Time                     29-53          before the president left                                                                                               arrive                        ['QN : Did the diplomat arrive before the president left ?']
+e1 empty e2 non-empty
+=======================================================================================================================================================================================================
+Frame                    Frame Element            Span           Span Text                                                                                                               Trigger                       Sentence
+Success_or_failure       Agent                    43-51          Al Qa'ida                                                                                                               succeeded                     ["No evidence obtained to date suggests that Al Qa'ida has actually succeeded in producing significant quantities of chemical or biological agents or developed an effective means of delivery , but the intention to do so is clearly present ."]
+Purpose                  Agent                    
+e1 non-emply e2 empty
+=======================================================================================================================================================================================================
+Purpose                  Agent                    
+Success_or_failure       Agent                    43-51          Al Qa'ida                                                                                                               succeeded                     ["No evidence obtained to date suggests that Al Qa'ida has actually succeeded in producing significant quantities of chemical or biological agents or developed an effective means of delivery , but the intention to do so is clearly present ."]
+e1 empty e2 non-empty
+=======================================================================================================================================================================================================
+Frame                    Frame Element            Span           Span Text                                                                                                               Trigger                       Sentence
+Attempt                  Agent                    72-83          the Iranians                                                                                                            trying                        ['Contravening his own argument , however , Schiefer also speculated that the Iranians were most likely trying to acquire the fungi for defensive purposes , such as developing gas masks that would be protective in the event of its offensive use .']
+Purpose                  Agent                    
+e1 non-emply e2 empty
+=======================================================================================================================================================================================================
+Purpose                  Agent                    
+Attempt                  Agent                    72-83          the Iranians                                                                                                            trying                        ['Contravening his own argument , however , Schiefer also speculated that the Iranians were most likely trying to acquire the fungi for defensive purposes , such as developing gas masks that would be protective in the event of its offensive use .']
+e1 empty e2 non-empty
+=======================================================================================================================================================================================================
+Frame                    Frame Element            Span           Span Text                                                                                                               Trigger                       Sentence
+Activity_start           Agent                    10-34          the Soviet Union and Iran                                                                                               began                         ['In 1990 , the Soviet Union and Iran began negotiating over the completion of the Bushehr reactors and the supply of additional nuclear plants .']
+Activity_finish          Agent                    
+e1 non-emply e2 empty
+=======================================================================================================================================================================================================
+Activity_finish          Agent                    
+Activity_start           Agent                    10-34          the Soviet Union and Iran                                                                                               began                         ['In 1990 , the Soviet Union and Iran began negotiating over the completion of the Bushehr reactors and the supply of additional nuclear plants .']
+e1 empty e2 non-empty
+=======================================================================================================================================================================================================
+Attempt                  Agent                    
+Purpose                  Agent                    233-239        Iran 's                                                                                                                 goals                         ["Responding to the barrage of critics who insist that Iran 's illicit intentions are obvious , El - Baradei has pointed to the continued absence of a `` smoking gun '' and the fundamental shortcomings of attempts to concretely assess Iran 's programmatic goals without such evidence ."]
+e1 empty e2 non-empty
+=======================================================================================================================================================================================================
+Frame                    Frame Element            Span           Span Text                                                                                                               Trigger                       Sentence
+Purpose                  Agent                    233-239        Iran 's                                                                                                                 goals                         ["Responding to the barrage of critics who insist that Iran 's illicit intentions are obvious , El - Baradei has pointed to the continued absence of a `` smoking gun '' and the fundamental shortcomings of attempts to concretely assess Iran 's programmatic goals without such evidence ."]
+Attempt                  Agent                    
+e1 non-emply e2 empty
+=======================================================================================================================================================================================================
+Frame                    Frame Element            Span           Span Text                                                                                                               Trigger                       Sentence
+Activity_start           Agent                    220-224        Libya                                                                                                                   started                       ["Prior to Libya 's 19 December 2003 announcement to abandon its WMD programs , US intelligence agencies alleged that Qadhafi had attempted to recruit South African scientists to assist in the acquisition of BW , and that Libya had started to develop pathogens and toxins for weapons use . "]
+Activity_stop            Agent                    
+e1 non-emply e2 empty
+=======================================================================================================================================================================================================
+Activity_stop            Agent                    
+Activity_start           Agent                    220-224        Libya                                                                                                                   started                       ["Prior to Libya 's 19 December 2003 announcement to abandon its WMD programs , US intelligence agencies alleged that Qadhafi had attempted to recruit South African scientists to assist in the acquisition of BW , and that Libya had started to develop pathogens and toxins for weapons use . "]
+e1 empty e2 non-empty
+=======================================================================================================================================================================================================
+Frame                    Frame Element            Span           Span Text                                                                                                               Trigger                       Sentence
+Activity_ongoing         Agent                    102-103        it                                                                                                                      maintain                      ['In September 1999 , Pyongyang agreed to a moratorium on missile flight tests and later announced that it would maintain the moratorium until at least 2003 . ']
+Activity_pause           Agent                    
+e1 non-emply e2 empty
+=======================================================================================================================================================================================================
+Activity_pause           Agent                    
+Activity_ongoing         Agent                    102-103        it                                                                                                                      maintain                      ['In September 1999 , Pyongyang agreed to a moratorium on missile flight tests and later announced that it would maintain the moratorium until at least 2003 . ']
+e1 empty e2 non-empty
+=======================================================================================================================================================================================================
+Frame                    Frame Element            Span           Span Text                                                                                                               Trigger                       Sentence
+Departing                Time                     117-151        while the congregation is at prayer                                                                                     exit                          ["`` So crunch , crunch , crunch , bang , bang , bang -- here come the ringers from above , making a very obvious exit while the congregation is at prayer , '' he says ."]
+Arriving                 Time                     
+e1 non-emply e2 empty
+=======================================================================================================================================================================================================
+Departing                Depictive                
+Arriving                 Depictive                90-151         making a very obvious exit while the congregation is at prayer                                                          come                          ["`` So crunch , crunch , crunch , bang , bang , bang -- here come the ringers from above , making a very obvious exit while the congregation is at prayer , '' he says ."]
+e1 empty e2 non-empty
+=======================================================================================================================================================================================================
+Frame                    Frame Element            Span           Span Text                                                                                                               Trigger                       Sentence
+Departing                Manner                   99-110         very obvious                                                                                                            exit                          ["`` So crunch , crunch , crunch , bang , bang , bang -- here come the ringers from above , making a very obvious exit while the congregation is at prayer , '' he says ."]
+Arriving                 Manner                   
+e1 non-emply e2 empty
+=======================================================================================================================================================================================================
+Departing                Source                   
+Arriving                 Source                   77-86          from above                                                                                                              come                          ["`` So crunch , crunch , crunch , bang , bang , bang -- here come the ringers from above , making a very obvious exit while the congregation is at prayer , '' he says ."]
+e1 empty e2 non-empty
+=======================================================================================================================================================================================================
+Departing                Goal                     
+Arriving                 Goal                     55-58          here                                                                                                                    come                          ["`` So crunch , crunch , crunch , bang , bang , bang -- here come the ringers from above , making a very obvious exit while the congregation is at prayer , '' he says ."]
+e1 empty e2 non-empty
+=======================================================================================================================================================================================================
+Arriving                 Time                     
+Departing                Time                     117-151        while the congregation is at prayer                                                                                     exit                          ["`` So crunch , crunch , crunch , bang , bang , bang -- here come the ringers from above , making a very obvious exit while the congregation is at prayer , '' he says ."]
+e1 empty e2 non-empty
+=======================================================================================================================================================================================================
+Frame                    Frame Element            Span           Span Text                                                                                                               Trigger                       Sentence
+Arriving                 Depictive                90-151         making a very obvious exit while the congregation is at prayer                                                          come                          ["`` So crunch , crunch , crunch , bang , bang , bang -- here come the ringers from above , making a very obvious exit while the congregation is at prayer , '' he says ."]
+Departing                Depictive                
+e1 non-emply e2 empty
+=======================================================================================================================================================================================================
+Arriving                 Manner                   
+Departing                Manner                   99-110         very obvious                                                                                                            exit                          ["`` So crunch , crunch , crunch , bang , bang , bang -- here come the ringers from above , making a very obvious exit while the congregation is at prayer , '' he says ."]
+e1 empty e2 non-empty
+=======================================================================================================================================================================================================
+Frame                    Frame Element            Span           Span Text                                                                                                               Trigger                       Sentence
+Arriving                 Source                   77-86          from above                                                                                                              come                          ["`` So crunch , crunch , crunch , bang , bang , bang -- here come the ringers from above , making a very obvious exit while the congregation is at prayer , '' he says ."]
+Departing                Source                   
+e1 non-emply e2 empty
+=======================================================================================================================================================================================================
+Frame                    Frame Element            Span           Span Text                                                                                                               Trigger                       Sentence
+Arriving                 Goal                     55-58          here                                                                                                                    come                          ["`` So crunch , crunch , crunch , bang , bang , bang -- here come the ringers from above , making a very obvious exit while the congregation is at prayer , '' he says ."]
+Departing                Goal                     
+e1 non-emply e2 empty
+=======================================================================================================================================================================================================
+Success_or_failure       Goal                     
+Attempt                  Goal                     88-108         at educational reform                                                                                                   efforts                       ['Conversely , there are the majority of unsuccessful schools , and we know which efforts at educational reform are doomed beforehand .']
+e1 empty e2 non-empty
+=======================================================================================================================================================================================================
+Frame                    Frame Element            Span           Span Text                                                                                                               Trigger                       Sentence
+Success_or_failure       Agent                    52-58          schools                                                                                                                 unsuccessful                  ['Conversely , there are the majority of unsuccessful schools , and we know which efforts at educational reform are doomed beforehand .']
+Attempt                  Agent                    
+e1 non-emply e2 empty
+Success_or_failure       Agent                    23-37          the majority of                                                                                                         unsuccessful                  ['Conversely , there are the majority of unsuccessful schools , and we know which efforts at educational reform are doomed beforehand .']
+Attempt                  Agent                    
+e1 non-emply e2 empty
+=======================================================================================================================================================================================================
+Frame                    Frame Element            Span           Span Text                                                                                                               Trigger                       Sentence
+Attempt                  Goal                     88-108         at educational reform                                                                                                   efforts                       ['Conversely , there are the majority of unsuccessful schools , and we know which efforts at educational reform are doomed beforehand .']
+Success_or_failure       Goal                     
+e1 non-emply e2 empty
+=======================================================================================================================================================================================================
+Attempt                  Agent                    
+Success_or_failure       Agent                    52-58          schools                                                                                                                 unsuccessful                  ['Conversely , there are the majority of unsuccessful schools , and we know which efforts at educational reform are doomed beforehand .']
+e1 empty e2 non-empty
+Attempt                  Agent                    
+Success_or_failure       Agent                    23-37          the majority of                                                                                                         unsuccessful                  ['Conversely , there are the majority of unsuccessful schools , and we know which efforts at educational reform are doomed beforehand .']
+e1 empty e2 non-empty
+=======================================================================================================================================================================================================
