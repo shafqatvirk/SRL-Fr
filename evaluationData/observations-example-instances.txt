@@ -1,0 +1,199 @@
+Examples:
+
+1. In the following example, putting f2f constraints helped to fill the 'goal' frame element, which even does not exist in the gold. But, we can see
+its correctly filled by the constraints.
+
+With F2F CONSTRAINTS:
+---------------------
+
+Iran is trying to acquire fissile material to support development of nuclear weapons and has set up an elaborate system of military and civilian organizations to support its effort .
+
+*****************************************************
+Frame:  Attempt triggered by trying
+Gold:  [('Agent', 'Iran'), ('Goal', 'to acquire fissile material to support development of nuclear weapons')]
+
+Predicted:  [('Goal', 'to acquire fissile material to support development of nuclear weapons'), ('Agent', 'Iran')]
+
+Frame:  Attempt-1 triggered by effort 
+Gold:  [('Agent', 'its')]
+
+Predicted:  [('Goal', 'to acquire fissile material to support development of nuclear weapons'), ('Agent', 'its')]
+
+
+
+WITHOUT F2F CONSTRAINTS:
+------------------------
+Iran is trying to acquire fissile material to support development of nuclear weapons and has set up an elaborate system of military and civilian organizations to support its effort .
+
+*****************************************************
+Frame:  Attempt
+Gold:  [('Agent', 'Iran'), ('Goal', 'to acquire fissile material to support development of nuclear weapons')]
+
+Predicted:  [('Goal', 'to acquire fissile material to support development of nuclear weapons'), ('Agent', 'Iran')]
+Frame:  Attempt-1
+Gold:  [('Agent', 'its')]
+
+Predicted:  [('Agent', 'its')]
+
+2. In the following example, we can see, putting f2f constraints forced the emploer, and employee to be empty, which degraded the performance. We can see
+the Being_emplyed frame does not have employer frame element, so putting constraint does not make any sense 
+
+WITH F2F CONSTRAINTS:
+Cornell found a number of employment options that he never dreamed existed after a work - site injury forced him out of his job at a foundry .
+
+*****************************************************
+
+Frame:  Being_employed-1 triggered by job
+Gold:  [('Employer', 'at a foundry'), ('Employee', 'his')]
+
+Predicted:  []
+==============
+Frame:  Being_employed triggered by employment
+Gold:  [('Employee', 'Cornell')]
+
+Predicted:  []
+
+WITHOUT F2F CONSTRAINTS:
+------------------------
+
+Frame:  Being_employed-1
+Gold:  [('Employer', 'at a foundry'), ('Employee', 'his')]
+
+Predicted:  [('Employer', 'at a foundry'), ('Employee', 'his')]
+==============
+Frame:  Being_employed
+Gold:  [('Employee', 'Cornell')]
+
+Predicted:  [('Employee', 'Cornell')]
+
+WITH SIMPLE ROLE FILLING: did not help, wrongly filled
+------------------------
+Before
+('Being_employed', [('Type', '-1_-1'), ('Rank', '-1_-1'), ('Time', '-1_-1'), ('Place', '-1_-1'), ('Field', '-1_-1'), ('Employer', '-1_-1'), ('Place_of_employment', '-1_-1'), ('Amount_of_work', '-1_-1'), ('Compensation', '-1_-1'), ('Event_description', '-1_-1'), ('Duration', '-1_-1'), ('Frequency', '-1_-1'), ('Task', '-1_-1'), ('Employee', '0_0'), ('Contract_basis', '-1_-1'), ('Manner', '-1_-1'), ('Position', '-1_-1')])
+
+('Being_employed', [('Type', '-1_-1'), ('Rank', '-1_-1'), ('Time', '-1_-1'), ('Place', '-1_-1'), ('Field', '-1_-1'), ('Employer', '24_26'), ('Place_of_employment', '-1_-1'), ('Amount_of_work', '-1_-1'), ('Compensation', '-1_-1'), ('Event_description', '-1_-1'), ('Duration', '-1_-1'), ('Frequency', '-1_-1'), ('Task', '-1_-1'), ('Employee', '22_22'), ('Contract_basis', '-1_-1'), ('Manner', '-1_-1'), ('Position', '-1_-1')])
+=============
+('Employer', '24_26')
+//////////////
+
+After
+('Being_employed', [('Type', '-1_-1'), ('Rank', '-1_-1'), ('Time', '-1_-1'), ('Place', '-1_-1'), ('Field', '-1_-1'), ('Employer', '24_26'), ('Place_of_employment', '-1_-1'), ('Amount_of_work', '-1_-1'), ('Compensation', '-1_-1'), ('Event_description', '-1_-1'), ('Duration', '-1_-1'), ('Frequency', '-1_-1'), ('Task', '-1_-1'), ('Employee', '0_0'), ('Contract_basis', '-1_-1'), ('Manner', '-1_-1'), ('Position', '-1_-1')])
+
+('Being_employed', [('Type', '-1_-1'), ('Rank', '-1_-1'), ('Time', '-1_-1'), ('Place', '-1_-1'), ('Field', '-1_-1'), ('Employer', '24_26'), ('Place_of_employment', '-1_-1'), ('Amount_of_work', '-1_-1'), ('Compensation', '-1_-1'), ('Event_description', '-1_-1'), ('Duration', '-1_-1'), ('Frequency', '-1_-1'), ('Task', '-1_-1'), ('Employee', '22_22'), ('Contract_basis', '-1_-1'), ('Manner', '-1_-1'), ('Position', '-1_-1')])
+=============
+('Employer', '24_26')
+//////////////
+
+
+
+3. Here simple role filling helped, with and without constraints did not help
+
+My Sheik , here 's some of the events that happened in Ramadi :
+Event$Time:-1_-1#Duration:-1_-1#Place:-1_-1#Manner:-1_-1#Reason:-1_-1#Event:9_12#Frequency:-1_-1	Event$Time:11_12#Duration:-1_-1#Place:-1_-1#Manner:-1_-1#Reason:-1_-1#Event:9_9#Frequency:-1_-1
+
+WITH F2F CONSTRAINS
+--------------------
+Frame:  Event-1
+Gold:  [('Time', 'in Ramadi'), ('Event', 'the events'), ('Event', 'that')]
+
+Predicted:  [('Event', 'that')]
+==============
+
+Frame:  Event
+Gold:  [('Event', 'events'), ('Time', 'in Ramadi'), ('Event', 'that')]
+
+Predicted:  [('Event', 'that happened in Ramadi')]
+==============
+
+WITHOUT F2F CONSTRAINTS
+-----------------------
+Frame:  Event-1
+Gold:  [('Time', 'in Ramadi'), ('Event', 'the events'), ('Event', 'that')]
+
+Predicted:  [('Time', 'in Ramadi'), ('Event', 'that')]
+
+==============
+Frame:  Event
+Gold:  [('Event', 'events'), ('Time', 'in Ramadi'), ('Event', 'that')]
+
+Predicted:  [('Event', 'that happened in Ramadi')]
+==============
+
+WITH SIMPLE ROLE FILLING
+------------------------
+Before
+('Event', [('Time', '-1_-1'), ('Duration', '-1_-1'), ('Place', '-1_-1'), ('Manner', '-1_-1'), ('Reason', '-1_-1'), ('Event', '9_12'), ('Frequency', '-1_-1')])
+
+('Event', [('Time', '11_12'), ('Duration', '-1_-1'), ('Place', '-1_-1'), ('Manner', '-1_-1'), ('Reason', '-1_-1'), ('Event', '9_9'), ('Frequency', '-1_-1')])
+=============
+('Time', '11_12')
+//////////////
+
+After
+('Event', [('Time', '11_12'), ('Duration', '-1_-1'), ('Place', '-1_-1'), ('Manner', '-1_-1'), ('Reason', '-1_-1'), ('Event', '9_12'), ('Frequency', '-1_-1')])
+
+('Event', [('Time', '11_12'), ('Duration', '-1_-1'), ('Place', '-1_-1'), ('Manner', '-1_-1'), ('Reason', '-1_-1'), ('Event', '9_9'), ('Frequency', '-1_-1')])
+=============
+('Time', '11_12')
+//////////////
+
+4. In this sentence, simple role filling filled the roles, not even present in gold, are the filled roles correct......?
+
+Conversely , there are the majority of unsuccessful schools , and we know which efforts at educational reform are doomed beforehand .
+
+WITHOUT F2F CONSTRAINTS:
+------------------------
+
+*****************************************************
+Frame:  Success_or_failure
+Gold:  [('Agent', 'schools'), ('Agent', 'the majority of')]
+
+Predicted:  [('Agent', 'schools')]
+==============
+Frame:  Attempt
+Gold:  [('Goal', 'at educational reform')]
+
+Predicted:  [('Goal', 'at educational reform')]
+
+WITH F2F CONSTRINTS:
+--------------------
+*****************************************************
+Frame:  Success_or_failure
+Gold:  [('Agent', 'schools'), ('Agent', 'the majority of')]
+
+Predicted:  [('Agent', 'schools')]
+==============
+Frame:  Attempt
+Gold:  [('Goal', 'at educational reform')]
+
+Predicted:  [('Agent', 'we')]
+
+SIMPLE ROLE FILLING:
+---------------------
+Before Role Filling
+('Success_or_failure', [('Place', '-1_-1'), ('Agent', '8_8'), ('Goal', '-1_-1'), ('Degree', '-1_-1'), ('Re_enconding', '-1_-1'), ('Depictive', '-1_-1'), ('Explanation', '-1_-1'), ('Time', '-1_-1'), ('Circumstances', '-1_-1'), ('Means', '-1_-1'), ('Role', '-1_-1')])
+
+('Attempt', [('Purpose', '-1_-1'), ('Circumstances', '-1_-1'), ('Time', '-1_-1'), ('Goal', '15_17'), ('Particular_iteration', '-1_-1'), ('Place', '-1_-1'), ('Frequency', '-1_-1'), ('Degree', '-1_-1'), ('Means', '-1_-1'), ('Outcome', '-1_-1'), ('Condition', '-1_-1'), ('Depictive', '-1_-1'), ('Duration', '-1_-1'), ('Manner', '-1_-1'), ('Agent', '-1_-1')])
+=============
+Role to be Filled:('Goal', '15_17')
+
+After Role Filling
+('Success_or_failure', [('Place', '-1_-1'), ('Agent', '8_8'), ('Goal', '15_17'), ('Degree', '-1_-1'), ('Re_enconding', '-1_-1'), ('Depictive', '-1_-1'), ('Explanation', '-1_-1'), ('Time', '-1_-1'), ('Circumstances', '-1_-1'), ('Means', '-1_-1'), ('Role', '-1_-1')])
+
+('Attempt', [('Purpose', '-1_-1'), ('Circumstances', '-1_-1'), ('Time', '-1_-1'), ('Goal', '15_17'), ('Particular_iteration', '-1_-1'), ('Place', '-1_-1'), ('Frequency', '-1_-1'), ('Degree', '-1_-1'), ('Means', '-1_-1'), ('Outcome', '-1_-1'), ('Condition', '-1_-1'), ('Depictive', '-1_-1'), ('Duration', '-1_-1'), ('Manner', '-1_-1'), ('Agent', '-1_-1')])
+=============
+Role Filled:('Goal', '15_17')
+
+Before Role Filling
+('Success_or_failure', [('Place', '-1_-1'), ('Agent', '8_8'), ('Goal', '15_17'), ('Degree', '-1_-1'), ('Re_enconding', '-1_-1'), ('Depictive', '-1_-1'), ('Explanation', '-1_-1'), ('Time', '-1_-1'), ('Circumstances', '-1_-1'), ('Means', '-1_-1'), ('Role', '-1_-1')])
+
+('Attempt', [('Purpose', '-1_-1'), ('Circumstances', '-1_-1'), ('Time', '-1_-1'), ('Goal', '15_17'), ('Particular_iteration', '-1_-1'), ('Place', '-1_-1'), ('Frequency', '-1_-1'), ('Degree', '-1_-1'), ('Means', '-1_-1'), ('Outcome', '-1_-1'), ('Condition', '-1_-1'), ('Depictive', '-1_-1'), ('Duration', '-1_-1'), ('Manner', '-1_-1'), ('Agent', '-1_-1')])
+=============
+Role to be Filled:('Agent', '8_8')
+
+After Role Filling
+('Success_or_failure', [('Place', '-1_-1'), ('Agent', '8_8'), ('Goal', '15_17'), ('Degree', '-1_-1'), ('Re_enconding', '-1_-1'), ('Depictive', '-1_-1'), ('Explanation', '-1_-1'), ('Time', '-1_-1'), ('Circumstances', '-1_-1'), ('Means', '-1_-1'), ('Role', '-1_-1')])
+
+('Attempt', [('Purpose', '-1_-1'), ('Circumstances', '-1_-1'), ('Time', '-1_-1'), ('Goal', '15_17'), ('Particular_iteration', '-1_-1'), ('Place', '-1_-1'), ('Frequency', '-1_-1'), ('Degree', '-1_-1'), ('Means', '-1_-1'), ('Outcome', '-1_-1'), ('Condition', '-1_-1'), ('Depictive', '-1_-1'), ('Duration', '-1_-1'), ('Manner', '-1_-1'), ('Agent', '8_8')])
+=============
+Role Filled:('Agent', '8_8')
