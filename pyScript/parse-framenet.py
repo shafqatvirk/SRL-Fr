@@ -66,10 +66,10 @@ def read_doc(doc):
 							start = feStart_rex.findall(element)
 							end = feEnd_rex.findall(element)
 							if start != [] and end != []:
-								allFElements.append((name[0]+':'+start[0]+'-'+end[0],target))
+								allFElements.append((name[0]+':'+start[0]+'-'+end[0],target)) # to get target and fes as spans
 								#allFElements.append((name[0]+':'+str(sentence_text[0][int(start[0]):int(end[0])+1]),target))
 								#print (tStart,tEnd)
-								#allFElements.append((name[0]+':'+str(sentence_text[0][int(start[0]):int(end[0])+1]),str(sentence_text[0][int(tStart[0]):int(tEnd[0])+1])))
+								#allFElements.append((name[0]+':'+str(sentence_text[0][int(start[0]):int(end[0])+1]),str(sentence_text[0][int(tStart[0]):int(tEnd[0])+1]))) # to get target and fes as span_text
 							#print isFrameName[0]
 							#print name
 							#print start

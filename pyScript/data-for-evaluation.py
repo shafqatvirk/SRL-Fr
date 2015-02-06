@@ -3,6 +3,7 @@ import re
 import os
 import itertools
 from frameRelationFuns import *
+from nltk.stem.porter import *
 
 def data_for_evaluation():
 	path="../output/"  # insert the path to the directory of interest
@@ -158,8 +159,9 @@ def role_fillings(frame_data_list,frame_relation_dict):
 ###################################							
 def data_for_evaluation_only_replacements_juliette():
 	frame_relation_dicts = build_frDicts()
-	d = build_parent_child_frame_dict(frame_relation_dicts[7])
+	d = build_parent_child_frame_dict(frame_relation_dicts[0])
 	julitte_dict = build_juliette_database_dict()
+	#print julitte_dict
 	triggers_file = open('../triggersData/triggers.txt')
 	#print d
 	data = open('../evaluationData/without-f2f-constraints-inheritance.txt')
@@ -182,6 +184,7 @@ def data_for_evaluation_only_replacements_juliette():
 		#print '\t'.join([(uframe+'$'+'#'.join([ufe_name+':'+ufe_span for (ufe_name,ufe_span) in ufes_list])) for  (uframe,utarget,ufes_list) in updated_list])
 
 def role_fillings_juliette(frame_data_list,frame_relation_dict,juliette_relation_dict):
+	stemmer = PorterStemmer()
 	'''print 'Full Frame List'
 	print frame_data_list
 	print '*********************'
@@ -201,9 +204,12 @@ def role_fillings_juliette(frame_data_list,frame_relation_dict,juliette_relation
 				
 				t2_lemma = t2.split('.')[0]
 				t2_pos = t2.split('.')[1]
+				#print 'Stemmed'
 				
-				#print (t1_lemma,t2_lemma)
-				if (juliette_relation_dict.has_key((t1_lemma,t2_lemma)) or juliette_relation_dict.has_key((t2_lemma,t1_lemma))):
+				t1_stemmed = str(stemmer.stem(t1_lemma))
+				t2_stemmed = str(stemmer.stem(t2_lemma).lstrip())
+				#print (t1_stemmed,t2_stemmed)
+				if ((juliette_relation_dict.has_key((t1_stemmed,t2_stemmed)) or juliette_relation_dict.has_key((t2_stemmed,t1_stemmed)))) and frame_relation_dict.has_key(f1) and frame_relation_dict.has_key(f2) and t1_pos == 'v' and t2_pos == 'v':
 					(f1_parent,(f1_l1,f1_l2)) = frame_relation_dict[f1]
 					(f2_parent,(f2_l1,f2_l2)) = frame_relation_dict[f2]
 					print 'This one'
@@ -278,21 +284,69 @@ def role_fillings_juliette(frame_data_list,frame_relation_dict,juliette_relation
 
 def build_juliette_database_dict():
 	continuation_relation_dict = {}
-	relation_file_continuation =  open('../data/v2relation-full.txt').readlines()
-	for l in relation_file_continuation[0:]:
-		clean_line = l.rstrip().lstrip('(').rstrip(')')
+	#relation_file =  open('../data/v2relation-continuation.txt').readlines()
+	relation_file =  open('../data/v2relation-full.txt').readlines()
+	for l in relation_file[0:]:
+		clean_line = l.rstrip()
 		#print clean_line
-		v1 = ''.join(clean_line.split(',')[0])
+		v1 = ''.join(clean_line.split('\t')[0])
 		if len(v1.split('+')) > 1:
 			v1 = v1.split('+')[1].lstrip(' ')
 			
-		v2 = ''.join(clean_line.split(',')[1].lstrip(' '))
+		v2 = ''.join(clean_line.split('\t')[1].lstrip(' '))
 		if len(v2.split('+')) > 1:
 			v2 = v2.split('+')[1].lstrip(' ')
-		r = ''.join(clean_line.split(',')[2].lstrip(' '))
+		r = ''.join(clean_line.split('\t')[2].lstrip(' '))
 		#print (v1,v2,r)
 		continuation_relation_dict[(v1,v2)] = r
 	return continuation_relation_dict
+
+def any_relation_stats():
+	stemmer = PorterStemmer()
+	import sqlite3
+	conn = sqlite3.connect('../../data/v2r_eng_3')
+	cur = conn.cursor()
+	
+	total = 0
+	#v2r_relation_full_dict = build_juliette_database_dict()
+	all_doc_fn_dicts_list = read_all_docs_fn()
+	#print len(all_doc_fn_dicts_list)
+	for d in all_doc_fn_dicts_list:
+		#parent_child_frame_dict = build_parent_child_frame_dict(d)
+		#print d.keys()
+		for (sen,sid) in d.keys():
+			targets = []
+			#print (sid)
+			frame_and_fes_list = d[(sen,sid)]
+			for (f,fes_list) in frame_and_fes_list:
+				(fe,tar) = fes_list[0]
+				targets.append(tar)
+			#print targets
+			for i in range(0,len(targets)):
+				#for j in range(i+1,len(targets)):
+				for j in range(0,len(targets)):
+					#if j < len(targets):
+						t1_lemma = stemmer.stem(targets[i].split('.')[0])
+						t2_lemma = stemmer.stem(targets[j].split('.')[0])
+						t1_pos = targets[i].split('.')[1]
+						t2_pos = targets[j].split('.')[1]
+						if t1_pos == 'v' and t2_pos == 'v':
+							query = "SELECT verb1,verb2,relation FROM v2r WHERE verb1='"+t1_lemma+"' AND verb2='"+t2_lemma+"';"
+							#print query
+							cur.execute(query)
+							result = cur.fetchall()
+							if result != []:
+								print sen
+								print result
+								total = total + 1
+							elif i != j:
+								total = total + 1
+						
+			
+					
+			#felements = [fes for (f,fes) in frame_and_fes_list]
+	print 'Total='+str(total)
+	
 ###################################
 				
 def lecsie_db():
@@ -302,20 +356,23 @@ def lecsie_db():
 	#cur = con.cursor()    
 	#c.execute("SELECT name FROM sqlite_master WHERE type='table';")
 	#c.execute("SELECT verb1,verb2,relation FROM v2r WHERE relation='continuation';")
+	#c.execute("SELECT verb1,verb2,relation FROM v2r WHERE verb1='assure' and verb2='receive';")
 	c.execute("SELECT verb1,verb2,relation FROM v2r;")
 	#print c.description
+	stemmer = PorterStemmer()
 	for l in c.fetchall():
 		clean_line = str(l).rstrip().lstrip('(').rstrip(')')
 		#print clean_line
-		v1 = ''.join(clean_line.split(',')[0][2:-1])
+		v1 = str(''.join(clean_line.split(',')[0])).rstrip("'").lstrip("'")
 		if len(v1.split('+')) > 1:
 			v1 = v1.split('+')[1].lstrip(' ')
 			
-		v2 = ''.join(clean_line.split(',')[1].lstrip(' ')[2:-1])
+		v2 = str(''.join(clean_line.split(',')[1].lstrip(' ')))
 		if len(v2.split('+')) > 1:
 			v2 = v2.split('+')[1].lstrip(' ')
-		r = ''.join(clean_line.split(',')[2].lstrip(' ')[2:-1])
-		print (v1,v2,r)
+		r = str(''.join(clean_line.split(',')[2].lstrip(' ')))
+		#print (str(stemmer.stem(v1)).rstrip("'").lstrip("'"),str(stemmer.stem(v2).rstrip("'").lstrip("'")),r)
+		print str(stemmer.stem(v1)).rstrip("'").lstrip("'")+'\t'+str(stemmer.stem(v2).rstrip("'").lstrip("'"))+'\t'+r
 	#print(c.fetchall())
 									
 							
@@ -327,8 +384,8 @@ if __name__ == "__main__":
 		#lecsie_db() # Juliette's data base
 		#data_for_evaluation()
 		#data_for_evaluation_only_replacements()
-		data_for_evaluation_only_replacements_juliette()
-		
+		#data_for_evaluation_only_replacements_juliette()
+		any_relation_stats()
 
 	except:
 		print >>sys.stderr, __doc__
