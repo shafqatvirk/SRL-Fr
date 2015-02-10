@@ -406,117 +406,161 @@ def coreference_per_sentence_list():
 		
 def data_for_evaluation_with_coreference_link():
 	frame_relation_dicts = build_frDicts()
-	d = build_parent_child_frame_dict(frame_relation_dicts[7])
+	d = build_parent_child_frame_dict(frame_relation_dicts[1])
 	coreference_dict = coreference_per_sentence_list()
-	data = open('../evaluationData/without-f2f-constraints.txt')
+	#data = open('../evaluationData/without-f2f-constraints.txt')
+	data = open('../evaluationData/gold-subframe.txt')
+	test_sentences = open('../evaluationData/test-sentences.txt').readlines()
 	sentenceNo = 1
 	for l in data.readlines()[0:]:
-		coreferenceOfSentence = coreference_dict[sentenceNo]
-		sentenceNo = sentenceNo + 1
-		frames_data = l.rstrip().split('\t')
-		frame_data_list = []
-		for frame in frames_data:
-			frame_name = frame.split('$')[0]
-			fes = frame.split('$')[1]
-			fes_data_list = []
-			for fe in fes.split('#'):
-				fe_name = fe.split(':')[0]
-				fe_span = fe.split(':')[1]
-				fes_data_list.append((fe_name,fe_span))
-			frame_data_list.append((frame_name,fes_data_list))
-		updated_list = role_fillings_coreference(frame_data_list,d,coreferenceOfSentence)
+		test_sentence = test_sentences[sentenceNo-1]
+		if coreference_dict.has_key(str(sentenceNo)):
+			#print sentenceNo
+			coreferenceOfSentence = coreference_dict[str(sentenceNo)]
 		
-		print '\t'.join([(uframe+'$'+'#'.join([ufe_name+':'+ufe_span for (ufe_name,ufe_span) in ufes_list])) for  (uframe,ufes_list) in updated_list])
+			sentenceNo = sentenceNo + 1
+			frames_data = l.rstrip().split('\t')
+			frame_data_list = []
+			for frame in frames_data:
+				frame_name = frame.split('$')[0]
+				fes = frame.split('$')[1]
+				fes_data_list = []
+				for fe in fes.split('#'):
+					fe_name = fe.split(':')[0]
+					fe_span = fe.split(':')[1]
+					fes_data_list.append((fe_name,fe_span))
+				frame_data_list.append((frame_name,fes_data_list))
+			#updated_list = role_fillings_coreference_gold(frame_data_list,d,coreferenceOfSentence,test_sentence)
+			updated_list = role_fillings_coreference_gold_irrespective_of_f2f_relation(frame_data_list,d,coreferenceOfSentence,test_sentence)
+		
+			#print '\t'.join([(uframe+'$'+'#'.join([ufe_name+':'+ufe_span for (ufe_name,ufe_span) in ufes_list])) for
+		else:
+			sentenceNo = sentenceNo + 1	
 
-def role_fillings_coreference(frame_data_list,frame_relation_dict,coreferenceOfSentence):
+def role_fillings_coreference(frame_data_list,frame_relation_dict,coreferenceOfSentence,test_sentence):
 	'''print 'Full Frame List'
 	print frame_data_list
 	print '*********************'
 	print 'Role Filling'
 	print '''
+	coref_pairs = [(c1,c2) for (s,c1,c2) in coreferenceOfSentence]
+	#print coref_pairs
 	for i in range(0,len(frame_data_list)):
 		for j in range(i+1,len(frame_data_list)):
 			if j < len(frame_data_list):
 				(f1,f1_fes_list) = frame_data_list[i]
 				(f2,f2_fes_list) = frame_data_list[j]
-				#print (f1,f2)
-				#print
+				f1_fes_list_text = [' '.join(test_sentence.split(' ')[int(s.split('_')[0]):int(s.split('_')[1])+1]) for (fe,s) in f1_fes_list if s != '-1_-1']
+				f2_fes_list_text = [' '.join(test_sentence.split(' ')[int(s.split('_')[0]):int(s.split('_')[1])+1]) for (fe,s) in f2_fes_list if s != '-1_-1']
+				#print f1_fes_list_text
+				#print f2_fes_list_text
 				if frame_relation_dict.has_key(f1) and frame_relation_dict.has_key(f2):
 					(f1_parent,(f1_l1,f1_l2)) = frame_relation_dict[f1]
 					(f2_parent,(f2_l1,f2_l2)) = frame_relation_dict[f2]
 					#print (f1,f2)
 					if f1_parent == f2_parent:
-						
+						#print 'yes'
 						#related_pairs = list(set(zip(f1_l1,f1_l2)).intersection(zip(f2_l1,f2_l2)))
-						pairs = itertools.product(f1_fes_list,f2_fes_list)
+						f2f_coref_pairs = []
+						#print f1_fes_list_text
+						#print f2_fes_list_text
+						#print coref_pairs
+						pairs = itertools.product(f1_fes_list_text,f2_fes_list_text)
 						for (a,b) in pairs:
-							if 
-						#print related_pairs
-						#print '*************'
-						for (f1_fe,f2_fe) in related_pairs:
-							
-							f1_name = ''
-							f1_span = ''
-							f2_name = ''
-							f2_span = ''
-							f1_span_temp = ''
-							f2_span_temp = ''
-							for m in range(0,len(f1_fes_list)):
-								(f_name,f_span) = f1_fes_list[m]
-								if f_name == f1_fe:
-									f1_name = f_name
-									f1_span = f_span
-									idx1 = m
-									break
-							for n in range(0,len(f2_fes_list)):
-								(f_name,f_span) = f2_fes_list[n]
-								if f_name == f2_fe:
-									f2_name = f_name
-									f2_span = f_span
-									idx2 = n
-									break
-							if f1_span != '' and f1_span == '-1_-1' and f2_span != '-1_-1' and f2_span != '':
-								'''print 'Before Role Filling'
-								print (f1,f1_fes_list)
-								print
-								print (f2,f2_fes_list)
-								print '============='
-								print 'Role to be Filled:'+str((f1_name,f2_span))
-								#print '//////////////'
-								print '''
-								f1_fes_list[idx1] = (f1_name,f2_span)
-								'''print 'After Role Filling'
-								print (f1,f1_fes_list)
-								print
-								print (f2,f2_fes_list)
-								print '============='
-								print 'Role Filled:'+str((f1_name,f2_span))
-								#print '//////////////'
-								print''' 
-							elif f2_span != '' and f2_span == '-1_-1' and f1_span != '-1_-1' and f1_span != '':
-								'''print 'Before Role Filling'
-								print (f1,f1_fes_list)
-								print
-								print (f2,f2_fes_list)
-								print '============='
-								print 'Role to be Filled:'+str((f2_name,f1_span))
-								#print '++++++++++++++++'
-								print'''
-								f2_fes_list[idx2] = (f2_name,f1_span)
-								'''print 'After Role Filling'
-								print (f1,f1_fes_list)
-								print
-								print (f2,f2_fes_list)
-								print '============='
-								print 'Role Filled:'+str((f2_name,f1_span))
-								#print '++++++++++++++++'
-								print''' 
-				frame_data_list[i] = (f1,f1_fes_list)
-				frame_data_list[j] = (f2,f2_fes_list)
-	'''print '******************'
-	#print 'After'
-	#print frame_data_list'''
-	return frame_data_list
+							#print (a,b)
+							#print coref_pairs
+							#print '=========='
+							if (a,b) in coref_pairs:
+								f2f_coref_pairs.append((a,b))
+								print test_sentence
+								print (f1,f2)
+								print (a,b)
+								print '======================'
+						
+						
+	return ''
+
+def role_fillings_coreference_gold(frame_data_list,frame_relation_dict,coreferenceOfSentence,test_sentence):
+	'''print 'Full Frame List'
+	print frame_data_list
+	print '*********************'
+	print 'Role Filling'
+	print '''
+	coref_pairs = [(c1,c2) for (s,c1,c2) in coreferenceOfSentence]
+	#print coref_pairs
+	for i in range(0,len(frame_data_list)):
+		for j in range(i+1,len(frame_data_list)):
+			if j < len(frame_data_list):
+				(f1,f1_fes_list) = frame_data_list[i]
+				(f2,f2_fes_list) = frame_data_list[j]
+				f1_fes_list_text = [''.join(test_sentence[int(s.split('-')[0]):int(s.split('-')[1])+1]) for (fe,s) in f1_fes_list if s != '-1_-1']
+				f2_fes_list_text = [''.join(test_sentence[int(s.split('-')[0]):int(s.split('-')[1])+1]) for (fe,s) in f2_fes_list if s != '-1_-1']
+				#print f1_fes_list_text
+				#print f2_fes_list_text
+				if frame_relation_dict.has_key(f1) and frame_relation_dict.has_key(f2):
+					(f1_parent,(f1_l1,f1_l2)) = frame_relation_dict[f1]
+					(f2_parent,(f2_l1,f2_l2)) = frame_relation_dict[f2]
+					#print (f1,f2)
+					if f1_parent == f2_parent:
+						#print 'yes'
+						#related_pairs = list(set(zip(f1_l1,f1_l2)).intersection(zip(f2_l1,f2_l2)))
+						f2f_coref_pairs = []
+						#print f1_fes_list_text
+						#print f2_fes_list_text
+						#print coref_pairs
+						pairs = itertools.product(f1_fes_list_text,f2_fes_list_text)
+						for (a,b) in pairs:
+							#print (a,b)
+							#print coref_pairs
+							#print '=========='
+							if (a,b) in coref_pairs:
+								f2f_coref_pairs.append((a,b))
+								print test_sentence
+								print (f1,f2)
+								print (a,b)
+								print '======================'
+						
+						
+	return ''
+def role_fillings_coreference_gold_irrespective_of_f2f_relation(frame_data_list,frame_relation_dict,coreferenceOfSentence,test_sentence):
+	
+	coref_pairs = [(c1,c2) for (s,c1,c2) in coreferenceOfSentence]
+	#print coref_pairs
+	for i in range(0,len(frame_data_list)):
+		for j in range(i+1,len(frame_data_list)):
+			if j < len(frame_data_list):
+				(f1,f1_fes_list) = frame_data_list[i]
+				(f2,f2_fes_list) = frame_data_list[j]
+				f1_fes_list_text = [(fe,''.join(test_sentence[int(s.split('-')[0]):int(s.split('-')[1])+1])) for (fe,s) in f1_fes_list if s != '-1_-1']
+				f2_fes_list_text = [(fe,''.join(test_sentence[int(s.split('-')[0]):int(s.split('-')[1])+1])) for (fe,s) in f2_fes_list if s != '-1_-1']
+				#print f1_fes_list_text
+				#print f2_fes_list_text
+				
+				#if frame_relation_dict.has_key(f1) and frame_relation_dict.has_key(f2):
+					#(f1_parent,(f1_l1,f1_l2)) = frame_relation_dict[f1]
+					#(f2_parent,(f2_l1,f2_l2)) = frame_relation_dict[f2]
+					#print (f1,f2)
+					#if f1_parent == f2_parent:
+						#print 'yes'
+						#related_pairs = list(set(zip(f1_l1,f1_l2)).intersection(zip(f2_l1,f2_l2)))
+				f2f_coref_pairs = []
+						#print f1_fes_list_text
+						#print f2_fes_list_text
+						#print coref_pairs
+				pairs = itertools.product(f1_fes_list_text,f2_fes_list_text)
+				for ((fe1_p,a),(fe2_p,b)) in pairs:
+							#print (a,b)
+							#print coref_pairs
+							#print '=========='
+							if (a,b) in coref_pairs:
+								f2f_coref_pairs.append((a,b))
+								print test_sentence
+								print ((f1,f1_fes_list_text),(f2,f2_fes_list_text))
+								print ((fe1_p,a),(fe2_p,b))
+								print '======================'
+						
+						
+	return ''
 
 #######################################
 if __name__ == "__main__":

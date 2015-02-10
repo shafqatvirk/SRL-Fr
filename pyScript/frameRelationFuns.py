@@ -51,7 +51,7 @@ def build_parent_child_frame_dict(d):
 	temp_dict = {}
 	for (p,c) in d.keys():
 		temp_dict[c] = (p,d[(p,c)])
-	return temp_dic
+	return temp_dict
 
 def read_all_docs_fn():
 	path="../../data/fndata-1.5/fulltext"  # insert the path to the directory of interest

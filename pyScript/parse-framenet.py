@@ -100,19 +100,19 @@ def get_setences_with_subRelationFrames(docs_dicts_list,subFrameRelation_dict):
 			for i in range(0,len(frames)):
 				for j in range(i+1,len(frames)):
 					if j < len(frames):
-						if parent_child_frame_dict.has_key(frames[i]) and parent_child_frame_dict.has_key(frames[j]):
+						if parent_child_frame_dict.has_key(frames[i]) and parent_child_frame_dict.has_key(frames[j]): 
 							(f1_parent_frame,linked_fes1) = parent_child_frame_dict[frames[i]]
 							(f2_parent_frame,linked_fes2) = parent_child_frame_dict[frames[j]]
-							if f1_parent_frame == f2_parent_frame and frames[i] != frames[j]:
+							if f1_parent_frame == f2_parent_frame: # and frames[i] != frames[j]:
 								#if frames[i] != frames[j]:
 								#print frames
 								#print d[(sen,sid)]
 								#print (frames[i],frames[j],sen)
-								print sen
-								print ((frames[i],felements[i]),(frames[j],felements[j]))
+								#print sen
+								#print ((frames[i],felements[i]),(frames[j],felements[j]))
 								haveF2F_relation = True
 					
-								#build_output_for_evaluation(frame_and_fes_list)
+								build_output_for_evaluation(frame_and_fes_list)
 def get_setences_with_precedesRelationFrames(docs_dicts_list,precedesFrameRelation_dict):
 	#parent_child_frame_dict = build_parent_child_frame_dict(precedesFrameRelation_dict)
 	#print parent_child_frame_dict
@@ -135,6 +135,13 @@ def get_setences_with_precedesRelationFrames(docs_dicts_list,precedesFrameRelati
 								haveF2F_relation = True
 					
 								build_output_for_evaluation(frame_and_fes_list) # to get gold
+def get_setences_all(docs_dicts_list):
+	for d in docs_dicts_list:
+		#parent_child_frame_dict = build_parent_child_frame_dict(d)
+		for (sen,sid) in d.keys():
+			frame_and_fes_list = d[(sen,sid)]
+			print sen		
+			#build_output_for_evaluation(frame_and_fes_list)
 def build_output_for_evaluation(frame_and_fes_list): #this is the gold
 	allFrames = []
 	for (f,fes) in frame_and_fes_list:
@@ -149,9 +156,10 @@ if __name__ == "__main__":
 		
 		docs_dicts_list = read_all_docs()
 		frame_relation_dicts = build_frDicts()
+		get_setences_all(docs_dicts_list)
 		#get_setences_with_subRelationFrames(docs_dicts_list,frame_relation_dicts[1]) # subFrame relation
 		#get_setences_with_precedesRelationFrames(docs_dicts_list,frame_relation_dicts[0]) # inheritence relation
-		get_setences_with_precedesRelationFrames(docs_dicts_list,frame_relation_dicts[7]) # preceedes relation
+		#get_setences_with_precedesRelationFrames(docs_dicts_list,frame_relation_dicts[7]) # preceedes relation
 
 	except:
 		print >>sys.stderr, __doc__
